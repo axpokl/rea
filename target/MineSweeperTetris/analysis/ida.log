@@ -1,0 +1,63 @@
+
+v7.00 48-3FBD-7F04-2C Jiang Ying, Personal license
+
+Your support plan might have expired.
+To renew it, please visit our web site:
+
+https://www.hex-rays.com/idapro/idaupgrade.htm
+
+Thank you for using IDA! -> OK
+Possible file format: MS-DOS executable (EXE) (G:\Program Files\ida64plus\loaders\dos64.dll)
+Possible file format: Portable executable for 80386 (PE) (G:\Program Files\ida64plus\loaders\pe64.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   565248    69 8192 allocating memory for b-tree...
+   565248    69 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  1392640            total memory allocated
+
+Loading file 'G:\Program Files\REA\target\MineSweeperTetris\MineSweeperRush.exe' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module G:\Program Files\ida64plus\procs\pc64.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (0000000000401000-0000000000418000) ... ... OK
+  1. Creating a new segment  (0000000000418000-0000000000419000) ... ... OK
+  2. Creating a new segment  (0000000000419000-000000000041B000) ... ... OK
+  3. Creating a new segment  (000000000041B000-000000000041E000) ... ... OK
+  4. Creating a new segment  (000000000041E000-000000000045F000) ... ... OK
+  5. Creating a new segment  (000000000045F000-0000000000461000) ... ... OK
+  6. Creating a new segment  (0000000000461000-0000000000462000) ... ... OK
+  7. Creating a new segment  (0000000000462000-0000000000463000) ... ... OK
+Reading imports directory...
+Assuming __cdecl calling convention by default
+Type library 'mssdk' loaded. Applying types...
+Types applied to 149 names.
+Plan  FLIRT signature: SEH for vc7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'G:\Program Files\REA\target\MineSweeperTetris\MineSweeperRush.exe' has been successfully loaded into the database.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+The technical support period of the Hex-Rays decompiler
+has expired. You have 3 month grace period to update your license.
+The grace period is counted from the expiration date.
+For more information please visit https://www.hex-rays.com -> https://www.hex-rays.com
+================================================================================
+Keypatch v2.2 (c) Nguyen Anh Quynh & Thanh Nguyen, 2016
+Keypatch is using Keystone v0.9.1
+Keypatch Patcher's shortcut key is Ctrl-Alt-K
+Use the same hotkey Ctrl-Alt-K to open 'Fill Range' window on a selected range of code
+To revert (undo) the last patching, choose menu Edit | Keypatch | Undo last patching
+Keypatch Search is available from menu Edit | Keypatch | Search
+Find more information about Keypatch at http://keystone-engine.org/keypatch
+================================================================================
+---------------------------------------------------------------------------------------------
+Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:53:40) [MSC v.1500 64 bit (AMD64)] 
+IDAPython 64-bit v1.7.0 final (serial 0) (c) The IDAPython Team <idapython@googlegroups.com>
+---------------------------------------------------------------------------------------------
+Using FLIRT signature: SEH for vc7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.

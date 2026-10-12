@@ -1,0 +1,343 @@
+﻿
+target\MineSweeperTetris\MineSweeperRush.exe:     file format pei-i386
+
+Characteristics 0x30f
+	relocations stripped
+	executable
+	line numbers stripped
+	symbols stripped
+	32 bit words
+	debugging information removed
+
+Time/Date		Sun May 24 09:41:23 2026
+Magic			010b	(PE32)
+MajorLinkerVersion	2
+MinorLinkerVersion	28
+SizeOfCode		00016200
+SizeOfInitializedData	00022800
+SizeOfUninitializedData	00040600
+AddressOfEntryPoint	00001300
+BaseOfCode		00001000
+BaseOfData		00018000
+ImageBase		00400000
+SectionAlignment	00001000
+FileAlignment		00000200
+MajorOSystemVersion	4
+MinorOSystemVersion	0
+MajorImageVersion	1
+MinorImageVersion	0
+MajorSubsystemVersion	4
+MinorSubsystemVersion	0
+Win32Version		00000000
+SizeOfImage		0006a000
+SizeOfHeaders		00000400
+CheckSum		00031311
+Subsystem		00000002	(Windows GUI)
+DllCharacteristics	00000000
+SizeOfStackReserve	00200000
+SizeOfStackCommit	00001000
+SizeOfHeapReserve	00100000
+SizeOfHeapCommit	00001000
+LoaderFlags		00000000
+NumberOfRvaAndSizes	00000010
+
+The Data Directory
+Entry 0 00000000 00000000 Export Directory [.edata (or where ever we found it)]
+Entry 1 0005f000 000015c8 Import Directory [parts of .idata]
+Entry 2 00063000 00006a60 Resource Directory [.rsrc]
+Entry 3 00000000 00000000 Exception Directory [.pdata]
+Entry 4 00000000 00000000 Security Directory
+Entry 5 00000000 00000000 Base Relocation Directory [.reloc]
+Entry 6 00000000 00000000 Debug Directory
+Entry 7 00000000 00000000 Description Directory
+Entry 8 00000000 00000000 Special Directory
+Entry 9 00062004 00000018 Thread Storage Directory [.tls]
+Entry a 00000000 00000000 Load Configuration Directory
+Entry b 00000000 00000000 Bound Import Directory
+Entry c 0005f404 00000300 Import Address Table Directory
+Entry d 00000000 00000000 Delay Import Directory
+Entry e 00000000 00000000 CLR Runtime Header
+Entry f 00000000 00000000 Reserved
+
+There is an import table in .idata at 0x45f000
+
+The Import Tables (interpreted .idata section contents)
+ vma:            Hint    Time      Forward  DLL       First
+                 Table   Stamp     Chain    Name      Thunk
+ 0005f000	0005f104 00000000 00000000 00060298 0005f404
+
+	DLL Name: ADVAPI32.DLL
+	vma:  Hint/Ord Member-Name Bound-To
+	5f704	  387  RegCloseKey
+	5f712	  391  RegCreateKeyExA
+	5f724	  424  RegQueryValueExA
+	5f738	  435  RegSetValueExA
+
+ 0005f014	0005f118 00000000 00000000 000602fc 0005f418
+
+	DLL Name: GDI32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	5f74a	   34  CreateCompatibleBitmap
+	5f764	   35  CreateCompatibleDC
+	5f77a	   47  CreateFontA
+	5f788	   59  CreatePen
+	5f794	   68  CreateSolidBrush
+	5f7a8	   71  DeleteDC
+	5f7b4	   74  DeleteObject
+	5f7c4	  149  GetDeviceCaps
+	5f7d4	  193  GetPixel
+	5f7e0	  202  GetStockObject
+	5f7f2	  214  GetTextExtentPoint32A
+	5f80a	  220  GetTextMetricsA
+	5f81c	  232  LineTo
+	5f826	  235  MoveToEx
+	5f832	  282  SelectObject
+	5f842	  288  SetBkColor
+	5f850	  289  SetBkMode
+	5f85c	  313  SetPixel
+	5f868	  324  SetTextColor
+	5f878	  335  StretchBlt
+	5f886	  340  TextOutA
+
+ 0005f028	0005f170 00000000 00000000 0006034c 0005f470
+
+	DLL Name: GDIPLUS.DLL
+	vma:  Hint/Ord Member-Name Bound-To
+	5f892	   34  GdipAlloc
+	5f89e	   55  GdipCloneImage
+	5f8b0	   78  GdipCreateBitmapFromHBITMAP
+	5f8ce	   93  GdipCreateFromHDC
+	5f8e2	  140  GdipDeleteCachedBitmap
+	5f8fc	  141  GdipDeleteCustomLineCap
+	5f916	  145  GdipDeleteGraphics
+	5f92c	  150  GdipDeletePrivateFontCollection
+	5f94e	  153  GdipDisposeImage
+	5f962	  184  GdipDrawImageRect
+	5f976	  240  GdipFree
+	5f982	  293  GdipGetImageHeight
+	5f998	  303  GdipGetImageWidth
+	5f9ac	  439  GdipLoadImageFromFile
+	5f9c4	  497  GdipSaveImageToFile
+	5f9da	  630  GdiplusShutdown
+	5f9ec	  631  GdiplusStartup
+
+ 0005f03c	0005f1b8 00000000 00000000 000603f8 0005f4b8
+
+	DLL Name: KERNEL32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	5f9fe	   83  CloseHandle
+	5fa0c	  124  CreateDirectoryA
+	5fa20	  136  CreateFileA
+	5fa2e	  155  CreateMutexA
+	5fa3e	  180  CreateThread
+	5fa4e	  208  DeleteCriticalSection
+	5fa66	  210  DeleteFileA
+	5fa74	  237  EnterCriticalSection
+	5fa8c	  280  ExitProcess
+	5fa9a	  281  ExitThread
+	5faa8	  301  FindClose
+	5fab4	  305  FindFirstFileA
+	5fac6	  322  FindNextFileA
+	5fad6	  353  FreeLibrary
+	5fae4	  389  GetCommandLineA
+	5faf6	  482  GetFileAttributesA
+	5fb0c	  511  GetLastError
+	5fb1c	  530  GetModuleHandleA
+	5fb30	  578  GetProcAddress
+	5fb42	  607  GetStartupInfoA
+	5fb54	  641  GetTempPathA
+	5fb64	  657  GetTickCount
+	5fb74	  667  GetUserDefaultUILanguage
+	5fb90	  735  InitializeCriticalSection
+	5fbac	  815  LeaveCriticalSection
+	5fbc4	  818  LoadLibraryA
+	5fbd4	  861  MultiByteToWideChar
+	5fbea	  923  QueryPerformanceCounter
+	5fc04	  924  QueryPerformanceFrequency
+	5fc20	  948  ReadFile
+	5fc2c	  975  ReleaseMutex
+	5fc3c	  981  RemoveDirectoryA
+	5fc50	 1141  SetUnhandledExceptionFilter
+	5fc6e	 1153  Sleep
+	5fc76	 1174  TlsGetValue
+	5fc84	 1214  VirtualProtect
+	5fc96	 1216  VirtualQuery
+	5fca6	 1293  lstrcatA
+	5fcb2	 1296  lstrcmpA
+	5fcbe	 1302  lstrcpyA
+
+ 0005f050	0005f25c 00000000 00000000 00060410 0005f55c
+
+	DLL Name: msvcrt.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	5fcca	   80  _strdup
+	5fcd4	   82  _stricoll
+
+ 0005f064	0005f268 00000000 00000000 00060424 0005f568
+
+	DLL Name: MSIMG32.DLL
+	vma:  Hint/Ord Member-Name Bound-To
+	5fce0	    1  AlphaBlend
+	5fcee	    3  TransparentBlt
+
+ 0005f078	0005f274 00000000 00000000 000604dc 0005f574
+
+	DLL Name: msvcrt.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	5fd00	   89  __getmainargs
+	5fd10	  120  __mb_cur_max
+	5fd20	  132  __p__environ
+	5fd30	  134  __p__fmode
+	5fd3e	  154  __set_app_type
+	5fd50	  220  _cexit
+	5fd5a	  286  _errno
+	5fd64	  325  _fpreset
+	5fd70	  351  _fullpath
+	5fd7c	  418  _iob
+	5fd84	  423  _isctype
+	5fd90	  690  _onexit
+	5fd9a	  699  _pctype
+	5fda4	  754  _setmode
+	5fdb0	 1084  abort
+	5fdb8	 1092  atexit
+	5fdc2	 1099  calloc
+	5fdcc	 1103  clock
+	5fdd4	 1132  free
+	5fddc	 1143  fwrite
+	5fde6	 1184  localtime
+	5fdf2	 1188  malloc
+	5fdfc	 1195  mbstowcs
+	5fe08	 1200  memcpy
+	5fe12	 1219  rand
+	5fe1a	 1221  realloc
+	5fe24	 1228  setlocale
+	5fe30	 1230  signal
+	5fe3a	 1233  sprintf
+	5fe44	 1236  srand
+	5fe4c	 1239  strcat
+	5fe56	 1242  strcmp
+	5fe60	 1243  strcoll
+	5fe6a	 1244  strcpy
+	5fe74	 1250  strlen
+	5fe7e	 1257  strrchr
+	5fe88	 1259  strstr
+	5fe92	 1264  strtoul
+	5fe9c	 1273  time
+	5fea4	 1278  tolower
+	5feae	 1285  vfprintf
+	5feba	 1309  wcslen
+	5fec4	 1326  wcstombs
+
+ 0005f08c	0005f324 00000000 00000000 000604ec 0005f624
+
+	DLL Name: setupapi.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	5fed0	  347  SetupIterateCabinetA
+
+ 0005f0a0	0005f32c 00000000 00000000 000605a4 0005f62c
+
+	DLL Name: USER32.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	5fee8	    2  AdjustWindowRect
+	5fefc	   92  CreateWindowExW
+	5ff0e	  136  DefWindowProcW
+	5ff20	  145  DestroyWindow
+	5ff30	  150  DispatchMessageA
+	5ff44	  173  DrawTextA
+	5ff50	  176  DrawTextW
+	5ff5c	  194  EnumDisplayMonitors
+	5ff72	  210  FillRect
+	5ff7e	  211  FindWindowA
+	5ff8c	  217  FrameRect
+	5ff98	  224  GetAsyncKeyState
+	5ffac	  248  GetCursorPos
+	5ffbc	  249  GetDC
+	5ffc4	  251  GetDesktopWindow
+	5ffd8	  294  GetMessageA
+	5ffe6	  299  GetMonitorInfoA
+	5fff8	  327  GetSystemMetrics
+	6000c	  349  GetWindowRect
+	6001c	  351  GetWindowTextA
+	6002e	  354  GetWindowTextW
+	60040	  371  InvalidateRect
+	60052	  390  IsIconic
+	6005e	  399  IsZoomed
+	6006a	  406  LoadCursorA
+	60078	  412  LoadImageA
+	60086	  435  MessageBoxA
+	60094	  440  MessageBoxW
+	600a2	  446  MoveWindow
+	600b0	  483  RegisterClassW
+	600c2	  495  ReleaseDC
+	600ce	  509  SendMessageA
+	600de	  526  SetCursor
+	600ea	  535  SetForegroundWindow
+	60100	  570  SetWindowLongA
+	60112	  575  SetWindowTextA
+	60124	  576  SetWindowTextW
+	60136	  586  ShowWindow
+	60144	  592  SystemParametersInfoA
+	6015c	  609  TranslateMessage
+	60170	  623  UpdateWindow
+	60180	  639  wsprintfA
+
+ 0005f0b4	0005f3d8 00000000 00000000 000605bc 0005f6d8
+
+	DLL Name: WINMM.DLL
+	vma:  Hint/Ord Member-Name Bound-To
+	6018c	   50  mciSendStringA
+	6019e	  145  timeBeginPeriod
+	601b0	  146  timeEndPeriod
+
+ 0005f0c8	0005f3e8 00000000 00000000 000601c0 0005f6e8
+
+	DLL Name: steam_api.dll
+	vma:  Hint/Ord Member-Name Bound-To
+	601d0	    3  SteamAPI_GetHSteamUser
+	601ec	 1059  SteamInternal_ContextInit
+	6020c	 1062  SteamInternal_FindOrCreateUserInterface
+	60238	  926  SteamAPI_Init
+	6024c	  944  SteamAPI_Shutdown
+	60264	  939  SteamAPI_RestartAppIfNecessary
+
+ 0005f0dc	00000000 00000000 00000000 00000000 00000000
+
+The .rsrc Resource Directory section:
+000  Type Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 3
+010   Entry: ID: 0x000003, Value: 0x80000028
+028    Name Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 5
+038     Entry: ID: 0x000001, Value: 0x80000060
+060      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+070       Entry: ID: 0x000409, Value: 0x000168
+168        Leaf: Addr: 0x0631d8, Size: 0x000422, Codepage: 0
+040     Entry: ID: 0x000002, Value: 0x80000078
+078      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+088       Entry: ID: 0x000409, Value: 0x000178
+178        Leaf: Addr: 0x063600, Size: 0x004228, Codepage: 0
+048     Entry: ID: 0x000003, Value: 0x80000090
+090      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+0a0       Entry: ID: 0x000409, Value: 0x000188
+188        Leaf: Addr: 0x067828, Size: 0x0010a8, Codepage: 0
+050     Entry: ID: 0x000004, Value: 0x800000a8
+0a8      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+0b8       Entry: ID: 0x000409, Value: 0x000198
+198        Leaf: Addr: 0x0688d0, Size: 0x000988, Codepage: 0
+058     Entry: ID: 0x000005, Value: 0x800000c0
+0c0      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+0d0       Entry: ID: 0x000409, Value: 0x0001a8
+1a8        Leaf: Addr: 0x069258, Size: 0x000468, Codepage: 0
+018   Entry: ID: 0x00000e, Value: 0x800000d8
+0d8    Name Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 1, IDs: 0
+0e8     Entry: name: [val: 80000138 len 20]: MINESWEEPERRUSH_ICON, Value: 0x800000f0
+0f0      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+100       Entry: ID: 0x000409, Value: 0x0001b8
+1b8        Leaf: Addr: 0x0696c0, Size: 0x00004c, Codepage: 0
+020   Entry: ID: 0x000010, Value: 0x80000108
+108    Name Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+118     Entry: ID: 0x000001, Value: 0x80000120
+120      Language Table: Char: 0, Time: 00000000, Ver: 0/0, Num Names: 0, IDs: 1
+130       Entry: ID: 0x000409, Value: 0x0001c8
+1c8        Leaf: Addr: 0x069710, Size: 0x00034c, Codepage: 0
+ String table starts at offset: 0x138
+ Resources start at offset: 0x1d8
+

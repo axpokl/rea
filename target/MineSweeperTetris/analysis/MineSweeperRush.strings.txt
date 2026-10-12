@@ -1,0 +1,522 @@
+﻿!This program cannot be run in DOS mode.
+.text
+P`.data
+.rdata
+`@.eh_fram
+0@.bss
+.idata
+.rsrc
+C@<=w}
+Ad+A|
+Gd+G|
+Od+O|
+Wd+W|
+@d+G|)
+@d+G|
+@d+F|+F$+F
+Od+O|
+@d+G|
+@d+C|k
+@d+C|k
+@d+B|k
+@d+B|k
+@d+B|k
+@d+C|k
+@d+B|k
+@d+C|
+@d+B|k
+@d+A|
+@d+B|k
+@d+A|k
+@d+A|
+@d+A|
++C|kS$
+@d+B|k
+@d+B|k
+@d+C|k
+@d+C|
+@d+C|k
+Pd+P|
+Hd+H|
+Od+O|
+@d+G|
+Pd+P|
+@d+G|
+@d+G|
+@d+G|
+Hd+H|
+@d+G|
+@d+G|
+D$$kG 
+D$$kG 
+X$kP 
+@d+G|)
+D$ kG 
+D$ kG 
+D$ kG 
+T$ kW 
+Kd+K|)
+kP $+P
+G`+G@
+F`+F@
+@`+C@
+G`+G@
+H`+P|
+R<=d@
+t/NuQ
+<Qxu&B
+x/;Ad}*
+<[^_]
+\[^_]
+C`+C@
+C`+C@
+C`+C@
+C`+C@
+K,u;;{
+t@;5<
+L[^_]
+L[^_]
+<]ta<
+<]t.<
+,[^_]
+,[^_]
+t(<{t?
+<}t	<,u@
+</t&<\t"
+t$,;t$4
+\$8t:
+,[^_]
+,[^_]
+libgcc_s_dw2-1.dll
+__register_frame_info
+__deregister_frame_info
+libgcj-16.dll
+_Jv_RegisterClasses
+00000
+Space
+H / F1
+B / F2
+E / F3
+T / F4
+S / F5
+M / F6
+G / F7
+R / F8
+K / F11
+P / F12
+Q / ESC
+Auto Number
+Auto Solve
+Repeat Number
+Repeat Solve
+Repeat All
+Auto Blank
+Del Line
+Up Level
+Reset Steam
+MineSweeperRushMutex
+MineSweeperRushClass
+./data
+./data.cab
+SoftWare\MineSweeperRush\20250412
+SoftWare\MineSweeperRush\20250412\board
+MineSweeper Rush
+The old game MineSweeper Tetris is retired, please download the new MineSweeper Rush from Steam Store! 
+https://store.steampowered.com/app/3665840
+MINESWEEPERRUSH_ICON
+./data/MineSweeperRush.ico
+helpb
+colori
+soundb
+musicb
+delayb
+singleb
+reg.dat
+Load Achievement
+Load Status
+./data/wav/%s.wav
+open "%s"%s alias s%lu
+open new type sequencer alias miditest
+close miditest
+./data/mid/music%ld.mid
+ type sequencer
+boardb
+maskj0
+level
+tetrisi
+missi
+missline
+maskj
+maski
+rightb
+checkr
+pauseb
+bouns
+solven
+board.dat
+status s%lu position
+status s%lu length
+20260524
+GEN_START
+GEN_CUSTOM
+GEN_MODE
+GEN_PAUSE
+GEN_HELP
+HID_CHEAT
+HID_EDGE
+HID_MARK
+HID_RIGHT
+HID_ALIVE
+CUM_DEAD_1
+CUM_DEAD_10
+CUM_DEAD_100
+CUM_DEAD_1000
+CUM_FOUR_1
+CUM_FOUR_10
+CUM_FOUR_100
+CUM_FOUR_1000
+CUM_LINE_100
+CUM_LINE_300
+CUM_LINE_600
+CUM_LINE_1000
+CUM_TOTAL_10
+CUM_TOTAL_100
+CUM_TOTAL_1000
+CUM_TOTAL_10000
+STAT_DEAD
+STAT_FOUR
+STAT_TOTAL
+STAT_LINE
+STAT_LINE1
+STAT_LINE2
+STAT_LINE3
+STAT_LINE1_N
+STAT_LINE2_N
+STAT_LINE3_N
+STAT_LINE1_D
+STAT_LINE2_D
+STAT_LINE3_D
+STAT_LINE1_T
+STAT_LINE2_T
+STAT_LINE3_T
+STAT_LINE1_M
+STAT_LINE2_M
+STAT_LINE3_M
+1_TOP
+2_TOP
+3_TOP
+1_TOP_N
+2_TOP_N
+3_TOP_N
+1_TOP_D
+2_TOP_D
+3_TOP_D
+1_TOP_T
+2_TOP_T
+3_TOP_T
+1_TOP_M
+2_TOP_M
+3_TOP_M
+Error
+Right
+Solve
+zD./data/png/%ld/bg.png
+./data/png/%ld/menu.png
+./data/png/%ld/face.png
+./data/png/%ld/icon.png
+./data/png/%ld/digt.png
+./data/png/%ld/digt2.png
+./data/png/%ld/digt_.png
+./data/png/%ld/ok.png
+./data/png/%ld/cursor.png
+./data/png/%ld/click.png
+./data/png/%ld/arrow.png
+SteamUtils010
+STEAMREMOTESTORAGE_INTERFACE_VERSION016
+SteamFriends017
+STEAMSCREENSHOTS_INTERFACE_VERSION003
+STEAMAPPS_INTERFACE_VERSION008
+STEAMUSERSTATS_INTERFACE_VERSION012
+Load Leaderboard
+./data/lan/
+20260524
+Error
+Failed to load language file
+english
+arabic
+bulgarian
+czech
+danish
+german
+greek
+spanish
+latam
+finnish
+french
+hungarian
+indonesian
+italian
+japanese
+koreana
+dutch
+norwegian
+polish
+portuguese
+brazilian
+romanian
+russian
+swedish
+turkish
+ukrainian
+vietnamese
+schinese
+tchinese
+stop s%lu
+Failed to extract CAB file: %s. Error code: %lu
+Error
+data.cab
+*.cab
+board.dat
+screenshot_
+%d%d%d%d%d%d
+../data/png/title.png
+seek s%lu to %lu
+play s%lu%s
+Mingw runtime failure:
+  VirtualQuery failed for %d bytes at address %p
+  Unknown pseudo relocation protocol version %d.
+  Unknown pseudo relocation bit size %d.
+glob-1.0-mingw32
+N10__cxxabiv117__class_type_infoE
+N10__cxxabiv120__si_class_type_infoE
+St9type_info
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (MinGW.org GCC-6.3.0-1) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 5.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+GCC: (GNU) 6.3.0
+RegCloseKey
+RegCreateKeyExA
+RegQueryValueExA
+RegSetValueExA
+CreateCompatibleBitmap
+CreateCompatibleDC
+CreateFontA
+CreatePen
+CreateSolidBrush
+DeleteDC
+DeleteObject
+GetDeviceCaps
+GetPixel
+GetStockObject
+GetTextExtentPoint32A
+GetTextMetricsA
+LineTo
+MoveToEx
+SelectObject
+SetBkColor
+SetBkMode
+SetPixel
+SetTextColor
+StretchBlt
+TextOutA
+GdipAlloc
+GdipCloneImage
+GdipCreateBitmapFromHBITMAP
+GdipCreateFromHDC
+GdipDeleteCachedBitmap
+GdipDeleteCustomLineCap
+GdipDeleteGraphics
+GdipDeletePrivateFontCollection
+GdipDisposeImage
+GdipDrawImageRect
+GdipFree
+GdipGetImageHeight
+GdipGetImageWidth
+GdipLoadImageFromFile
+GdipSaveImageToFile
+GdiplusShutdown
+GdiplusStartup
+CloseHandle
+CreateDirectoryA
+CreateFileA
+CreateMutexA
+CreateThread
+DeleteCriticalSection
+DeleteFileA
+EnterCriticalSection
+ExitProcess
+ExitThread
+FindClose
+FindFirstFileA
+FindNextFileA
+FreeLibrary
+GetCommandLineA
+GetFileAttributesA
+GetLastError
+GetModuleHandleA
+GetProcAddress
+GetStartupInfoA
+GetTempPathA
+GetTickCount
+GetUserDefaultUILanguage
+InitializeCriticalSection
+LeaveCriticalSection
+LoadLibraryA
+MultiByteToWideChar
+QueryPerformanceCounter
+QueryPerformanceFrequency
+ReadFile
+ReleaseMutex
+RemoveDirectoryA
+SetUnhandledExceptionFilter
+Sleep
+TlsGetValue
+VirtualProtect
+VirtualQuery
+lstrcatA
+lstrcmpA
+lstrcpyA
+_strdup
+_stricoll
+AlphaBlend
+TransparentBlt
+__getmainargs
+__mb_cur_max
+__p__environ
+__p__fmode
+__set_app_type
+_cexit
+_errno
+_fpreset
+_fullpath
+_isctype
+_onexit
+_pctype
+_setmode
+abort
+atexit
+calloc
+clock
+fwrite
+localtime
+malloc
+mbstowcs
+memcpy
+realloc
+setlocale
+signal
+sprintf
+srand
+strcat
+strcmp
+strcoll
+strcpy
+strlen
+strrchr
+strstr
+strtoul
+tolower
+vfprintf
+wcslen
+wcstombs
+SetupIterateCabinetA
+AdjustWindowRect
+CreateWindowExW
+DefWindowProcW
+DestroyWindow
+DispatchMessageA
+DrawTextA
+DrawTextW
+EnumDisplayMonitors
+FillRect
+FindWindowA
+FrameRect
+GetAsyncKeyState
+GetCursorPos
+GetDC
+GetDesktopWindow
+GetMessageA
+GetMonitorInfoA
+GetSystemMetrics
+GetWindowRect
+GetWindowTextA
+GetWindowTextW
+InvalidateRect
+IsIconic
+IsZoomed
+LoadCursorA
+LoadImageA
+MessageBoxA
+MessageBoxW
+MoveWindow
+RegisterClassW
+ReleaseDC
+SendMessageA
+SetCursor
+SetForegroundWindow
+SetWindowLongA
+SetWindowTextA
+SetWindowTextW
+ShowWindow
+SystemParametersInfoA
+TranslateMessage
+UpdateWindow
+wsprintfA
+mciSendStringA
+timeBeginPeriod
+timeEndPeriod
+steam_api.dll
+SteamAPI_GetHSteamUser
+SteamInternal_ContextInit
+SteamInternal_FindOrCreateUserInterface
+SteamAPI_Init
+SteamAPI_Shutdown
+SteamAPI_RestartAppIfNecessary
+ADVAPI32.DLL
+GDI32.dll
+GDIPLUS.DLL
+KERNEL32.dll
+msvcrt.dll
+MSIMG32.DLL
+msvcrt.dll
+setupapi.dll
+USER32.dll
+WINMM.DLL
+IDATx
+o\GB-Y

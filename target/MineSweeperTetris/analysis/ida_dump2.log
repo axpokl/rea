@@ -1,0 +1,30 @@
+
+v7.00 48-3FBD-7F04-2C Jiang Ying, Personal license
+
+Your support plan might have expired.
+To renew it, please visit our web site:
+
+https://www.hex-rays.com/idapro/idaupgrade.htm
+
+Thank you for using IDA! -> OK
+Database G:\Program Files\REA\target\MineSweeperTetris\MineSweeperRush.i64 already exists.
+Do you want to overwrite it? -> ~L~oad existing
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   262144    32 8192 allocating memory for b-tree...
+   450560    55 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+   974848            total memory allocated
+
+Loading processor module G:\Program Files\ida64plus\procs\pc64.dll for metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+Database for file 'MineSweeperRush.exe' has been loaded.
+Using FLIRT signature: SEH for vc7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module G:\Program Files\ida64plus\procs\pc64.dll...
