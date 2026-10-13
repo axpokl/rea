@@ -1,0 +1,52 @@
+
+v7.00 48-3FBD-7F04-2C Jiang Ying, Personal license
+
+Your support plan might have expired.
+To renew it, please visit our web site:
+
+https://www.hex-rays.com/idapro/idaupgrade.htm
+
+Thank you for using IDA! -> OK
+Possible file format: MS-DOS executable (EXE) (G:\Program Files\ida64plus\loaders\dos64.dll)
+Possible file format: Portable executable for 80386 (PE) (G:\Program Files\ida64plus\loaders\pe64.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+ 24199168  2954 8192 allocating memory for b-tree...
+ 24199168  2954 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+ 48660480            total memory allocated
+
+Loading file 'G:\Program Files\REA\target\MineSweeperTetris\MineSweeperRush_32_debug2.exe' into database...
+Detected file format: Portable executable for 80386 (PE)
+Loading processor module G:\Program Files\ida64plus\procs\pc64.dll for metapc...OK
+Autoanalysis subsystem has been initialized.
+  0. Creating a new segment  (0000000000401000-0000000000427000) ... ... OK
+  1. Creating a new segment  (0000000000427000-0000000000428000) ... ... OK
+  2. Creating a new segment  (0000000000428000-000000000042B000) ... ... OK
+  3. Creating a new segment  (000000000042B000-0000000000430000) ... ... OK
+  4. Creating a new segment  (0000000000430000-0000000000471000) ... ... OK
+  5. Creating a new segment  (0000000000471000-0000000000473000) ... ... OK
+  6. Creating a new segment  (0000000000473000-0000000000474000) ... ... OK
+  7. Creating a new segment  (0000000000474000-0000000000475000) ... ... OK
+Reading imports directory...
+DWARF: File "G:\Program Files\REA\target\MineSweeperTetris\MineSweeperRush_32_debug2.exe" contains DWARF information.
+Assuming __cdecl calling convention by default
+DWARF: Functions: 432 symbols applied
+DWARF: Globals: 1057 symbols applied
+Loading COFF symbols...
+Type library 'vc6win' loaded. Applying types...
+Types applied to 299 names.
+Plan  FLIRT signature: SEH for vc7-14
+Marking typical code sequences...
+Flushing buffers, please wait...ok
+File 'G:\Program Files\REA\target\MineSweeperTetris\MineSweeperRush_32_debug2.exe' has been successfully loaded into the database.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using FLIRT signature: SEH for vc7-14
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+Flushing buffers, please wait...ok
+Unloading IDP module G:\Program Files\ida64plus\procs\pc64.dll...

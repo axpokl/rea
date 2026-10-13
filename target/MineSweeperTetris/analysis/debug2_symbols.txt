@@ -1,0 +1,732 @@
+﻿00426304 t .ctors
+00426308 t .ctors.65535
+004263f0 t .gcc_except_table
+00426318 t .gcc_except_table
+0042638c t .gcc_except_table
+00426410 t .gcc_except_table
+00426474 t .gcc_except_table
+00426434 t .gcc_except_table
+004263cc t .gcc_except_table
+004263ac t .gcc_except_table
+0042636c t .gcc_except_table
+00426338 t .gcc_except_table
+00423350 t .text
+00409630 t .text
+004237d0 t .text
+00401460 t .text
+00401000 t .text
+00423870 t .text
+00409de8 t .text
+00401340 t .text
+0040a628 t .text
+004236f0 t .text
+0042334c t .text
+00425cb8 t .text
+00423960 t .text
+00423b90 t .text
+004019a0 t .text
+00423044 t .text
+00423ea0 t .text
+0040c27c t .text
+0042334c t .text
+00423ea8 t .text
+004055f0 t .text
+00423eb0 t .text
+00405a68 t .text
+004253e0 t .text
+00423eb8 t .text
+00424fe0 t .text
+00423f60 t .text
+00423ee4 t .text
+0040a060 t .text
+00423344 t .text
+00423ef0 t .text
+00425cb8 t .text$_Z10SteamUtilsv
+00425cd0 t .text$_Z12SteamFriendsv
+00425ce8 t .text$_Z14SteamUserStatsv
+00425d00 t .text$_Z16SteamScreenshotsv
+00425d18 t .text$_Z18SteamRemoteStoragev
+00425d30 t .text$_Z28SteamInternal_Init_SteamAppsPP10ISteamApps
+00425d5c t .text$_Z29SteamInternal_Init_SteamUtilsPP11ISteamUtils
+00425d84 t .text$_Z31SteamInternal_Init_SteamFriendsPP13ISteamFriends
+00425db0 t .text$_Z33SteamInternal_Init_SteamUserStatsPP15ISteamUserStats
+00425ddc t .text$_Z35SteamInternal_Init_SteamScreenshotsPP17ISteamScreenshots
+00425e08 t .text$_Z37SteamInternal_Init_SteamRemoteStoragePP19ISteamRemoteStorage
+00425e34 t .text$_Z9SteamAppsv
+00425e4c t .text$_ZN18LeaderboardEntry_tC1Ev
+00425e64 t .text$_ZN5BoardD1Ev
+00425e80 t .text$_ZN7Gdiplus11GdiplusBaseC2Ev
+00425e8c t .text$_ZN7Gdiplus11GdiplusBasedlEPv
+00425ea4 t .text$_ZN7Gdiplus11GdiplusBasenwEj
+00425ebc t .text$_ZN7Gdiplus12CachedBitmapD0Ev
+00425edc t .text$_ZN7Gdiplus12CachedBitmapD1Ev
+00425f04 t .text$_ZN7Gdiplus13CustomLineCapD0Ev
+00425f24 t .text$_ZN7Gdiplus13CustomLineCapD1Ev
+00425f4c t .text$_ZN7Gdiplus14FontCollectionD0Ev
+00425f6c t .text$_ZN7Gdiplus14FontCollectionD1Ev
+00425f84 t .text$_ZN7Gdiplus14FontCollectionD2Ev
+00425f9c t .text$_ZN7Gdiplus19GdiplusStartupInputC1EPU7stdcallFvNS_15DebugEventLevelEPcEii
+00425fd0 t .text$_ZN7Gdiplus21PrivateFontCollectionD0Ev
+00425ff0 t .text$_ZN7Gdiplus21PrivateFontCollectionD1Ev
+00426024 t .text$_ZN7Gdiplus23InstalledFontCollectionD0Ev
+00426044 t .text$_ZN7Gdiplus23InstalledFontCollectionD1Ev
+00426064 t .text$_ZN7Gdiplus5Image14SetNativeImageEPNS_7GpImageE
+0042607c t .text$_ZN7Gdiplus5Image5CloneEv
+00426100 t .text$_ZN7Gdiplus5ImageC1EPNS_7GpImageENS_6StatusE
+00426140 t .text$_ZN7Gdiplus5ImageD0Ev
+00426160 t .text$_ZN7Gdiplus5ImageD1Ev
+00426188 t .text$_ZN8CSteamIDC1Ev
+004261d4 t .text$_ZNK7Gdiplus5Image9SetStatusENS_6StatusE
+004261fc t .text$_ZNK8CSteamID15GetEAccountTypeEv
+004262f0 t .text.startup
+00426220 t .text.startup
+00425f9c T .weak.__ZN7Gdiplus19GdiplusStartupInputC1EPFvNS_15DebugEventLevelEPcEii.__ZN7Gdiplus11GdiplusBasedlEPv
+00425b60 T AdjustWindowRect@12
+0042333c T AlphaBlend@44
+00425ca0 T CloseHandle@4
+0042332c T CreateCompatibleBitmap@12
+00423324 T CreateCompatibleDC@4
+00425c98 T CreateDirectoryA@8
+00425c90 T CreateFileA@28
+0042331c T CreateFontA@56
+00425c88 T CreateMutexA@12
+00423314 T CreatePen@12
+0042330c T CreateSolidBrush@4
+00425c80 T CreateThread@24
+00425b58 T CreateWindowExW@48
+00425b50 T DefWindowProcW@16
+00425c78 T DeleteCriticalSection@4
+00423304 T DeleteDC@4
+00425c70 T DeleteFileA@4
+004232fc T DeleteObject@4
+00425b48 T DestroyWindow@4
+00425b40 T DispatchMessageA@4
+00425b38 T DrawTextA@20
+00425b30 T DrawTextW@20
+00425c68 T EnterCriticalSection@4
+00425b28 T EnumDisplayMonitors@16
+00425c60 T ExitProcess@4
+00425c58 T ExitThread@4
+00425b20 T FillRect@12
+00425c50 T FindClose@4
+00425c48 T FindFirstFileA@8
+00425c40 T FindNextFileA@8
+00425b18 T FindWindowA@8
+00425b10 T FrameRect@12
+00425c38 T FreeLibrary@4
+00423284 T GdipAlloc@4
+0042327c T GdipCloneImage@8
+00423274 T GdipCreateBitmapFromHBITMAP@12
+0042326c T GdipCreateFromHDC@8
+00423264 T GdipDeleteCachedBitmap@4
+0042325c T GdipDeleteCustomLineCap@4
+00423254 T GdipDeleteGraphics@4
+0042324c T GdipDeletePrivateFontCollection@4
+00423244 T GdipDisposeImage@4
+0042323c T GdipDrawImageRect@24
+00423234 T GdipFree@4
+0042322c T GdipGetImageHeight@8
+00423224 T GdipGetImageWidth@8
+0042321c T GdipLoadImageFromFile@8
+00423214 T GdipSaveImageToFile@16
+0042320c T GdiplusShutdown@4
+00423204 T GdiplusStartup@12
+00425b08 T GetAsyncKeyState@4
+00425c30 T GetCommandLineA@0
+00425b00 T GetCursorPos@4
+00425af8 T GetDC@4
+00425af0 T GetDesktopWindow@0
+004232f4 T GetDeviceCaps@8
+00425c28 T GetFileAttributesA@4
+00425c20 T GetLastError@0
+00425ae8 T GetMessageA@16
+00425c18 T GetModuleHandleA@4
+00425ae0 T GetMonitorInfoA@8
+004232ec T GetPixel@12
+00425c10 T GetProcAddress@8
+00425c08 T GetStartupInfoA@4
+004232e4 T GetStockObject@4
+00425ad8 T GetSystemMetrics@4
+00425c00 T GetTempPathA@8
+004232dc T GetTextExtentPoint32A@16
+004232d4 T GetTextMetricsA@8
+00425bf8 T GetTickCount@0
+00425bf0 T GetUserDefaultUILanguage@0
+00425ad0 T GetWindowRect@8
+00425ac8 T GetWindowTextA@12
+00425ac0 T GetWindowTextW@12
+00425be8 T InitializeCriticalSection@4
+00425ab8 T InvalidateRect@12
+00425ab0 T IsIconic@4
+00425aa8 T IsZoomed@4
+00425be0 T LeaveCriticalSection@4
+004232cc T LineTo@12
+00425aa0 T LoadCursorA@8
+00425a98 T LoadImageA@24
+00425bd8 T LoadLibraryA@4
+00425a90 T MessageBoxA@16
+00425a88 T MessageBoxW@16
+004232c4 T MoveToEx@16
+00425a80 T MoveWindow@24
+00425bd0 T MultiByteToWideChar@24
+00425bc8 T QueryPerformanceCounter@4
+00425bc0 T QueryPerformanceFrequency@4
+00425bb8 T ReadFile@20
+00425a10 T RegCloseKey@4
+00425a08 T RegCreateKeyExA@36
+00425a00 T RegQueryValueExA@24
+004259f8 T RegSetValueExA@24
+00425a78 T RegisterClassW@4
+00425a70 T ReleaseDC@8
+00425bb0 T ReleaseMutex@4
+00425ba8 T RemoveDirectoryA@4
+004232bc T SelectObject@8
+00425a68 T SendMessageA@16
+004232b4 T SetBkColor@8
+004232ac T SetBkMode@8
+00425a60 T SetCursor@4
+00425a58 T SetForegroundWindow@4
+004232a4 T SetPixel@16
+0042329c T SetTextColor@8
+00425ba0 T SetUnhandledExceptionFilter@4
+00425a50 T SetWindowLongA@12
+00425a48 T SetWindowTextA@8
+00425a40 T SetWindowTextW@8
+00425a38 T ShowWindow@8
+00425b98 T Sleep@4
+00423294 T StretchBlt@44
+00425a30 T SystemParametersInfoA@16
+0042328c T TextOutA@20
+00425b90 T TlsGetValue@4
+00425a28 T TranslateMessage@4
+00423334 T TransparentBlt@44
+00425a20 T UpdateWindow@4
+00425b88 T VirtualProtect@16
+00425b80 T VirtualQuery@12
+00423044 T WinMain@16
+00401300 T WinMainCRTStartup
+00426300 T _CTOR_LIST__
+00426310 T _DTOR_LIST__
+00409611 t _GLOBAL__sub_I_version
+00423eb0 T _Unwind_Resume
+004071d9 T DrawTextXY(bitmap*, char const*, long, long, unsigned long)
+0040715a T DrawTextXY(bitmap*, char const*, long, long, unsigned long, unsigned long)
+004070be T DrawTextXY(bitmap*, char const*, long, long, unsigned long, unsigned long, unsigned long, unsigned long)
+00407022 T DrawTextXY(bitmap*, short const*, long, long, unsigned long, unsigned long, unsigned long, unsigned long)
+00406f87 T DrawTextXY(bitmap*, short const*, long, long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00407249 T DrawTextXY(char const*, long, long, unsigned long)
+00407211 T DrawTextXY(char const*, long, long, unsigned long, unsigned long)
+0040727a T DrawTextXY(char const*, long, unsigned long)
+0040741a T DrawTextln(char const*)
+004073f7 T DrawTextln(char const*, unsigned long)
+004073c2 T DrawTextln(char const*, unsigned long, unsigned long)
+00407436 T DrawTextln()
+00406953 T GetBGColor()
+0040696b T GetFGColor()
+00408b7a T GetNextMsg()
+0040671c T GetScrSize()
+00406eca T InitTextXY(bitmap**, char const**, unsigned long*, unsigned long*)
+00406e0c T InitTextXY(bitmap**, short const**, unsigned long*, unsigned long*)
+00408f7a T IsDropFile()
+00409293 T PauseAudio(unsigned long)
+00407cf2 T ReleaseBMP(bitmap*)
+00407d7d T ReleaseBMP()
+0040915b T SendString()
+0040695d T SetBGColor(unsigned long)
+00406975 T SetFGColor(unsigned long)
+00425cb8 T SteamUtils()
+004055f0 T CombinePath(char*, char const*, char const*)
+004074e1 T DrawTextXYw(bitmap*, char const*, long, long, unsigned long)
+0040744b T DrawTextXYw(bitmap*, char const*, long, long, unsigned long, unsigned long)
+00407551 T DrawTextXYw(char const*, long, long, unsigned long)
+00407519 T DrawTextXYw(char const*, long, long, unsigned long, unsigned long)
+00407582 T DrawTextXYw(char const*, long, unsigned long)
+0040771a T DrawTextlnw(char const*)
+004076f7 T DrawTextlnw(char const*, unsigned long)
+004076c2 T DrawTextlnw(char const*, unsigned long, unsigned long)
+00409387 T GetAudioLen(unsigned long)
+0040930e T GetAudioPos(unsigned long)
+0040673a T GetScrCapsX()
+00406773 T GetScrCapsY()
+004066ee T GetScrWidth()
+00408e5c T IsMouseLeft()
+00408f26 T IsMouseMove()
+004092bc T ResumeAudio(unsigned long)
+00409336 T SetAudioPos(unsigned long, unsigned long, bool)
+00406d30 T SetFontName(char const*)
+00406ca4 T SetFontSize(unsigned long, unsigned long)
+00406991 T SetPenColor(bitmap*, unsigned long)
+00406a84 T SetPenColor(unsigned long)
+00406983 T SetPenWidth(unsigned long)
+00408b84 T WaitNextMsg()
+00405e90 T WinRegister()
+00407367 T DrawTextlnXY(char const*, long, long, unsigned long)
+00407318 T DrawTextlnXY(char const*, long, long, unsigned long, unsigned long)
+00407398 T DrawTextlnXY(char const*, long, unsigned long)
+00408f8e T GetMouseAbsX()
+00408fa7 T GetMouseAbsY()
+00408f3a T GetMouseMove()
+00408ffa T GetMousePosX()
+00409027 T GetMousePosY()
+00408fc0 T GetMouseWinX()
+00408fdd T GetMouseWinY()
+00406705 T GetScrHeight()
+00408eae T IsMouseRight()
+00408ed7 T IsMouseWheel()
+004092e5 T ReleaseAudio(unsigned long)
+00406c78 T SetFontWidth(unsigned long)
+00425cd0 T SteamFriends()
+00407667 T DrawTextlnXYw(char const*, long, long, unsigned long)
+00407620 T DrawTextlnXYw(char const*, long, long, unsigned long, unsigned long)
+00407698 T DrawTextlnXYw(char const*, long, unsigned long)
+0040682f T GetBorderSize()
+00408eeb T GetMouseWheel()
+00406d51 T GetStringSize(char const*)
+00408e85 T IsMouseMiddle()
+00406a14 T SetBrushColor(bitmap*, unsigned long)
+00406aa1 T SetBrushColor(unsigned long)
+00406c8e T SetFontHeight(unsigned long)
+00406cd8 T SetFontLtalic(unsigned long)
+00406cc2 T SetFontWeight(unsigned long)
+004093f7 T UTF8ToUnicode(unsigned char*, unsigned int*)
+00408e70 T WaitMouseLeft()
+00408f5a T WaitMouseMove()
+00405a68 T WinCreateMain()
+004067ac T GetBorderTitle()
+004067c3 T GetBorderWidth()
+00406d8a T GetStringWidth(char const*)
+004056aa T ProcessCabFile(char const*)
+00406d1a T SetFontCharSet(unsigned long)
+00425ce8 T SteamUserStats()
+0040956c T UnicodeToUTF16(unsigned int, unsigned short*)
+00408ec2 T WaitMouseRight()
+00408f11 T WaitMouseWheel()
+004067f9 T GetBorderHeight()
+00406dcb T GetStringHeight(char const*)
+00405dea T Monitorenumproc(HMONITOR__*, HDC__*, tagRECT*, long)@16
+0040567f T RemoveExtension(char*)
+00408e99 T WaitMouseMiddle()
+00406d04 T SetFontStrikeOut(unsigned long)
+00406cee T SetFontUnderLine(unsigned long)
+00425d00 T SteamScreenshots()
+00405639 T CabExtractCallback(void*, unsigned int, unsigned int, unsigned int)@16
+00425d18 T SteamRemoteStorage()
+0040598b T CheckAndProcessCabFile()
+00405858 T DeleteFolderRecursively(char const*)
+00425d30 T SteamInternal_Init_SteamApps(ISteamApps**)
+00425d5c T SteamInternal_Init_SteamUtils(ISteamUtils**)
+00408977 T HI(unsigned long long)
+00408995 T LO(unsigned long long)
+00425d84 T SteamInternal_Init_SteamFriends(ISteamFriends**)
+00425db0 T SteamInternal_Init_SteamUserStats(ISteamUserStats**)
+00425ddc T SteamInternal_Init_SteamScreenshots(ISteamScreenshots**)
+00425e08 T SteamInternal_Init_SteamRemoteStorage(ISteamRemoteStorage**)
+004079c3 T Bar(bitmap*, long, long, long, long, unsigned long)
+004078e9 T Bar(bitmap*, long, long, long, long, unsigned long, unsigned long)
+00407a79 T Bar(long, long, long, long)
+00407a41 T Bar(long, long, long, long, unsigned long)
+00407a02 T Bar(long, long, long, long, unsigned long, unsigned long)
+004095d5 t __static_initialization_and_destruction_0(int, int)
+00407829 T Line(bitmap*, long, long, long, long, unsigned long)
+004078b1 T Line(long, long, long, long, unsigned long)
+00407b11 T Clear(bitmap*)
+00407aaa T Clear(bitmap*, unsigned long)
+00407b2d T Clear(unsigned long)
+00407b49 T Clear()
+0040912f T Delay(unsigned long)
+00409146 T Delay()
+00408d14 T IsKey(unsigned long)
+00408d48 T IsKey()
+00408bd3 T IsMsg(unsigned long const*, unsigned long)
+00408cb1 T IsMsg(unsigned long)
+0040648b T IsWin()
+0040617f T AddFPS()
+00408d5c T GetKey()
+00408c17 T GetMsg(unsigned long const*, unsigned long)
+00408cd2 T GetMsg(unsigned long)
+004068f8 T GetPos()
+00406b2d T GetRGB(unsigned char, unsigned char, unsigned char)
+00406abe T GetRed(unsigned long)
+00406920 T GetScr()
+00406916 T GetWin()
+004093af T IsFile(char const*)
+00409113 T MsgBox(char const*)
+004090d4 T MsgBox(char const*, char const*)
+00409085 T MsgBox(char const*, char const*, unsigned long)
+0040684d T SetPos(long, long)
+0040874e T DrawBMP(bitmap*)
+004084c6 T DrawBMP(bitmap*, bitmap*)
+00408494 T DrawBMP(bitmap*, bitmap*, unsigned long)
+00408463 T DrawBMP(bitmap*, bitmap*, unsigned long, unsigned long)
+00408423 T DrawBMP(bitmap*, bitmap*, unsigned long, unsigned long, unsigned long)
+004083e4 T DrawBMP(bitmap*, bitmap*, unsigned long, unsigned long, unsigned long, unsigned long)
+00408386 T DrawBMP(bitmap*, bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00408339 T DrawBMP(bitmap*, bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+004082df T DrawBMP(bitmap*, bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00408284 T DrawBMP(bitmap*, bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00407ff5 T DrawBMP(bitmap*, bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00408723 T DrawBMP(bitmap*, unsigned long)
+004086f9 T DrawBMP(bitmap*, unsigned long, unsigned long)
+004086c0 T DrawBMP(bitmap*, unsigned long, unsigned long, unsigned long)
+00408688 T DrawBMP(bitmap*, unsigned long, unsigned long, unsigned long, unsigned long)
+00408631 T DrawBMP(bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+004085eb T DrawBMP(bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00408598 T DrawBMP(bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00408544 T DrawBMP(bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+004084e9 T DrawBMP(bitmap*, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00408946 T DrawBMP(unsigned long)
+00408923 T DrawBMP(unsigned long, unsigned long)
+004088f9 T DrawBMP(unsigned long, unsigned long, unsigned long)
+004088c8 T DrawBMP(unsigned long, unsigned long, unsigned long, unsigned long)
+00408890 T DrawBMP(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00408851 T DrawBMP(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+0040880b T DrawBMP(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+004087be T DrawBMP(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+0040876a T DrawBMP(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+00408962 T DrawBMP()
+00406ad1 T GetBlue(unsigned long)
+0040693e T GetDraw(bitmap*)
+00406949 T GetDraw()
+0040692a T GetHwnd(bitmap*)
+00406934 T GetHwnd()
+0040687c T GetPosX()
+004068ba T GetPosY()
+00406ae7 T GetRGBA(unsigned char, unsigned char, unsigned char, unsigned char)
+004066d6 T GetSize()
+00406533 T GetTime()
+00408db0 T IsMouse(unsigned long)
+00408dec T IsMouse()
+00407f14 T LoadBMP(char const*)
+00407da0 T LoadBMP(char const*, unsigned long)
+004090f7 T MsgBoxW(short const*)
+004090b1 T MsgBoxW(short const*, short const*)
+00409059 T MsgBoxW(short const*, short const*, unsigned long)
+00407f2f T SaveBMP(bitmap*, char const*)
+004089ac T SendMsg()
+00406b6b T SetFont(bitmap*)
+00406c62 T SetFont()
+004065fe T SetSize(long, long, unsigned long, unsigned long)
+0040668c T SetSize(unsigned long, unsigned long)
+00408d7c T WaitKey(unsigned long)
+00408d9c T WaitKey()
+00408c77 T WaitMsg(unsigned long const*, unsigned long)
+00408cf3 T WaitMsg(unsigned long)
+00406002 T WinInit()
+00405b42 T WndProc(HWND__*, unsigned int, unsigned int, long)@16
+0040645a T CloseWin()
+004060f4 T FreshFPS()
+00406435 T FreshWin()
+00406adc T GetAlpha(unsigned long)
+00406ac6 T GetGreen(unsigned long)
+00408e00 T GetMouse()
+00407736 T GetPixel(bitmap*, unsigned long, unsigned long)
+0040776b T GetPixel(unsigned long, unsigned long)
+00406497 T GetTimeR()
+004065a4 T GetTitle()
+004066c2 T GetWidth()
+0040778d T SetPixel(bitmap*, unsigned long, unsigned long, unsigned long)
+00407806 T SetPixel(unsigned long, unsigned long)
+004077dc T SetPixel(unsigned long, unsigned long, unsigned long)
+00406564 T SetTitle(char const*)
+00407c60 T CreateBMP(bitmap*)
+00407b5e T CreateBMP(bitmap*, unsigned long, unsigned long, unsigned long)
+00407cb4 T CreateBMP(unsigned long, unsigned long)
+00407c8b T CreateBMP(unsigned long, unsigned long, unsigned long)
+00407cd6 T CreateBMP()
+0040619a T CreateWin(long, long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*)
+004063bc T CreateWin(unsigned long)
+00406399 T CreateWin(unsigned long, unsigned long)
+0040636f T CreateWin(unsigned long, unsigned long, unsigned long)
+0040633e T CreateWin(unsigned long, unsigned long, unsigned long, unsigned long)
+00406305 T CreateWin(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+0040629f T CreateWin(unsigned long, unsigned long, unsigned long, unsigned long, unsigned long, char const*)
+004063fd T CreateWin()
+004089d3 T CustomMsg()
+004072fc T DrawTextA(char const*)
+004072d9 T DrawTextA(char const*, unsigned long)
+004072a4 T DrawTextA(char const*, unsigned long, unsigned long)
+00407604 T DrawTextw(char const*)
+004075e1 T DrawTextw(char const*, unsigned long)
+004075ac T DrawTextw(char const*, unsigned long, unsigned long)
+004066cc T GetHeight()
+004065d1 T GetTitleW()
+00408a80 T IsNextMsg()
+004091f0 T LoadAudio(char const*)
+004091a6 T LoadAudio(char const*, char const*)
+0040920b T PlayAudio(unsigned long, char const*, bool)
+00406584 T SetTitleW(short const*)
+00425e34 T SteamApps()
+0040924f T StopAudio(unsigned long)
+00408e28 T WaitMouse(unsigned long)
+00408e48 T WaitMouse()
+00405f02 T WinCreate()
+0040c27c t loadallpaintstatic(void*)@4
+0040c29b t getlead(void*)@4
+00425e4c T LeaderboardEntry_t::LeaderboardEntry_t()
+00409dc6 T Lan::getlan(long)
+004098cc T Lan::initlan(char const*)
+00409878 T Lan::getsyslan()
+00409630 T Lan::Lan()
+00409630 T Lan::Lan()
+00409f30 T Reg::getreg(HKEY__*, char const*, long*)
+00409eee T Reg::setreg(HKEY__*, char const*, long)
+00409fd4 T Reg::getreg_(HKEY__*, char const*, char*)
+00409e14 T Reg::openreg()
+00409f92 T Reg::setreg_(HKEY__*, char const*, char*)
+00409ec0 T Reg::closereg()
+00409de8 T Reg::Reg()
+00409de8 T Reg::Reg()
+00409dfe T Reg::~Reg()
+00409dfe T Reg::~Reg()
+00401800 T Block::isok(long, long, long, long&, long&)
+0040159c T Block::initbl()
+00401714 T Block::calcnumb()
+00401460 T Block::Block()
+00401460 T Block::Block()
+00403744 T Board::checkerror(long, long)
+00403990 T Board::checkerror()
+004052bc T Board::clickright(long, long, bool)
+00405462 T Board::clickright(long, long, bool, long)
+00402c70 T Board::createrule()
+004027a2 T Board::solveblank()
+00402ec6 T Board::comparerule(long, long)
+00403200 T Board::comparerule()
+0040293a T Board::solveblank_()
+004055ac T Board::pause()
+004020a0 T Board::initbd(long, long)
+00402062 T Board::initbd(long, long, long, long)
+00401cd0 T Board::initbd()
+0040296a T Board::solve0()
+00402ad4 T Board::solve1()
+0040354a T Board::solve2(bool)
+004035e4 T Board::solve2()
+00403d02 T Board::addline(bool)
+00403f5e T Board::addline()
+00403f7e T Board::addmask()
+004042a0 T Board::delline(long)
+00402710 T Board::resetbd(long, long)
+00404ca6 T Board::setflag(long, long)
+00404c76 T Board::setqstn(long, long)
+00404c0c T Board::setqstn(long, long, bool)
+00402aa4 T Board::solve0_()
+00402c2c T Board::solve1_()
+00403604 T Board::solve2_(bool)
+00403690 T Board::solve2_()
+004036b0 T Board::solve3_()
+00402482 T Board::tutmine()
+004040fc T Board::checkdie()
+0040218e T Board::randmine(long, long)
+00404eae T Board::setblock(long, long)
+00403320 T Board::applyrule(bool)
+00403a10 T Board::checkline(bool)
+0040527e T Board::clickleft(long, long, bool)
+004052fa T Board::clickleft(long, long, bool, long)
+004051d8 T Board::clicknumb(long, long, bool)
+004019a0 T Board::Board()
+004019a0 T Board::Board()
+00425e64 T Board::~Board()
+0040a4e4 T Sound::checkmusic()
+0040a59c T Sound::switchmusic()
+0040a3ac T Sound::switchsound()
+0040a138 T Sound::initsound()
+0040a1e8 T Sound::loadmusic()
+0040a16c T Sound::loadsound()
+0040a404 T Sound::playmusic()
+0040a358 T Sound::playsound(long)
+0040a060 T Sound::Sound()
+0040a060 T Sound::Sound()
+0040c24e T Steam::checkcheat()
+0040adfa T Steam::addach(long)
+0040b310 T Steam::addscr(long, long, long)
+0040b37c T Steam::maxscr(long, long)
+0040b096 T Steam::setscr(long)
+0040b474 T Steam::compscr(long, long, long)
+0040b678 T Steam::getlead()
+0040c1da T Steam::ischeat(long, long)
+0040c21c T Steam::ischeat()
+0040ad7c T Steam::loadach()
+0040abec T Steam::loadlan()
+0040af5a T Steam::loadscr()
+0040c178 T Steam::savescr(char*)
+0040bcb4 T Steam::setlead(long)
+0040ba3a T Steam::setlead()
+0040ae94 T Steam::checkach(long, long, long, long, long, long, long, long, long)
+0040b550 T Steam::loadlead()
+0040ad48 T Steam::resetach()
+0040b50e T Steam::resetscr()
+0040bece T Steam::waitlead()
+0040ac6e T Steam::exitsteam()
+0040aac4 T Steam::initsteam()
+0040aca0 T Steam::loadsteam()
+0040c008 T Steam::waitlead_()
+0040a628 T Steam::Steam()
+0040a628 T Steam::Steam()
+0040aaae T Steam::~Steam()
+0040aaae T Steam::~Steam()
+0040f6fc T Window::initwindow(bool)
+0040f14c T Window::initwindow()
+004206f8 T Window::mouseevent(long, long, long)
+0041309a T Window::paintblock(Block&, long, long, long, long, long, long)
+0041357e T Window::paintboard(Block&, long, long)
+00413632 T Window::paintboard(Block&, long, long, long, long)
+004136fa T Window::paintboard()
+0041f90e T Window::paintevent(bool)
+0041fbc6 T Window::paintevent()
+00412dde T Window::paintlevel()
+0041f3f2 T Window::painttitle(long)
+0041fff8 T Window::switchskin(long)
+0041ffb4 T Window::switchskin()
+00422f78 T Window::drawtextxy_(bitmap*, char const*, long, long, unsigned long, unsigned long)
+00422e8c T Window::drawtextxy_(bitmap*, char const*, long, long, unsigned long, unsigned long, unsigned long, unsigned long)
+00422da0 T Window::drawtextxy_(bitmap*, short const*, long, long, unsigned long, unsigned long, unsigned long, unsigned long)
+00422cac T Window::drawtextxy_(bitmap*, short const*, long, long, unsigned long, unsigned long, unsigned long, unsigned long, unsigned long)
+0040cdc4 T Window::loadsetting()
+00412da0 T Window::paintnumber(long, long, long, long)
+00412d3c T Window::paintnumber(long, long, long, long, long)
+00412b68 T Window::paintnumber(long, long, long, long, long, long, long)
+0040cfae T Window::savesetting()
+0040e57e T Window::loadallpaint()
+0041fbe6 T Window::paintrefresh()
+00422bf2 T Window::setfontname_(char const*)
+0040f642 T Window::releasewindow()
+0040d19a T Window::loadboardcloud()
+0040d5d2 T Window::saveboardcloud()
+00422c1c T Window::setfontheight_(unsigned long)
+00422c82 T Window::setfontweight_(unsigned long)
+00422ff0 T Window::getstringwidth_(char const*)
+004205b0 T Window::mouseeventboard(long, long, long, long)
+0040cafe T Window::loadsettingcloud()
+004203be T Window::mouseeventboard_(long, long, long, long)
+0040cc98 T Window::savesettingcloud()
+0041fc54 T Window::isin(long, long, long, long, long, long)
+0040fcb0 T Window::initbmp()
+0040e5d8 T Window::loadall()
+0041fe2a T Window::savescr()
+0041fc98 T Window::sethelp(long)
+00422810 T Window::doaction()
+0040e814 T Window::initmult()
+00421b92 T Window::keyevent(long)
+0040f00e T Window::loadicon()
+0041d9ec T Window::painttut()
+00420082 T Window::switchmd(long)
+00420046 T Window::switchmd()
+004200d6 T Window::tutevent(long, long, bool)
+0040fbde T Window::initcolor()
+0040d996 T Window::loadboard()
+00412a92 T Window::paintface()
+00413a78 T Window::painthelp()
+004139d2 T Window::paintline(bitmap*, bitmap*, bitmap*, bitmap*, bitmap*, long, long, long, long, long, long, long)
+0041393e T Window::paintline(bitmap*, bitmap*, bitmap*, bitmap*, long, long, long, long, long, long)
+004138be T Window::paintline(bitmap*, bitmap*, bitmap*, long, long, long, long, long)
+00413850 T Window::paintline(bitmap*, bitmap*, long, long, long, long)
+004137e6 T Window::paintline(bitmap*, long, long, long)
+004127c0 T Window::paintmenu()
+0040dfaa T Window::saveboard()
+0040c2fc T Window::Window()
+0040c2fc T Window::Window()
+0040cab6 T Window::~Window()
+0040cab6 T Window::~Window()
+00425e80 T Gdiplus::GdiplusBase::GdiplusBase()
+00425e8c T Gdiplus::GdiplusBase::operator delete(void*)
+00425ea4 T Gdiplus::GdiplusBase::operator new(unsigned int)
+00425ebc T Gdiplus::CachedBitmap::~CachedBitmap()
+00425edc T Gdiplus::CachedBitmap::~CachedBitmap()
+00425f04 T Gdiplus::CustomLineCap::~CustomLineCap()
+00425f24 T Gdiplus::CustomLineCap::~CustomLineCap()
+00425f4c T Gdiplus::FontCollection::~FontCollection()
+00425f6c T Gdiplus::FontCollection::~FontCollection()
+00425f84 T Gdiplus::FontCollection::~FontCollection()
+00425f9c T Gdiplus::GdiplusStartupInput::GdiplusStartupInput(void ( stdcall*)(Gdiplus::DebugEventLevel, char*), int, int)
+00425fd0 T Gdiplus::PrivateFontCollection::~PrivateFontCollection()
+00425ff0 T Gdiplus::PrivateFontCollection::~PrivateFontCollection()
+00426024 T Gdiplus::InstalledFontCollection::~InstalledFontCollection()
+00426044 T Gdiplus::InstalledFontCollection::~InstalledFontCollection()
+00426064 T Gdiplus::Image::SetNativeImage(Gdiplus::GpImage*)
+0042607c T Gdiplus::Image::Clone()
+00426100 T Gdiplus::Image::Image(Gdiplus::GpImage*, Gdiplus::Status)
+00426140 T Gdiplus::Image::~Image()
+00426160 T Gdiplus::Image::~Image()
+00426188 T CSteamID::CSteamID()
+004261d4 T Gdiplus::Image::SetStatus(Gdiplus::Status) const
+004261fc T CSteamID::GetEAccountType() const
+00426300 T __CTOR_LIST__
+00426310 T __DTOR_LIST__
+004239c0 T ___w64_mingwthr_add_key_dtor
+00423a50 T ___w64_mingwthr_remove_key_dtor
+00423eb8 T __chkstk_ms
+004236f0 T __cpu_features_init
+00423ea8 T __deregister_frame_info
+00423800 T __do_global_ctors
+004237d0 T __do_global_dtors
+004238c0 T __dyn_tls_init@12
+00401430 T __gcc_deregister_frame
+00401340 T __gcc_register_frame
+004259f0 T __getmainargs
+00423344 T __gxx_personality_v0
+00423850 T __main
+00423af0 T __mingw_TLScallback
+00425770 T __mingw_closedir
+00424fe0 T __mingw_dirname
+00424e90 T __mingw_glob
+00424f80 T __mingw_globfree
+00425560 T __mingw_opendir
+00425720 T __mingw_readdir
+004257c0 T __mingw_rewinddir
+00425850 T __mingw_seekdir
+00425820 T __mingw_telldir
+004259e8 T __p__environ
+004259e0 T __p__fmode
+00423ea0 T __register_frame_info
+00423950 T __tlregdtor
+004259d8 T _cexit
+004259d0 T _errno
+004259c8 T _fullpath
+004259c0 T _isctype
+004012a0 T _mingw32_init_mainargs
+00401330 T _onexit
+00423cd0 T _pei386_runtime_relocator
+00423350 T _setargv
+004259b8 T _setmode
+004259b0 T abort
+00401320 T atexit
+004259a8 T calloc
+004259a0 T clock
+00423ef0 T fesetenv
+00425998 T free
+00425990 T fwrite
+00425988 T localtime
+00425b78 T lstrcatA@8
+00425b70 T lstrcmpA@8
+00425b68 T lstrcpyA@8
+00426220 T main
+004012e0 T mainCRTStartup
+00425980 T malloc
+00425978 T mbstowcs
+004231fc T mciSendStringA@16
+00425970 T memcpy
+00425968 T memset
+00425960 T rand
+00425958 T realloc
+004262f0 t register_frame_ctor
+00425950 T setlocale
+00425948 T signal
+00425940 T sprintf
+00425938 T srand
+00425930 T strcat
+00425928 T strcmp
+00425920 T strcoll
+00425918 T strcpy
+00425cb0 T strdup
+00425ca8 T stricoll
+00425910 T strlen
+00425908 T strrchr
+00425900 T strstr
+004258f8 T strtoul
+004258f0 T time
+004231f4 T timeBeginPeriod@4
+004231ec T timeEndPeriod@4
+004258e8 T tolower
+004258e0 T vfprintf
+004258d8 T wcslen
+004258d0 T wcstombs
+00425a18 T wsprintfA
