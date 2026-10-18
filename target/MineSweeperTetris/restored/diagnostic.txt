@@ -1,0 +1,129 @@
+BEFORE void __cdecl(Block *const this)
+401714 push    ebp
+401715 mov     ebp, esp
+401717 sub     esp, 48h
+40171A mov     [ebp+this], ecx
+40171D mov     [ebp+i], 0
+401724 mov     eax, [ebp+this]
+401727 mov     eax, [eax]
+401729 cmp     eax, [ebp+i]
+40172C jle     loc_4017FD
+401732 mov     [ebp+j], 0
+401739 mov     eax, [ebp+this]
+40173C mov     eax, [eax+4]
+40173F cmp     eax, [ebp+j]
+401742 jle     loc_4017F4
+401748 mov     eax, [ebp+this]
+40174B mov     eax, [eax+38h]
+40174E mov     edx, [ebp+i]
+401751 shl     edx, 9
+401754 add     edx, eax
+401756 mov     eax, [ebp+j]
+401759 mov     dword ptr [edx+eax*4], 0
+401760 mov     [ebp+k], 0
+APPLY True
+AFTER void __thiscall(Block *const this)
+void __thiscall Block::calcnumb(Block *const this)
+{
+  int *v1; // [esp+14h] [ebp-34h]
+  Block *thisa; // [esp+2Ch] [ebp-1Ch]
+  Block *k; // [esp+34h] [ebp-14h]
+  int j; // [esp+38h] [ebp-10h]
+  int i; // [esp+3Ch] [ebp-Ch]
+
+  thisa = this;
+  for ( i = 0; thisa->w > i; ++i )
+  {
+    for ( j = 0; thisa->h > j; ++j )
+    {
+      thisa->numb[i][j] = 0;
+      for ( k = 0; (signed int)k <= 7; k = (Block *)((char *)k + 1) )
+      {
+        if ( Block::isok(thisa, k, i, j, (int)&thisa->tx, &thisa->ty, v1) )
+        {
+          if ( thisa->mine[thisa->tx][thisa->ty] )
+            ++thisa->numb[i][j];
+        }
+      }
+    }
+  }
+}
+
+BEFORE bool(Block *const this, int k, int x, int y, int *const tx, int *const ty)
+401800 push    ebp
+401801 mov     ebp, esp
+401803 sub     esp, 4
+401806 mov     [ebp+this], ecx
+401809 cmp     [ebp+k], 7; switch 8 cases
+40180D ja      loc_401994; jumptable 00401820 default case
+401813 mov     eax, [ebp+k]
+401816 shl     eax, 2
+401819 add     eax, offset off_4280A8
+40181E mov     eax, [eax]
+401820 jmp     eax; switch jump
+401822 mov     eax, [ebp+x]; jumptable 00401820 case 0
+401825 lea     edx, [eax-1]
+401828 mov     eax, [ebp+tx]
+40182B mov     [eax], edx
+40182D mov     eax, [ebp+ty]
+401830 mov     edx, [ebp+y]
+401833 mov     [eax], edx
+401835 cmp     [ebp+x], 0
+401839 setnle  al
+40183C jmp     locret_401999
+401841 mov     eax, [ebp+x]; jumptable 00401820 case 1
+APPLY True
+AFTER bool __thiscall(Block *const this, int k, int x, int y, int *const tx, int *const ty)
+bool __thiscall Block::isok(Block *const this, int k, int x, int y, int *const tx, int *const ty)
+{
+  bool result; // al
+
+  switch ( k )
+  {
+    case 0:
+      *tx = x - 1;
+      *ty = y;
+      result = x > 0;
+      break;
+    case 1:
+      *tx = x + 1;
+      *ty = y;
+      result = this->w - 1 > x;
+      break;
+    case 2:
+      *tx = x;
+      *ty = y - 1;
+      result = y > 0;
+      break;
+    case 3:
+      *tx = x;
+      *ty = y + 1;
+      result = this->h - 1 > y;
+      break;
+    case 4:
+      *tx = x - 1;
+      *ty = y - 1;
+      result = x > 0 && y > 0;
+      break;
+    case 5:
+      *tx = x - 1;
+      *ty = y + 1;
+      result = x > 0 && this->h - 1 > y;
+      break;
+    case 6:
+      *tx = x + 1;
+      *ty = y - 1;
+      result = this->w - 1 > x && y > 0;
+      break;
+    case 7:
+      *tx = x + 1;
+      *ty = y + 1;
+      result = this->w - 1 > x && this->h - 1 > y;
+      break;
+    default:
+      result = 0;
+      break;
+  }
+  return result;
+}
+

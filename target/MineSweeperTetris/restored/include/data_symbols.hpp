@@ -1,0 +1,241 @@
+﻿#pragma once
+#include <cstdint>
+// 静态数据补充：原符号名用于与伪代码交叉定位。只读的解释候选，非完整链接单元。
+
+// 0x00429B44；2 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t byte_429B44[] = {
+    0x00, 0x00,
+};
+
+// 0x00427310；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t dword_427310[] = {
+    0xFF, 0xFF, 0xFF, 0xFF,
+};
+
+// 0x00470930；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t dword_470930[] = {
+    0xFF, 0xFF, 0xFF, 0xFF,
+};
+
+// 0x00470944；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t dword_470944[] = {
+    0xFF, 0xFF, 0xFF, 0xFF,
+};
+
+// 0x00470948；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t dword_470948[] = {
+    0xFF, 0xFF, 0xFF, 0xFF,
+};
+
+// 0x00470964；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t dword_470964[] = {
+    0xFF, 0xFF, 0xFF, 0xFF,
+};
+
+// 0x00470970；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t dword_470970[] = {
+    0xFF, 0xFF, 0xFF, 0xFF,
+};
+
+// 0x00427040；120 字节；读取边界：qmemcpy and DWARF dimensions。
+static const char *const off_427040[] = {
+    "arabic",
+    "bulgarian",
+    "czech",
+    "danish",
+    "german",
+    "greek",
+    "english",
+    "spanish",
+    "latam",
+    "finnish",
+    "french",
+    "hungarian",
+    "indonesian",
+    "italian",
+    "japanese",
+    "koreana",
+    "dutch",
+    "norwegian",
+    "polish",
+    "portuguese",
+    "brazilian",
+    "romanian",
+    "russian",
+    "swedish",
+    "thai",
+    "turkish",
+    "ukrainian",
+    "vietnamese",
+    "schinese",
+    "tchinese",
+};
+
+// 0x00427140；104 字节；读取边界：qmemcpy and DWARF dimensions。
+static const char *const off_427140[] = {
+    "GEN_START",
+    "GEN_CUSTOM",
+    "GEN_MODE",
+    "GEN_PAUSE",
+    "GEN_HELP",
+    "HID_CHEAT",
+    "HID_EDGE",
+    "HID_MARK",
+    "HID_RIGHT",
+    "HID_ALIVE",
+    "CUM_DEAD_1",
+    "CUM_DEAD_10",
+    "CUM_DEAD_100",
+    "CUM_DEAD_1000",
+    "CUM_FOUR_1",
+    "CUM_FOUR_10",
+    "CUM_FOUR_100",
+    "CUM_FOUR_1000",
+    "CUM_LINE_100",
+    "CUM_LINE_300",
+    "CUM_LINE_600",
+    "CUM_LINE_1000",
+    "CUM_TOTAL_10",
+    "CUM_TOTAL_100",
+    "CUM_TOTAL_1000",
+    "CUM_TOTAL_10000",
+};
+
+// 0x004271C0；76 字节；读取边界：qmemcpy and DWARF dimensions。
+static const char *const off_4271C0[] = {
+    "STAT_DEAD",
+    "STAT_FOUR",
+    "STAT_TOTAL",
+    "STAT_LINE",
+    "STAT_LINE1",
+    "STAT_LINE2",
+    "STAT_LINE3",
+    "STAT_LINE1_N",
+    "STAT_LINE2_N",
+    "STAT_LINE3_N",
+    "STAT_LINE1_D",
+    "STAT_LINE2_D",
+    "STAT_LINE3_D",
+    "STAT_LINE1_T",
+    "STAT_LINE2_T",
+    "STAT_LINE3_T",
+    "STAT_LINE1_M",
+    "STAT_LINE2_M",
+    "STAT_LINE3_M",
+};
+
+// 0x004272A0；68 字节；读取边界：qmemcpy and DWARF dimensions。
+static const char *const off_4272A0[] = {
+    "1",
+    "2",
+    "3",
+    "N",
+    "Space",
+    "U",
+    "H / F1",
+    "B / F2",
+    "E / F3",
+    "T / F4",
+    "S / F5",
+    "M / F6",
+    "G / F7",
+    "R / F8",
+    "K / F11",
+    "P / F12",
+    "Q / ESC",
+};
+
+// 0x0042730C；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t off_42730C[] = {
+    0x34, 0x67, 0x42, 0x00,
+};
+
+// 0x00429D6C；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t off_429D6C[] = {
+    0xF0, 0x5D, 0x42, 0x00,
+};
+
+// 0x00429D98；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t off_429D98[] = {
+    0x30, 0x5E, 0x42, 0x00,
+};
+
+// 0x00429DC4；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t off_429DC4[] = {
+    0xD0, 0x5E, 0x42, 0x00,
+};
+
+// 0x00429DD4；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t off_429DD4[] = {
+    0x18, 0x5F, 0x42, 0x00,
+};
+
+// 0x00429DE4；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t off_429DE4[] = {
+    0x60, 0x5F, 0x42, 0x00,
+};
+
+// 0x00429DF4；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t off_429DF4[] = {
+    0xE4, 0x5F, 0x42, 0x00,
+};
+
+// 0x00429E04；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t off_429E04[] = {
+    0x38, 0x60, 0x42, 0x00,
+};
+
+// 0x00429E14；4 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t off_429E14[] = {
+    0x3C, 0x61, 0x42, 0x00,
+};
+
+// 0x004270C0；120 字节；读取边界：qmemcpy and DWARF dimensions。
+alignas(4) static const std::uint8_t unk_4270C0[] = {
+    0x01, 0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x06, 0x00, 0x00, 0x00,
+    0x07, 0x00, 0x00, 0x00, 0x08, 0x00, 0x00, 0x00, 0x09, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x00, 0x00,
+    0x0A, 0x58, 0x00, 0x00, 0x0B, 0x00, 0x00, 0x00, 0x0C, 0x00, 0x00, 0x00, 0x0E, 0x00, 0x00, 0x00,
+    0x21, 0x00, 0x00, 0x00, 0x10, 0x00, 0x00, 0x00, 0x11, 0x00, 0x00, 0x00, 0x12, 0x00, 0x00, 0x00,
+    0x13, 0x00, 0x00, 0x00, 0x14, 0x00, 0x00, 0x00, 0x15, 0x00, 0x00, 0x00, 0x16, 0x00, 0x00, 0x00,
+    0x16, 0x04, 0x00, 0x00, 0x18, 0x00, 0x00, 0x00, 0x19, 0x00, 0x00, 0x00, 0x1D, 0x00, 0x00, 0x00,
+    0x1E, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x22, 0x00, 0x00, 0x00, 0x2A, 0x04, 0x00, 0x00,
+    0x04, 0x08, 0x00, 0x00, 0x04, 0x04, 0x00, 0x00,
+};
+
+// 0x00427220；120 字节；读取边界：qmemcpy and DWARF dimensions。
+alignas(4) static const std::uint8_t unk_427220[] = {
+    0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+    0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x00, 0x03, 0x00, 0x00, 0x00,
+    0x00, 0x00, 0x00, 0x00, 0x04, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+    0x06, 0x00, 0x00, 0x00, 0x07, 0x00, 0x00, 0x00, 0x10, 0x00, 0x00, 0x00, 0x08, 0x00, 0x00, 0x00,
+    0x09, 0x00, 0x00, 0x00, 0x0A, 0x00, 0x00, 0x00, 0x0B, 0x00, 0x00, 0x00, 0x0C, 0x00, 0x00, 0x00,
+    0x0D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+    0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0E, 0x00, 0x00, 0x00,
+    0x0F, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+};
+
+// 0x0042878C；1 字节；读取边界：IDA item extent。
+static const char unk_42878C[] = "Win";
+
+// 0x00428FF9；1 字节；读取边界：IDA item extent。
+static const char unk_428FF9[] = "md";
+
+// 0x00429032；1 字节；读取边界：IDA item extent。
+static const char unk_429032[] = "w";
+
+// 0x00429034；1 字节；读取边界：IDA item extent。
+static const char unk_429034[] = "h";
+
+// 0x00429036；1 字节；读取边界：IDA item extent。
+static const char unk_429036[] = "n";
+
+// 0x00429094；1 字节；读取边界：IDA item extent。
+static const char unk_429094[] = "mx";
+
+// 0x00429097；1 字节；读取边界：IDA item extent。
+static const char unk_429097[] = "my";
+
+// 0x00429B46；2 字节；读取边界：IDA item extent。
+alignas(4) static const std::uint8_t word_429B46[] = {
+    0x2E, 0x00,
+};

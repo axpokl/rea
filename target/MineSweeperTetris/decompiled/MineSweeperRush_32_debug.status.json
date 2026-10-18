@@ -1,0 +1,16 @@
+{
+  "ready": true, 
+  "loaded": true, 
+  "name": "MineSweeperRush_32_debug", 
+  "decompiled": 664, 
+  "failed": [
+    {
+      "error": "Decompilation failed: ", 
+      "address": "0x4258b0L"
+    }, 
+    {
+      "error": "Decompilation failed: ", 
+      "address": "0x425988L"
+    }
+  ]
+}

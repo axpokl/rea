@@ -1,0 +1,36 @@
+
+LoadLibrary(G:\Program Files\ida64plus\plugins\decomp.dll) error: %1 不是有效的 Win32 应用程序。
+G:\Program Files\ida64plus\plugins\decomp.dll: can't load file
+
+LoadLibrary(G:\Program Files\ida64plus\plugins\HideDebugger.dll) error: %1 不是有效的 Win32 应用程序。
+G:\Program Files\ida64plus\plugins\HideDebugger.dll: can't load file
+
+v7.00 48-3FBD-7F04-2C Jiang Ying, Personal license
+
+Your support plan might have expired.
+To renew it, please visit our web site:
+
+https://www.hex-rays.com/idapro/idaupgrade.htm
+
+Thank you for using IDA! -> OK
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+   450560    55 8192 allocating memory for b-tree...
+   442368    54 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  1155072            total memory allocated
+
+Loading processor module G:\Program Files\ida64plus\procs\pc.dll for metapc...OK
+Loading type libraries...
+Autoanalysis subsystem has been initialized.
+
+LoadLibrary(G:\Program Files\ida64plus\plugins\decomp.dll) error: %1 不是有效的 Win32 应用程序。
+G:\Program Files\ida64plus\plugins\decomp.dll: can't load file
+
+LoadLibrary(G:\Program Files\ida64plus\plugins\HideDebugger.dll) error: %1 不是有效的 Win32 应用程序。
+G:\Program Files\ida64plus\plugins\HideDebugger.dll: can't load file
+Database for file 'MineSweeperRush.exe' has been loaded.
+Flushing buffers, please wait...ok
+Unloading IDP module G:\Program Files\ida64plus\procs\pc.dll...

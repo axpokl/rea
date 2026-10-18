@@ -1,0 +1,1988 @@
+[
+  {
+    "address": "0x00401000",
+    "symbol": "TopLevelExceptionFilter",
+    "signature": "LONG __stdcall TopLevelExceptionFilter(struct _EXCEPTION_POINTERS *ExceptionInfo)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x004011B0",
+    "symbol": "sub_4011B0",
+    "signature": "void __noreturn sub_4011B0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004012A0",
+    "symbol": "sub_4012A0",
+    "signature": "int sub_4012A0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00401300",
+    "symbol": "start",
+    "signature": "void __noreturn start()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00401320",
+    "symbol": "atexit",
+    "signature": "int __cdecl atexit(void (__cdecl *a1)())",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00401340",
+    "symbol": "sub_401340",
+    "signature": "int sub_401340()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00401430",
+    "symbol": "sub_401430",
+    "signature": "void __cdecl sub_401430()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00401460",
+    "symbol": "sub_401460",
+    "signature": "int __thiscall sub_401460(_DWORD *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040BAC0",
+    "symbol": "sub_40BAC0",
+    "signature": "void __thiscall sub_40BAC0(int this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040BBDE",
+    "symbol": "sub_40BBDE",
+    "signature": "int __thiscall sub_40BBDE(signed int *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040BE12",
+    "symbol": "sub_40BE12",
+    "signature": "BOOL __thiscall sub_40BE12(signed int *this, signed int a2, signed int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040BEAE",
+    "symbol": "sub_40BEAE",
+    "signature": "char __thiscall sub_40BEAE(_DWORD *this, int a2, int a3, int a4, int *a5, int *a6)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040BF70",
+    "symbol": "sub_40BF70",
+    "signature": "char __thiscall sub_40BF70(int this, int a2, int a3, char a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040C132",
+    "symbol": "sub_40C132",
+    "signature": "void __thiscall sub_40C132(int this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040C23C",
+    "symbol": "sub_40C23C",
+    "signature": "void __thiscall sub_40C23C(_BYTE *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040C342",
+    "symbol": "sub_40C342",
+    "signature": "char __fastcall sub_40C342(int a1, int a2, char a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040C498",
+    "symbol": "sub_40C498",
+    "signature": "int __thiscall sub_40C498(int this, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040CA82",
+    "symbol": "sub_40CA82",
+    "signature": "int __thiscall sub_40CA82(int this, char a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040CCD0",
+    "symbol": "sub_40CCD0",
+    "signature": "char __thiscall sub_40CCD0(int this, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040CE72",
+    "symbol": "sub_40CE72",
+    "signature": "char __thiscall sub_40CE72(int this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040CEC4",
+    "symbol": "sub_40CEC4",
+    "signature": "char __thiscall sub_40CEC4(int *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040CF70",
+    "symbol": "sub_40CF70",
+    "signature": "char __thiscall sub_40CF70(int *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040D04C",
+    "symbol": "sub_40D04C",
+    "signature": "char __thiscall sub_40D04C(int *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040D14C",
+    "symbol": "sub_40D14C",
+    "signature": "int __thiscall sub_40D14C(int this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E150",
+    "symbol": "sub_40E150",
+    "signature": "DWORD __stdcall sub_40E150(LPVOID lpThreadParameter)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E1B4",
+    "symbol": "sub_40E1B4",
+    "signature": "int __cdecl sub_40E1B4(int *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E1D6",
+    "symbol": "sub_40E1D6",
+    "signature": "int __cdecl sub_40E1D6(int *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E1FA",
+    "symbol": "sub_40E1FA",
+    "signature": "int __cdecl sub_40E1FA(int *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E21E",
+    "symbol": "sub_40E21E",
+    "signature": "int __cdecl sub_40E21E(int *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E242",
+    "symbol": "sub_40E242",
+    "signature": "int __cdecl sub_40E242(int *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E266",
+    "symbol": "sub_40E266",
+    "signature": "int __cdecl sub_40E266(int *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E28A",
+    "symbol": "sub_40E28A",
+    "signature": "int sub_40E28A()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E2A1",
+    "symbol": "sub_40E2A1",
+    "signature": "int sub_40E2A1()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E2B8",
+    "symbol": "sub_40E2B8",
+    "signature": "int sub_40E2B8()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E2D4",
+    "symbol": "sub_40E2D4",
+    "signature": "unsigned int __thiscall sub_40E2D4(int this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E31E",
+    "symbol": "sub_40E31E",
+    "signature": "void __thiscall sub_40E31E(int this, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E384",
+    "symbol": "sub_40E384",
+    "signature": "void __thiscall sub_40E384(_BYTE *this, int a2, int a3, int a4, int a5, int a6, int a7, int a8, int a9, int a10)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E3D0",
+    "symbol": "sub_40E3D0",
+    "signature": "void __thiscall sub_40E3D0(char *this, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E540",
+    "symbol": "sub_40E540",
+    "signature": "void __thiscall sub_40E540(int this, int a2, int a3, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E604",
+    "symbol": "sub_40E604",
+    "signature": "void __thiscall sub_40E604(char *this, int a2, int a3, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E63C",
+    "symbol": "sub_40E63C",
+    "signature": "int sub_40E63C()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E654",
+    "symbol": "sub_40E654",
+    "signature": "char __thiscall sub_40E654(double *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E732",
+    "symbol": "sub_40E732",
+    "signature": "void __thiscall sub_40E732(_BYTE *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E822",
+    "symbol": "sub_40E822",
+    "signature": "void __thiscall sub_40E822(_BYTE *this, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040E998",
+    "symbol": "sub_40E998",
+    "signature": "void __usercall sub_40E998(int a1@<edx>, int a2@<ecx>, int a3@<ebx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040EA0C",
+    "symbol": "sub_40EA0C",
+    "signature": "int __userpurge sub_40EA0C@<eax>(int a1@<ecx>, int a2@<ebp>, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040EA30",
+    "symbol": "sub_40EA30",
+    "signature": "int __usercall sub_40EA30@<eax>(int a1@<eax>, int a2@<ecx>, int a3@<ebp>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040EAC4",
+    "symbol": "sub_40EAC4",
+    "signature": "LSTATUS __thiscall sub_40EAC4(DWORD *this, HKEY hKey, LPCSTR lpValueName, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040EB14",
+    "symbol": "sub_40EB14",
+    "signature": "_WORD *__thiscall sub_40EB14(LPVOID *this, char *Source)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040EE22",
+    "symbol": "sub_40EE22",
+    "signature": "_WORD *__thiscall sub_40EE22(LPVOID *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040EFAF",
+    "symbol": "sub_40EFAF",
+    "signature": "HGDIOBJ __usercall sub_40EFAF@<eax>(int a1@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F008",
+    "symbol": "sub_40F008",
+    "signature": "HGDIOBJ __usercall sub_40F008@<eax>(int a1@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F074",
+    "symbol": "sub_40F074",
+    "signature": "unsigned int sub_40F074()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F0C0",
+    "symbol": "sub_40F0C0",
+    "signature": "void __fastcall sub_40F0C0(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F128",
+    "symbol": "sub_40F128",
+    "signature": "int sub_40F128()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F16C",
+    "symbol": "sub_40F16C",
+    "signature": "DWORD __stdcall sub_40F16C(LPVOID lpThreadParameter)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F528",
+    "symbol": "sub_40F528",
+    "signature": "int __thiscall sub_40F528(_DWORD *this, int a2, int a3, int a4, int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F566",
+    "symbol": "sub_40F566",
+    "signature": "int __thiscall sub_40F566(_DWORD *this, int a2, int a3, int a4, int a5, int a6, int a7, int a8, int a9)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F5F2",
+    "symbol": "sub_40F5F2",
+    "signature": "int __thiscall sub_40F5F2(_DWORD *this, int a2, int a3, int a4, int a5, int a6, int a7, int a8, int a9, int a10, int a11)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F672",
+    "symbol": "sub_40F672",
+    "signature": "int __thiscall sub_40F672(_DWORD *this, _DWORD *a2, int a3, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040F924",
+    "symbol": "sub_40F924",
+    "signature": "int __thiscall sub_40F924(_DWORD *this, unsigned int a2, int a3, int a4, int a5, int a6, int a7, int a8)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040FA06",
+    "symbol": "sub_40FA06",
+    "signature": "int __thiscall sub_40FA06(_DWORD *this, unsigned int a2, int a3, int a4, int a5, int a6)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040FA4C",
+    "symbol": "sub_40FA4C",
+    "signature": "int __thiscall sub_40FA4C(double *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040FEF6",
+    "symbol": "sub_40FEF6",
+    "signature": "void __thiscall sub_40FEF6(signed int *this, char a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00410270",
+    "symbol": "sub_410270",
+    "signature": "int __thiscall sub_410270(int *this, int a2, int a3, int a4, signed int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004106BE",
+    "symbol": "sub_4106BE",
+    "signature": "__int16 __thiscall sub_4106BE(LPVOID lpParameter, int a2, int a3, int a4, int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004107AC",
+    "symbol": "sub_4107AC",
+    "signature": "int __thiscall sub_4107AC(LPVOID lpParameter, int a2, int a3, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004112E4",
+    "symbol": "fnEnum",
+    "signature": "BOOL __stdcall fnEnum(HMONITOR hMonitor, HDC a2, LPRECT a3, LPARAM a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00411371",
+    "symbol": "sub_411371",
+    "signature": "void __usercall sub_411371(int a1@<ebp>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00411402",
+    "symbol": "StartAddress",
+    "signature": "DWORD __stdcall StartAddress()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004117A3",
+    "symbol": "sub_4117A3",
+    "signature": "void sub_4117A3()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00411866",
+    "symbol": "sub_411866",
+    "signature": "LPSTR __usercall sub_411866@<eax>(LPCSTR lpString2@<ecx>, LPCSTR a2@<edx>, CHAR *lpString1@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004118A7",
+    "symbol": "sub_4118A7",
+    "signature": "BOOL __usercall sub_4118A7@<eax>(const CHAR *a1@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00411986",
+    "symbol": "sub_411986",
+    "signature": "signed int __usercall sub_411986@<eax>(const CHAR *a1@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00411AE9",
+    "symbol": "MsgHandler",
+    "signature": "UINT __stdcall MsgHandler(PVOID Context, UINT Notification, UINT_PTR Param1, UINT_PTR Param2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00411B10",
+    "symbol": "sub_411B10",
+    "signature": "int __fastcall sub_411B10(int a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00411FFA",
+    "symbol": "sub_411FFA",
+    "signature": "char __thiscall sub_411FFA(int *this, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004121C4",
+    "symbol": "sub_4121C4",
+    "signature": "int __fastcall sub_4121C4(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004121F2",
+    "symbol": "sub_4121F2",
+    "signature": "void __thiscall sub_4121F2(_DWORD *this, int a2, int a3, char a4, signed int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004122D0",
+    "symbol": "sub_4122D0",
+    "signature": "char __thiscall sub_4122D0(_DWORD *this, int a2, int a3, char a4, signed int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004123AC",
+    "symbol": "sub_4123AC",
+    "signature": "int __usercall sub_4123AC@<eax>(int a1@<eax>, LONG a2@<edx>, LONG a3@<ecx>, int a4, int a5, int a6, int a7)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0041246A",
+    "symbol": "sub_41246A",
+    "signature": "bool __usercall sub_41246A@<al>(int a1@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412478",
+    "symbol": "sub_412478",
+    "signature": "void __usercall sub_412478(int a1@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004124DF",
+    "symbol": "sub_4124DF",
+    "signature": "int __usercall sub_4124DF@<eax>(int a1@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0041251C",
+    "symbol": "sub_41251C",
+    "signature": "void *__usercall sub_41251C@<eax>(_DWORD *a1@<eax>, int a2@<edx>, int a3@<ecx>, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004125D2",
+    "symbol": "sub_4125D2",
+    "signature": "void __usercall sub_4125D2(int a1@<eax>, int a2@<edx>, int xoriginSrc@<ecx>, int yoriginSrc, int a5, int a6, int xoriginDest, int yoriginDest, int a9, int a10, unsigned int a11)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004127DC",
+    "symbol": "sub_4127DC",
+    "signature": "void __usercall sub_4127DC(int a1@<eax>, int a2@<edx>, int a3@<ecx>, int a4, int a5, unsigned int a6)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412826",
+    "symbol": "sub_412826",
+    "signature": "void __usercall sub_412826(int a1@<eax>, int a2@<edx>, int a3@<ecx>, unsigned int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0041284E",
+    "symbol": "sub_41284E",
+    "signature": "void __usercall sub_41284E(int a1@<eax>, int a2@<edx>, int a3@<ecx>, int a4, int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412875",
+    "symbol": "sub_412875",
+    "signature": "void __usercall sub_412875(int a1@<eax>, int a2@<edx>, int a3@<ecx>, int a4, int a5, int a6, unsigned int a7)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004128C0",
+    "symbol": "sub_4128C0",
+    "signature": "void __usercall sub_4128C0(int a1@<eax>, int a2@<edx>, int a3@<ecx>, int a4, int a5, int a6)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004128EE",
+    "symbol": "sub_4128EE",
+    "signature": "_DWORD *__usercall sub_4128EE@<eax>(const CHAR *lpMultiByteStr@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412A2E",
+    "symbol": "sub_412A2E",
+    "signature": "void *__usercall sub_412A2E@<eax>(int a1@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412A48",
+    "symbol": "sub_412A48",
+    "signature": "int __usercall sub_412A48@<eax>(LONG a1@<eax>, LONG a2@<edx>, int a3@<ecx>, int a4, int a5, int a6)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412A78",
+    "symbol": "sub_412A78",
+    "signature": "BOOL __usercall sub_412A78@<eax>(int a1@<eax>, int a2@<edx>, int a3@<ecx>, int a4, int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412AEC",
+    "symbol": "sub_412AEC",
+    "signature": "int __usercall sub_412AEC@<eax>(int *a1@<eax>, _DWORD *a2@<edx>, COLORREF *a3@<ecx>, COLORREF *a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412B70",
+    "symbol": "sub_412B70",
+    "signature": "int __usercall sub_412B70@<eax>(int *a1@<eax>, _DWORD *a2@<edx>, COLORREF *a3@<ecx>, COLORREF *a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412BF5",
+    "symbol": "sub_412BF5",
+    "signature": "unsigned int __usercall sub_412BF5@<eax>(const CHAR *lpString@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412C4D",
+    "symbol": "sub_412C4D",
+    "signature": "HGDIOBJ __usercall sub_412C4D@<eax>(int a1@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412D22",
+    "symbol": "sub_412D22",
+    "signature": "HGDIOBJ sub_412D22()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412D30",
+    "symbol": "sub_412D30",
+    "signature": "LONG __cdecl sub_412D30()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412D61",
+    "symbol": "sub_412D61",
+    "signature": "LONG sub_412D61()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412D92",
+    "symbol": "sub_412D92",
+    "signature": "int sub_412D92()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412DB9",
+    "symbol": "sub_412DB9",
+    "signature": "int sub_412DB9()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412DE0",
+    "symbol": "sub_412DE0",
+    "signature": "int sub_412DE0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412E16",
+    "symbol": "sub_412E16",
+    "signature": "int sub_412E16()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412E2B",
+    "symbol": "sub_412E2B",
+    "signature": "double __cdecl sub_412E2B()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412E98",
+    "symbol": "sub_412E98",
+    "signature": "LRESULT sub_412E98()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00412EC8",
+    "symbol": "sub_412EC8",
+    "signature": "int sub_412EC8()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413088",
+    "symbol": "sub_413088",
+    "signature": "char sub_413088()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413256",
+    "symbol": "sub_413256",
+    "signature": "int __thiscall sub_413256(double *this, const CHAR *a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0041329C",
+    "symbol": "sub_41329C",
+    "signature": "unsigned int __thiscall sub_41329C(double *this, int a2, const CHAR *a3, signed int a4, signed int a5, int a6, int a7)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0041333E",
+    "symbol": "sub_41333E",
+    "signature": "int __thiscall sub_41333E(double *this, int a2, const CHAR *a3, signed int a4, signed int a5, unsigned int a6, unsigned int a7, int a8, int a9)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0041344A",
+    "symbol": "sub_41344A",
+    "signature": "int __thiscall sub_41344A(double *this, int a2, const WCHAR *a3, signed int a4, signed int a5, unsigned int a6, unsigned int a7, int a8, int a9)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413552",
+    "symbol": "sub_413552",
+    "signature": "int __thiscall sub_413552(double *this, int a2, int a3, int a4, int a5, int a6, int a7, int a8, int a9, UINT format)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413658",
+    "symbol": "sub_413658",
+    "signature": "HGDIOBJ __thiscall sub_413658(double *this, unsigned int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004136AC",
+    "symbol": "sub_4136AC",
+    "signature": "int __thiscall sub_4136AC(int *this, signed int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004136DC",
+    "symbol": "sub_4136DC",
+    "signature": "int __thiscall sub_4136DC(int *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413700",
+    "symbol": "sub_413700",
+    "signature": "int __thiscall sub_413700(void *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004138C4",
+    "symbol": "sub_4138C4",
+    "signature": "void __fastcall sub_4138C4(LPVOID lpParameter, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004139D4",
+    "symbol": "sub_4139D4",
+    "signature": "unsigned __int8 __thiscall sub_4139D4(LPVOID lpParameter, int a2, int a3, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413B76",
+    "symbol": "sub_413B76",
+    "signature": "int sub_413B76()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413B8C",
+    "symbol": "sub_413B8C",
+    "signature": "int __thiscall sub_413B8C(_DWORD *this, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413BC8",
+    "symbol": "sub_413BC8",
+    "signature": "int __thiscall sub_413BC8(_DWORD *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413EEC",
+    "symbol": "sub_413EEC",
+    "signature": "unsigned int __usercall sub_413EEC@<eax>(int a1@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413F44",
+    "symbol": "sub_413F44",
+    "signature": "void __usercall sub_413F44(int a1@<eax>, int a2@<edx>, int a3@<ecx>, int a4, int a5, int a6, int a7, int a8)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413F90",
+    "symbol": "sub_413F90",
+    "signature": "LSTATUS __usercall sub_413F90@<eax>(HKEY hKey@<eax>, const CHAR *lpValueName@<edx>, int a3@<ecx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00413FCA",
+    "symbol": "sub_413FCA",
+    "signature": "void __thiscall sub_413FCA(_DWORD *this, _DWORD *a2, int a3, int a4, int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414046",
+    "symbol": "sub_414046",
+    "signature": "int __thiscall sub_414046(_DWORD *this, int a2, int a3, int a4, int a5, int a6, int a7, int a8, int a9, int a10)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004140D8",
+    "symbol": "sub_4140D8",
+    "signature": "bool __usercall sub_4140D8@<al>(int a1@<eax>, int a2@<edx>, int a3@<ecx>, int a4, int a5, int a6)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414108",
+    "symbol": "timeEndPeriod",
+    "signature": "MMRESULT __stdcall timeEndPeriod(UINT uPeriod)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414110",
+    "symbol": "timeBeginPeriod",
+    "signature": "MMRESULT __stdcall timeBeginPeriod(UINT uPeriod)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414118",
+    "symbol": "mciSendStringA",
+    "signature": "MCIERROR __stdcall mciSendStringA(LPCSTR lpstrCommand, LPSTR lpstrReturnString, UINT uReturnLength, HWND hwndCallback)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x00414120",
+    "symbol": "GdiplusStartup",
+    "signature": "int __stdcall GdiplusStartup(int a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414128",
+    "symbol": "GdiplusShutdown",
+    "signature": "int __stdcall GdiplusShutdown(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414130",
+    "symbol": "GdipSaveImageToFile",
+    "signature": "int __stdcall GdipSaveImageToFile(int a1, int a2, int a3, int a4)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00414138",
+    "symbol": "GdipLoadImageFromFile",
+    "signature": "int __stdcall GdipLoadImageFromFile(int a1, int a2)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00414140",
+    "symbol": "GdipGetImageWidth",
+    "signature": "int __stdcall GdipGetImageWidth(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414148",
+    "symbol": "GdipGetImageHeight",
+    "signature": "int __stdcall GdipGetImageHeight(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414158",
+    "symbol": "GdipDrawImageRect",
+    "signature": "int __stdcall GdipDrawImageRect(int a1, int a2, int a3, int a4, int a5, int a6)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414160",
+    "symbol": "GdipDisposeImage",
+    "signature": "int __stdcall GdipDisposeImage(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414170",
+    "symbol": "GdipDeleteGraphics",
+    "signature": "int __stdcall GdipDeleteGraphics(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414188",
+    "symbol": "GdipCreateFromHDC",
+    "signature": "int __stdcall GdipCreateFromHDC(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414190",
+    "symbol": "GdipCreateBitmapFromHBITMAP",
+    "signature": "int __stdcall GdipCreateBitmapFromHBITMAP(int a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141A8",
+    "symbol": "TextOutA",
+    "signature": "BOOL __stdcall TextOutA(HDC hdc, int x, int y, LPCSTR lpString, int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141B0",
+    "symbol": "StretchBlt",
+    "signature": "BOOL __stdcall StretchBlt(HDC hdcDest, int xDest, int yDest, int wDest, int hDest, HDC hdcSrc, int xSrc, int ySrc, int wSrc, int hSrc, DWORD rop)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141B8",
+    "symbol": "SetTextColor",
+    "signature": "COLORREF __stdcall SetTextColor(HDC hdc, COLORREF color)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141C8",
+    "symbol": "SetBkMode",
+    "signature": "int __stdcall SetBkMode(HDC hdc, int mode)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141D0",
+    "symbol": "SetBkColor",
+    "signature": "COLORREF __stdcall SetBkColor(HDC hdc, COLORREF color)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141D8",
+    "symbol": "SelectObject",
+    "signature": "HGDIOBJ __stdcall SelectObject(HDC hdc, HGDIOBJ h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141E0",
+    "symbol": "MoveToEx",
+    "signature": "BOOL __stdcall MoveToEx(HDC hdc, int x, int y, LPPOINT lppt)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141E8",
+    "symbol": "LineTo",
+    "signature": "BOOL __stdcall LineTo(HDC hdc, int x, int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141F0",
+    "symbol": "GetTextMetricsA",
+    "signature": "BOOL __stdcall GetTextMetricsA(HDC hdc, LPTEXTMETRICA lptm)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004141F8",
+    "symbol": "GetTextExtentPoint32A",
+    "signature": "BOOL __stdcall GetTextExtentPoint32A(HDC hdc, LPCSTR lpString, int c, LPSIZE psizl)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414200",
+    "symbol": "GetStockObject",
+    "signature": "HGDIOBJ __stdcall GetStockObject(int i)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414208",
+    "symbol": "GetPixel",
+    "signature": "COLORREF __stdcall GetPixel(HDC hdc, int x, int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414218",
+    "symbol": "DeleteObject",
+    "signature": "BOOL __stdcall DeleteObject(HGDIOBJ ho)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414220",
+    "symbol": "DeleteDC",
+    "signature": "BOOL __stdcall DeleteDC(HDC hdc)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414228",
+    "symbol": "CreateSolidBrush",
+    "signature": "HBRUSH __stdcall CreateSolidBrush(COLORREF color)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414230",
+    "symbol": "CreatePen",
+    "signature": "HPEN __stdcall CreatePen(int iStyle, int cWidth, COLORREF color)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414238",
+    "symbol": "CreateFontA",
+    "signature": "HFONT __stdcall CreateFontA(int cHeight, int cWidth, int cEscapement, int cOrientation, int cWeight, DWORD bItalic, DWORD bUnderline, DWORD bStrikeOut, DWORD iCharSet, DWORD iOutPrecision, DWORD iClipPrecision, DWORD iQuality, DWORD iPitchAndFamily, LPCSTR pszFaceName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414240",
+    "symbol": "CreateCompatibleDC",
+    "signature": "HDC __stdcall CreateCompatibleDC(HDC hdc)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414248",
+    "symbol": "CreateCompatibleBitmap",
+    "signature": "HBITMAP __stdcall CreateCompatibleBitmap(HDC hdc, int cx, int cy)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414250",
+    "symbol": "TransparentBlt",
+    "signature": "BOOL __stdcall TransparentBlt(HDC hdcDest, int xoriginDest, int yoriginDest, int wDest, int hDest, HDC hdcSrc, int xoriginSrc, int yoriginSrc, int wSrc, int hSrc, UINT crTransparent)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414258",
+    "symbol": "AlphaBlend",
+    "signature": "BOOL __stdcall AlphaBlend(HDC hdcDest, int xoriginDest, int yoriginDest, int wDest, int hDest, HDC hdcSrc, int xoriginSrc, int yoriginSrc, int wSrc, int hSrc, BLENDFUNCTION ftn)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004142A0",
+    "symbol": "sub_4142A0",
+    "signature": "int sub_4142A0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414640",
+    "symbol": "sub_414640",
+    "signature": "unsigned int sub_414640()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414720",
+    "symbol": "sub_414720",
+    "signature": "void __cdecl sub_414720()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004147A0",
+    "symbol": "sub_4147A0",
+    "signature": "int sub_4147A0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004147C0",
+    "symbol": "TlsCallback_1",
+    "signature": "signed int __stdcall TlsCallback_1(int a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414810",
+    "symbol": "TlsCallback_0",
+    "signature": "signed int __stdcall TlsCallback_0(int a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004148B0",
+    "symbol": "sub_4148B0",
+    "signature": "void sub_4148B0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414A40",
+    "symbol": "sub_414A40",
+    "signature": "signed int __cdecl sub_414A40(int a1, unsigned int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414AE0",
+    "symbol": "sub_414AE0",
+    "signature": "void __noreturn sub_414AE0(char *Format, ...)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414B30",
+    "symbol": "sub_414B30",
+    "signature": "void *__usercall sub_414B30@<eax>(size_t Size@<ecx>, void *Src@<edx>, void *lpAddress@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414C20",
+    "symbol": "sub_414C20",
+    "signature": "int sub_414C20()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414DF0",
+    "symbol": "sub_414DF0",
+    "signature": "void __usercall __spoils<ecx> sub_414DF0(unsigned int a1@<eax>, int a2@<ecx>, char a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414E20",
+    "symbol": "sub_414E20",
+    "signature": "int __cdecl sub_414E20(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414E90",
+    "symbol": "sub_414E90",
+    "signature": "signed int __usercall sub_414E90@<eax>(char *a1@<eax>, unsigned int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414F30",
+    "symbol": "sub_414F30",
+    "signature": "signed int __usercall sub_414F30@<eax>(int a1@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00414FA0",
+    "symbol": "sub_414FA0",
+    "signature": "int __usercall sub_414FA0@<eax>(char *a1@<eax>, int a2@<edx>, __int16 a3@<cx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00415260",
+    "symbol": "sub_415260",
+    "signature": "int __usercall sub_415260@<eax>(char *a1@<eax>, _BYTE *a2@<edx>, unsigned int a3@<ecx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00415480",
+    "symbol": "sub_415480",
+    "signature": "signed int __usercall sub_415480@<eax>(int a1@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004154E0",
+    "symbol": "sub_4154E0",
+    "signature": "void __usercall sub_4154E0(_DWORD *a1@<eax>, int a2@<edx>, int a3@<ecx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00415530",
+    "symbol": "sub_415530",
+    "signature": "int __usercall sub_415530@<eax>(const char *a1@<eax>, unsigned int a2@<edx>, int a3@<ecx>, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00415DC0",
+    "symbol": "sub_415DC0",
+    "signature": "char **__cdecl sub_415DC0(char *a1, int a2, int a3, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00415F10",
+    "symbol": "sub_415F10",
+    "signature": "char *__cdecl sub_415F10(char *Source)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416310",
+    "symbol": "sub_416310",
+    "signature": "HANDLE __usercall sub_416310@<eax>(const CHAR *lpFileName@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004163E0",
+    "symbol": "sub_4163E0",
+    "signature": "BOOL __usercall sub_4163E0@<eax>(void *hFindFile@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416490",
+    "symbol": "sub_416490",
+    "signature": "int __cdecl sub_416490(char *Path)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416650",
+    "symbol": "sub_416650",
+    "signature": "BOOL __cdecl sub_416650(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004166A0",
+    "symbol": "sub_4166A0",
+    "signature": "int __cdecl sub_4166A0(void *Memory)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004166F0",
+    "symbol": "sub_4166F0",
+    "signature": "_DWORD *__cdecl sub_4166F0(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416800",
+    "symbol": "wcstombs",
+    "signature": "size_t __cdecl wcstombs(char *Dest, const wchar_t *Source, size_t MaxCount)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416808",
+    "symbol": "wcslen",
+    "signature": "size_t __cdecl wcslen(const wchar_t *Str)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416810",
+    "symbol": "vfprintf",
+    "signature": "int __cdecl vfprintf(FILE *File, const char *Format, va_list ArgList)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416818",
+    "symbol": "tolower",
+    "signature": "int __cdecl tolower(int C)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416820",
+    "symbol": "time",
+    "signature": "time_t __cdecl time(time_t *Time)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416828",
+    "symbol": "strtoul",
+    "signature": "unsigned int __cdecl strtoul(const char *Str, char **EndPtr, int Radix)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416830",
+    "symbol": "strlen",
+    "signature": "size_t __cdecl strlen(const char *Str)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416838",
+    "symbol": "strcoll",
+    "signature": "int __cdecl strcoll(const char *Str1, const char *Str2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416840",
+    "symbol": "strcmp",
+    "signature": "int __cdecl strcmp(const char *Str1, const char *Str2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416848",
+    "symbol": "srand",
+    "signature": "void __cdecl srand(unsigned int Seed)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416850",
+    "symbol": "signal",
+    "signature": "int __cdecl signal(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416858",
+    "symbol": "setlocale",
+    "signature": "int __cdecl setlocale(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416860",
+    "symbol": "realloc",
+    "signature": "void *__cdecl realloc(void *Memory, size_t NewSize)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416868",
+    "symbol": "rand",
+    "signature": "int __cdecl rand()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416870",
+    "symbol": "memcpy",
+    "signature": "void *__cdecl memcpy(void *Dst, const void *Src, size_t Size)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416878",
+    "symbol": "mbstowcs",
+    "signature": "size_t __cdecl mbstowcs(wchar_t *Dest, const char *Source, size_t MaxCount)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416880",
+    "symbol": "malloc",
+    "signature": "void *__cdecl malloc(size_t Size)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416888",
+    "symbol": "localtime",
+    "signature": "struct tm *__cdecl localtime(const time_t *Time)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416890",
+    "symbol": "fwrite",
+    "signature": "size_t __cdecl fwrite(const void *Str, size_t Size, size_t Count, FILE *File)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416898",
+    "symbol": "free",
+    "signature": "void __cdecl free(void *Memory)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168A0",
+    "symbol": "clock",
+    "signature": "clock_t __cdecl clock()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168A8",
+    "symbol": "calloc",
+    "signature": "void *__cdecl calloc(size_t NumOfElements, size_t SizeOfElements)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168B0",
+    "symbol": "abort",
+    "signature": "void __cdecl __noreturn abort()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168B8",
+    "symbol": "_setmode",
+    "signature": "int __cdecl setmode(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168C0",
+    "symbol": "_isctype",
+    "signature": "int __cdecl isctype(int C, int Type)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168C8",
+    "symbol": "_fullpath",
+    "signature": "char *__cdecl fullpath(char *FullPath, const char *Path, size_t SizeInBytes)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168D0",
+    "symbol": "_errno",
+    "signature": "int *__cdecl errno()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168D8",
+    "symbol": "_cexit",
+    "signature": "int cexit(void)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168E0",
+    "symbol": "__p__fmode",
+    "signature": "int _p__fmode(void)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168E8",
+    "symbol": "__p__environ",
+    "signature": "int _p__environ(void)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168F0",
+    "symbol": "__getmainargs",
+    "signature": "int __cdecl _getmainargs(int a1, int a2, int a3, int a4, int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004168F8",
+    "symbol": "RegSetValueExA",
+    "signature": "LSTATUS __stdcall RegSetValueExA(HKEY hKey, LPCSTR lpValueName, DWORD Reserved, DWORD dwType, const BYTE *lpData, DWORD cbData)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00416900",
+    "symbol": "RegQueryValueExA",
+    "signature": "LSTATUS __stdcall RegQueryValueExA(HKEY hKey, LPCSTR lpValueName, LPDWORD lpReserved, LPDWORD lpType, LPBYTE lpData, LPDWORD lpcbData)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00416908",
+    "symbol": "RegCreateKeyExA",
+    "signature": "LSTATUS __stdcall RegCreateKeyExA(HKEY hKey, LPCSTR lpSubKey, DWORD Reserved, LPSTR lpClass, DWORD dwOptions, REGSAM samDesired, const LPSECURITY_ATTRIBUTES lpSecurityAttributes, PHKEY phkResult, LPDWORD lpdwDisposition)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00416910",
+    "symbol": "RegCloseKey",
+    "signature": "LSTATUS __stdcall RegCloseKey(HKEY hKey)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00416920",
+    "symbol": "UpdateWindow",
+    "signature": "BOOL __stdcall UpdateWindow(HWND hWnd)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416928",
+    "symbol": "TranslateMessage",
+    "signature": "BOOL __stdcall TranslateMessage(const MSG *lpMsg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416930",
+    "symbol": "SystemParametersInfoA",
+    "signature": "BOOL __stdcall SystemParametersInfoA(UINT uiAction, UINT uiParam, PVOID pvParam, UINT fWinIni)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416938",
+    "symbol": "ShowWindow",
+    "signature": "BOOL __stdcall ShowWindow(HWND hWnd, int nCmdShow)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416940",
+    "symbol": "SetWindowTextW",
+    "signature": "BOOL __stdcall SetWindowTextW(HWND hWnd, LPCWSTR lpString)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416950",
+    "symbol": "SetWindowLongA",
+    "signature": "LONG __stdcall SetWindowLongA(HWND hWnd, int nIndex, LONG dwNewLong)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416958",
+    "symbol": "SetForegroundWindow",
+    "signature": "BOOL __stdcall SetForegroundWindow(HWND hWnd)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00416960",
+    "symbol": "SetCursor",
+    "signature": "HCURSOR __stdcall SetCursor(HCURSOR hCursor)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416968",
+    "symbol": "SendMessageA",
+    "signature": "LRESULT __stdcall SendMessageA(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416970",
+    "symbol": "ReleaseDC",
+    "signature": "int __stdcall ReleaseDC(HWND hWnd, HDC hDC)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416978",
+    "symbol": "RegisterClassW",
+    "signature": "ATOM __stdcall RegisterClassW(const WNDCLASSW *lpWndClass)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00416980",
+    "symbol": "MoveWindow",
+    "signature": "BOOL __stdcall MoveWindow(HWND hWnd, int X, int Y, int nWidth, int nHeight, BOOL bRepaint)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416988",
+    "symbol": "MessageBoxW",
+    "signature": "int __stdcall MessageBoxW(HWND hWnd, LPCWSTR lpText, LPCWSTR lpCaption, UINT uType)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416990",
+    "symbol": "MessageBoxA",
+    "signature": "int __stdcall MessageBoxA(HWND hWnd, LPCSTR lpText, LPCSTR lpCaption, UINT uType)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416998",
+    "symbol": "LoadImageA",
+    "signature": "HANDLE __stdcall LoadImageA(HINSTANCE hInst, LPCSTR name, UINT type, int cx, int cy, UINT fuLoad)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x004169A0",
+    "symbol": "LoadCursorA",
+    "signature": "HCURSOR __stdcall LoadCursorA(HINSTANCE hInstance, LPCSTR lpCursorName)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x004169A8",
+    "symbol": "IsZoomed",
+    "signature": "BOOL __stdcall IsZoomed(HWND hWnd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004169B0",
+    "symbol": "IsIconic",
+    "signature": "BOOL __stdcall IsIconic(HWND hWnd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004169B8",
+    "symbol": "InvalidateRect",
+    "signature": "BOOL __stdcall InvalidateRect(HWND hWnd, const RECT *lpRect, BOOL bErase)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004169D0",
+    "symbol": "GetWindowRect",
+    "signature": "BOOL __stdcall GetWindowRect(HWND hWnd, LPRECT lpRect)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004169D8",
+    "symbol": "GetSystemMetrics",
+    "signature": "int __stdcall GetSystemMetrics(int nIndex)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004169E0",
+    "symbol": "GetMonitorInfoA",
+    "signature": "BOOL __stdcall GetMonitorInfoA(HMONITOR hMonitor, LPMONITORINFO lpmi)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004169E8",
+    "symbol": "GetMessageA",
+    "signature": "BOOL __stdcall GetMessageA(LPMSG lpMsg, HWND hWnd, UINT wMsgFilterMin, UINT wMsgFilterMax)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004169F8",
+    "symbol": "GetDC",
+    "signature": "HDC __stdcall GetDC(HWND hWnd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A00",
+    "symbol": "GetCursorPos",
+    "signature": "BOOL __stdcall GetCursorPos(LPPOINT lpPoint)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A08",
+    "symbol": "GetAsyncKeyState",
+    "signature": "SHORT __stdcall GetAsyncKeyState(int vKey)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A10",
+    "symbol": "FrameRect",
+    "signature": "int __stdcall FrameRect(HDC hDC, const RECT *lprc, HBRUSH hbr)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A18",
+    "symbol": "FindWindowA",
+    "signature": "HWND __stdcall FindWindowA(LPCSTR lpClassName, LPCSTR lpWindowName)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416A20",
+    "symbol": "FillRect",
+    "signature": "int __stdcall FillRect(HDC hDC, const RECT *lprc, HBRUSH hbr)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A28",
+    "symbol": "EnumDisplayMonitors",
+    "signature": "BOOL __stdcall EnumDisplayMonitors(HDC hdc, LPCRECT lprcClip, MONITORENUMPROC lpfnEnum, LPARAM dwData)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A30",
+    "symbol": "DrawTextW",
+    "signature": "int __stdcall DrawTextW(HDC hdc, LPCWSTR lpchText, int cchText, LPRECT lprc, UINT format)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A38",
+    "symbol": "DrawTextA",
+    "signature": "int __stdcall DrawTextA(HDC hdc, LPCSTR lpchText, int cchText, LPRECT lprc, UINT format)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A40",
+    "symbol": "DispatchMessageA",
+    "signature": "LRESULT __stdcall DispatchMessageA(const MSG *lpMsg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A48",
+    "symbol": "DestroyWindow",
+    "signature": "BOOL __stdcall DestroyWindow(HWND hWnd)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416A50",
+    "symbol": "DefWindowProcW",
+    "signature": "LRESULT __stdcall DefWindowProcW(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416A58",
+    "symbol": "CreateWindowExW",
+    "signature": "HWND __stdcall CreateWindowExW(DWORD dwExStyle, LPCWSTR lpClassName, LPCWSTR lpWindowName, DWORD dwStyle, int X, int Y, int nWidth, int nHeight, HWND hWndParent, HMENU hMenu, HINSTANCE hInstance, LPVOID lpParam)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416A60",
+    "symbol": "AdjustWindowRect",
+    "signature": "BOOL __stdcall AdjustWindowRect(LPRECT lpRect, DWORD dwStyle, BOOL bMenu)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00416A68",
+    "symbol": "lstrcpyA",
+    "signature": "LPSTR __stdcall lstrcpyA(LPSTR lpString1, LPCSTR lpString2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A70",
+    "symbol": "lstrcmpA",
+    "signature": "int __stdcall lstrcmpA(LPCSTR lpString1, LPCSTR lpString2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A78",
+    "symbol": "lstrcatA",
+    "signature": "LPSTR __stdcall lstrcatA(LPSTR lpString1, LPCSTR lpString2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A80",
+    "symbol": "VirtualQuery",
+    "signature": "SIZE_T __stdcall VirtualQuery(LPCVOID lpAddress, PMEMORY_BASIC_INFORMATION lpBuffer, SIZE_T dwLength)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A88",
+    "symbol": "VirtualProtect",
+    "signature": "BOOL __stdcall VirtualProtect(LPVOID lpAddress, SIZE_T dwSize, DWORD flNewProtect, PDWORD lpflOldProtect)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A90",
+    "symbol": "TlsGetValue",
+    "signature": "LPVOID __stdcall TlsGetValue(DWORD dwTlsIndex)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416A98",
+    "symbol": "Sleep",
+    "signature": "void __stdcall Sleep(DWORD dwMilliseconds)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416AA0",
+    "symbol": "SetUnhandledExceptionFilter",
+    "signature": "LPTOP_LEVEL_EXCEPTION_FILTER __stdcall SetUnhandledExceptionFilter(LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00416AA8",
+    "symbol": "RemoveDirectoryA",
+    "signature": "BOOL __stdcall RemoveDirectoryA(LPCSTR lpPathName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416AB0",
+    "symbol": "ReleaseMutex",
+    "signature": "BOOL __stdcall ReleaseMutex(HANDLE hMutex)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416AB8",
+    "symbol": "ReadFile",
+    "signature": "BOOL __stdcall ReadFile(HANDLE hFile, LPVOID lpBuffer, DWORD nNumberOfBytesToRead, LPDWORD lpNumberOfBytesRead, LPOVERLAPPED lpOverlapped)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416AC0",
+    "symbol": "QueryPerformanceFrequency",
+    "signature": "BOOL __stdcall QueryPerformanceFrequency(LARGE_INTEGER *lpFrequency)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416AC8",
+    "symbol": "QueryPerformanceCounter",
+    "signature": "BOOL __stdcall QueryPerformanceCounter(LARGE_INTEGER *lpPerformanceCount)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416AD0",
+    "symbol": "MultiByteToWideChar",
+    "signature": "int __stdcall MultiByteToWideChar(UINT CodePage, DWORD dwFlags, LPCSTR lpMultiByteStr, int cbMultiByte, LPWSTR lpWideCharStr, int cchWideChar)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416AD8",
+    "symbol": "LoadLibraryA",
+    "signature": "HMODULE __stdcall LoadLibraryA(LPCSTR lpLibFileName)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00416AE0",
+    "symbol": "LeaveCriticalSection",
+    "signature": "void __stdcall LeaveCriticalSection(LPCRITICAL_SECTION lpCriticalSection)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416AE8",
+    "symbol": "InitializeCriticalSection",
+    "signature": "void __stdcall InitializeCriticalSection(LPCRITICAL_SECTION lpCriticalSection)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416AF0",
+    "symbol": "GetUserDefaultUILanguage",
+    "signature": "LANGID __stdcall GetUserDefaultUILanguage()",
+    "module": "lan.cpp"
+  },
+  {
+    "address": "0x00416AF8",
+    "symbol": "GetTickCount",
+    "signature": "DWORD __stdcall GetTickCount()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B00",
+    "symbol": "GetTempPathA",
+    "signature": "DWORD __stdcall GetTempPathA(DWORD nBufferLength, LPSTR lpBuffer)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B08",
+    "symbol": "GetStartupInfoA",
+    "signature": "void __stdcall GetStartupInfoA(LPSTARTUPINFOA lpStartupInfo)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B10",
+    "symbol": "GetProcAddress",
+    "signature": "FARPROC __stdcall GetProcAddress(HMODULE hModule, LPCSTR lpProcName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B18",
+    "symbol": "GetModuleHandleA",
+    "signature": "HMODULE __stdcall GetModuleHandleA(LPCSTR lpModuleName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B20",
+    "symbol": "GetLastError",
+    "signature": "DWORD __stdcall GetLastError()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B28",
+    "symbol": "GetFileAttributesA",
+    "signature": "DWORD __stdcall GetFileAttributesA(LPCSTR lpFileName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B30",
+    "symbol": "GetCommandLineA",
+    "signature": "LPSTR __stdcall GetCommandLineA()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B38",
+    "symbol": "FreeLibrary",
+    "signature": "BOOL __stdcall FreeLibrary(HMODULE hLibModule)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B40",
+    "symbol": "FindNextFileA",
+    "signature": "BOOL __stdcall FindNextFileA(HANDLE hFindFile, LPWIN32_FIND_DATAA lpFindFileData)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B48",
+    "symbol": "FindFirstFileA",
+    "signature": "HANDLE __stdcall FindFirstFileA(LPCSTR lpFileName, LPWIN32_FIND_DATAA lpFindFileData)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B50",
+    "symbol": "FindClose",
+    "signature": "BOOL __stdcall FindClose(HANDLE hFindFile)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B58",
+    "symbol": "ExitThread",
+    "signature": "void __stdcall __noreturn ExitThread(DWORD dwExitCode)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B60",
+    "symbol": "ExitProcess",
+    "signature": "void __stdcall __noreturn ExitProcess(UINT uExitCode)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B68",
+    "symbol": "EnterCriticalSection",
+    "signature": "void __stdcall EnterCriticalSection(LPCRITICAL_SECTION lpCriticalSection)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B70",
+    "symbol": "DeleteFileA",
+    "signature": "BOOL __stdcall DeleteFileA(LPCSTR lpFileName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B78",
+    "symbol": "DeleteCriticalSection",
+    "signature": "void __stdcall DeleteCriticalSection(LPCRITICAL_SECTION lpCriticalSection)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B80",
+    "symbol": "CreateThread",
+    "signature": "HANDLE __stdcall CreateThread(LPSECURITY_ATTRIBUTES lpThreadAttributes, SIZE_T dwStackSize, LPTHREAD_START_ROUTINE lpStartAddress, LPVOID lpParameter, DWORD dwCreationFlags, LPDWORD lpThreadId)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B88",
+    "symbol": "CreateMutexA",
+    "signature": "HANDLE __stdcall CreateMutexA(LPSECURITY_ATTRIBUTES lpMutexAttributes, BOOL bInitialOwner, LPCSTR lpName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B90",
+    "symbol": "CreateFileA",
+    "signature": "HANDLE __stdcall CreateFileA(LPCSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416B98",
+    "symbol": "CreateDirectoryA",
+    "signature": "BOOL __stdcall CreateDirectoryA(LPCSTR lpPathName, LPSECURITY_ATTRIBUTES lpSecurityAttributes)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416BA0",
+    "symbol": "CloseHandle",
+    "signature": "BOOL __stdcall CloseHandle(HANDLE hObject)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416BA8",
+    "symbol": "_stricoll",
+    "signature": "int __cdecl stricoll(const char *Str1, const char *Str2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416BB0",
+    "symbol": "_strdup",
+    "signature": "char *__cdecl strdup(const char *Src)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416BB8",
+    "symbol": "strstr",
+    "signature": "char *__cdecl strstr(const char *Str, const char *SubStr)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416BC0",
+    "symbol": "strrchr",
+    "signature": "char *__cdecl strrchr(const char *Str, int Ch)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416BC8",
+    "symbol": "strcpy",
+    "signature": "char *__cdecl strcpy(char *Dest, const char *Source)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416BD0",
+    "symbol": "strcat",
+    "signature": "char *__cdecl strcat(char *Dest, const char *Source)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416BE0",
+    "symbol": "sub_416BE0",
+    "signature": "void __thiscall sub_416BE0(void *Memory)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416C10",
+    "symbol": "sub_416C10",
+    "signature": "int __thiscall sub_416C10(_DWORD *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416C20",
+    "symbol": "sub_416C20",
+    "signature": "void __thiscall sub_416C20(void *Memory)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416C50",
+    "symbol": "sub_416C50",
+    "signature": "int __thiscall sub_416C50(_DWORD *this)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416C60",
+    "symbol": "sub_416C60",
+    "signature": "int __thiscall sub_416C60(void *this, int a2, int a3, unsigned int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416CB0",
+    "symbol": "sub_416CB0",
+    "signature": "int __stdcall sub_416CB0(int a1, int a2, _DWORD *a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416CF0",
+    "symbol": "sub_416CF0",
+    "signature": "signed int __thiscall sub_416CF0(int *this, int a2, _DWORD *a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416D60",
+    "symbol": "sub_416D60",
+    "signature": "int __stdcall sub_416D60(int a1, int a2, int a3, int a4, int a5, int a6, _DWORD *a7)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416DE0",
+    "symbol": "sub_416DE0",
+    "signature": "int __stdcall sub_416DE0(int a1, int a2, int a3, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416E00",
+    "symbol": "sub_416E00",
+    "signature": "int __thiscall sub_416E00(_DWORD **this, int a2, int a3, _DWORD *a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416E60",
+    "symbol": "sub_416E60",
+    "signature": "int __thiscall sub_416E60(_DWORD **this, int a2, int a3, int a4, int a5, int a6, int a7, _DWORD *a8)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416F50",
+    "symbol": "sub_416F50",
+    "signature": "int __thiscall sub_416F50(_DWORD **this, int a2, int a3, int a4, int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00416FF0",
+    "symbol": "sub_416FF0",
+    "signature": "int sub_416FF0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00417000",
+    "symbol": "sub_417000",
+    "signature": "bool __thiscall sub_417000(const char **this, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00417080",
+    "symbol": "nullsub_1",
+    "signature": "void nullsub_1()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00417090",
+    "symbol": "j_free",
+    "signature": "void __cdecl j_free(void *Memory)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004170A0",
+    "symbol": "j_j_free",
+    "signature": "void __cdecl j_j_free(void *Memory)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004170B0",
+    "symbol": "sub_4170B0",
+    "signature": "void sub_4170B0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004170E0",
+    "symbol": "sub_4170E0",
+    "signature": "int __cdecl sub_4170E0(char a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004171B0",
+    "symbol": "sub_4171B0",
+    "signature": "int sub_4171B0()",
+    "module": "other.cpp"
+  }
+]

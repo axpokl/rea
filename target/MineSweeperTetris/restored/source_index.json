@@ -1,0 +1,3954 @@
+[
+  {
+    "address": 4199520,
+    "symbol": "__ZN5BlockC1Ev",
+    "source": "block.cpp",
+    "original_line": 3,
+    "signature": "Block::Block()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4199836,
+    "symbol": "__ZN5Block6initblEv",
+    "source": "block.cpp",
+    "original_line": 16,
+    "signature": "void Block::initbl()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4200212,
+    "symbol": "__ZN5Block8calcnumbEv",
+    "source": "block.cpp",
+    "original_line": 46,
+    "signature": "void Block::calcnumb()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4200448,
+    "symbol": "__ZN5Block4isokElllRlS0_",
+    "source": "block.cpp",
+    "original_line": 67,
+    "signature": "bool Block::isok(long int k, long int x, long int y, long int &tx, long int &ty)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4200864,
+    "symbol": "__ZN5BoardC1Ev",
+    "source": "board.cpp",
+    "original_line": 3,
+    "signature": "Board::Board()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 1,
+    "warnings": []
+  },
+  {
+    "address": 4201654,
+    "symbol": "__ZN5Board6initbdEv",
+    "source": "board.cpp",
+    "original_line": 10,
+    "signature": "void Board::initbd()",
+    "member_calls_rewritten": 4,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4202568,
+    "symbol": "__ZN5Board6initbdEllll",
+    "source": "board.cpp",
+    "original_line": 63,
+    "signature": "void Board::initbd(int w_, int h_, int maskj_, int n_)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4202630,
+    "symbol": "__ZN5Board6initbdEll",
+    "source": "board.cpp",
+    "original_line": 72,
+    "signature": "void Board::initbd(int mode_, int md_)",
+    "member_calls_rewritten": 4,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4202868,
+    "symbol": "__ZN5Board8randmineEll",
+    "source": "board.cpp",
+    "original_line": 91,
+    "signature": "void Board::randmine(int x, int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4203624,
+    "symbol": "__ZN5Board7tutmineEv",
+    "source": "board.cpp",
+    "original_line": 142,
+    "signature": "void Board::tutmine()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4204278,
+    "symbol": "__ZN5Board7resetbdEll",
+    "source": "board.cpp",
+    "original_line": 179,
+    "signature": "void Board::resetbd(int x, int y)",
+    "member_calls_rewritten": 4,
+    "base_casts_repaired": 1,
+    "warnings": []
+  },
+  {
+    "address": 4204424,
+    "symbol": "__ZN5Board10solveblankEv",
+    "source": "board.cpp",
+    "original_line": 196,
+    "signature": "void Board::solveblank()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4204832,
+    "symbol": "__ZN5Board11solveblank_Ev",
+    "source": "board.cpp",
+    "original_line": 224,
+    "signature": "void Board::solveblank_()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4204880,
+    "symbol": "__ZN5Board6solve0Ev",
+    "source": "board.cpp",
+    "original_line": 233,
+    "signature": "void Board::solve0()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4205194,
+    "symbol": "__ZN5Board7solve0_Ev",
+    "source": "board.cpp",
+    "original_line": 261,
+    "signature": "void Board::solve0_()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4205242,
+    "symbol": "__ZN5Board6solve1Ev",
+    "source": "board.cpp",
+    "original_line": 270,
+    "signature": "void Board::solve1()",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4205586,
+    "symbol": "__ZN5Board7solve1_Ev",
+    "source": "board.cpp",
+    "original_line": 299,
+    "signature": "void Board::solve1_()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4205654,
+    "symbol": "__ZN5Board10createruleEv",
+    "source": "board.cpp",
+    "original_line": 309,
+    "signature": "void Board::createrule()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 1,
+    "warnings": []
+  },
+  {
+    "address": 4206252,
+    "symbol": "__ZN5Board11compareruleEll",
+    "source": "board.cpp",
+    "original_line": 346,
+    "signature": "void Board::comparerule(int rule1c, int rule2c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4207078,
+    "symbol": "__ZN5Board11compareruleEv",
+    "source": "board.cpp",
+    "original_line": 393,
+    "signature": "void Board::comparerule()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 1,
+    "warnings": []
+  },
+  {
+    "address": 4207366,
+    "symbol": "__ZN5Board9applyruleEb",
+    "source": "board.cpp",
+    "original_line": 414,
+    "signature": "void Board::applyrule(bool applyb)",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4207920,
+    "symbol": "__ZN5Board6solve2Eb",
+    "source": "board.cpp",
+    "original_line": 450,
+    "signature": "void Board::solve2(bool applyb)",
+    "member_calls_rewritten": 4,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4208074,
+    "symbol": "__ZN5Board6solve2Ev",
+    "source": "board.cpp",
+    "original_line": 467,
+    "signature": "void Board::solve2()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4208106,
+    "symbol": "__ZN5Board7solve2_Eb",
+    "source": "board.cpp",
+    "original_line": 472,
+    "signature": "void Board::solve2_(bool applyb)",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4208246,
+    "symbol": "__ZN5Board7solve2_Ev",
+    "source": "board.cpp",
+    "original_line": 487,
+    "signature": "void Board::solve2_()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4208278,
+    "symbol": "__ZN5Board7solve3_Ev",
+    "source": "board.cpp",
+    "original_line": 492,
+    "signature": "void Board::solve3_()",
+    "member_calls_rewritten": 4,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4208426,
+    "symbol": "__ZN5Board10checkerrorEll",
+    "source": "board.cpp",
+    "original_line": 505,
+    "signature": "bool Board::checkerror(int i, int j)",
+    "member_calls_rewritten": 8,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4209014,
+    "symbol": "__ZN5Board10checkerrorEv",
+    "source": "board.cpp",
+    "original_line": 541,
+    "signature": "bool Board::checkerror()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4209142,
+    "symbol": "__ZN5Board9checklineEb",
+    "source": "board.cpp",
+    "original_line": 558,
+    "signature": "void Board::checkline(bool delayb_)",
+    "member_calls_rewritten": 5,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4209896,
+    "symbol": "__ZN5Board7addlineEb",
+    "source": "board.cpp",
+    "original_line": 620,
+    "signature": "void Board::addline(bool misslineb)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 1,
+    "warnings": []
+  },
+  {
+    "address": 4210500,
+    "symbol": "__ZN5Board7addlineEv",
+    "source": "board.cpp",
+    "original_line": 675,
+    "signature": "void Board::addline()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4210532,
+    "symbol": "__ZN5Board7addmaskEv",
+    "source": "board.cpp",
+    "original_line": 681,
+    "signature": "bool Board::addmask()",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4210914,
+    "symbol": "__ZN5Board8checkdieEv",
+    "source": "board.cpp",
+    "original_line": 712,
+    "signature": "void Board::checkdie()",
+    "member_calls_rewritten": 5,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4211334,
+    "symbol": "__ZN5Board7dellineEl",
+    "source": "board.cpp",
+    "original_line": 744,
+    "signature": "void Board::delline(int l)",
+    "member_calls_rewritten": 16,
+    "base_casts_repaired": 1,
+    "warnings": [
+      "局部变量分配/重叠警告"
+    ]
+  },
+  {
+    "address": 4213746,
+    "symbol": "__ZN5Board7setqstnEllb",
+    "source": "board.cpp",
+    "original_line": 867,
+    "signature": "void Board::setqstn(int x, int y, bool sb_)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4213852,
+    "symbol": "__ZN5Board7setqstnEll",
+    "source": "board.cpp",
+    "original_line": 876,
+    "signature": "void Board::setqstn(int x, int y)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4213900,
+    "symbol": "__ZN5Board7setflagEll",
+    "source": "board.cpp",
+    "original_line": 881,
+    "signature": "void Board::setflag(int x, int y)",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 2,
+    "warnings": []
+  },
+  {
+    "address": 4214420,
+    "symbol": "__ZN5Board8setblockEll",
+    "source": "board.cpp",
+    "original_line": 920,
+    "signature": "void Board::setblock(int x, int y)",
+    "member_calls_rewritten": 5,
+    "base_casts_repaired": 2,
+    "warnings": []
+  },
+  {
+    "address": 4215230,
+    "symbol": "__ZN5Board9clicknumbEllb",
+    "source": "board.cpp",
+    "original_line": 981,
+    "signature": "void Board::clicknumb(int x, int y, bool sb_)",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4215396,
+    "symbol": "__ZN5Board9clickleftEllb",
+    "source": "board.cpp",
+    "original_line": 996,
+    "signature": "void Board::clickleft(int x, int y, bool sb_)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4215458,
+    "symbol": "__ZN5Board10clickrightEllb",
+    "source": "board.cpp",
+    "original_line": 1001,
+    "signature": "void Board::clickright(int x, int y, bool sb_)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4215520,
+    "symbol": "__ZN5Board9clickleftEllbl",
+    "source": "board.cpp",
+    "original_line": 1006,
+    "signature": "void Board::clickleft(int x, int y, bool sb_, int md_)",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4215880,
+    "symbol": "__ZN5Board10clickrightEllbl",
+    "source": "board.cpp",
+    "original_line": 1042,
+    "signature": "void Board::clickright(int x, int y, bool sb_, int md_)",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4216210,
+    "symbol": "__ZN5Board5pauseEv",
+    "source": "board.cpp",
+    "original_line": 1081,
+    "signature": "void Board::pause()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4216280,
+    "symbol": "__Z11CombinePathPcPKcS1_",
+    "source": "cab.cpp",
+    "original_line": 3,
+    "signature": "void __cdecl CombinePath(char *dest, const char *path1, const char *path2)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4216353,
+    "symbol": "__Z18CabExtractCallbackPvjjj@16",
+    "source": "cab.cpp",
+    "original_line": 10,
+    "signature": "UINT __stdcall CabExtractCallback(PVOID context, UINT notification, uintptr_t param1, uintptr_t param2)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4216423,
+    "symbol": "__Z15RemoveExtensionPc",
+    "source": "cab.cpp",
+    "original_line": 22,
+    "signature": "void __cdecl RemoveExtension(char *filePath)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4216466,
+    "symbol": "__Z14ProcessCabFilePKc",
+    "source": "cab.cpp",
+    "original_line": 31,
+    "signature": "BOOL __cdecl ProcessCabFile(const char *cabFilePath)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4216896,
+    "symbol": "__Z23DeleteFolderRecursivelyPKc",
+    "source": "cab.cpp",
+    "original_line": 68,
+    "signature": "void __cdecl DeleteFolderRecursively(const char *folderPath)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4217203,
+    "symbol": "__Z22CheckAndProcessCabFilev",
+    "source": "cab.cpp",
+    "original_line": 100,
+    "signature": "void CheckAndProcessCabFile()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4217424,
+    "symbol": "__Z13WinCreateMainv",
+    "source": "disp.cpp",
+    "original_line": 104,
+    "signature": "void WinCreateMain()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4217642,
+    "symbol": "__Z7WndProcP6HWND__jjl@16",
+    "source": "disp.cpp",
+    "original_line": 124,
+    "signature": "LRESULT __stdcall WndProc(HWND hW, UINT uM, WPARAM wP, LPARAM lP)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4218322,
+    "symbol": "__Z15MonitorenumprocP10HMONITOR__P5HDC__P7tagRECTl@16",
+    "source": "disp.cpp",
+    "original_line": 176,
+    "signature": "BOOL __stdcall Monitorenumproc(HMONITOR hmon, HDC hdc, LPRECT lprect, LPARAM pdata)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4218488,
+    "symbol": "__Z11WinRegisterv",
+    "source": "disp.cpp",
+    "original_line": 195,
+    "signature": "ATOM WinRegister()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4218602,
+    "symbol": "__Z9WinCreatev",
+    "source": "disp.cpp",
+    "original_line": 208,
+    "signature": "void WinCreate()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4218858,
+    "symbol": "__Z7WinInitv",
+    "source": "disp.cpp",
+    "original_line": 217,
+    "signature": "void WinInit()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219100,
+    "symbol": "__Z8FreshFPSv",
+    "source": "disp.cpp",
+    "original_line": 237,
+    "signature": "void FreshFPS()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219239,
+    "symbol": "__Z6AddFPSv",
+    "source": "disp.cpp",
+    "original_line": 247,
+    "signature": "void AddFPS()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219266,
+    "symbol": "__Z9CreateWinllmmmmmPKc",
+    "source": "disp.cpp",
+    "original_line": 253,
+    "signature": "void __cdecl CreateWin(int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int style, const char *winclass)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219527,
+    "symbol": "__Z9CreateWinmmmmmPKc",
+    "source": "disp.cpp",
+    "original_line": 271,
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int style, const char *winclass)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219629,
+    "symbol": "__Z9CreateWinmmmmm",
+    "source": "disp.cpp",
+    "original_line": 275,
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int style)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219686,
+    "symbol": "__Z9CreateWinmmmm",
+    "source": "disp.cpp",
+    "original_line": 279,
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219735,
+    "symbol": "__Z9CreateWinmmm",
+    "source": "disp.cpp",
+    "original_line": 283,
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219777,
+    "symbol": "__Z9CreateWinmm",
+    "source": "disp.cpp",
+    "original_line": 287,
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219812,
+    "symbol": "__Z9CreateWinm",
+    "source": "disp.cpp",
+    "original_line": 291,
+    "signature": "void __cdecl CreateWin(unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219877,
+    "symbol": "__Z9CreateWinv",
+    "source": "disp.cpp",
+    "original_line": 295,
+    "signature": "void CreateWin()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219933,
+    "symbol": "__Z8FreshWinv",
+    "source": "disp.cpp",
+    "original_line": 300,
+    "signature": "void FreshWin()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4219970,
+    "symbol": "__Z8CloseWinv",
+    "source": "disp.cpp",
+    "original_line": 305,
+    "signature": "void CloseWin()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220019,
+    "symbol": "__Z5IsWinv",
+    "source": "disp.cpp",
+    "original_line": 309,
+    "signature": "BOOL IsWin()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220031,
+    "symbol": "__Z8GetTimeRv",
+    "source": "disp.cpp",
+    "original_line": 315,
+    "signature": "long double GetTimeR()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220187,
+    "symbol": "__Z7GetTimev",
+    "source": "disp.cpp",
+    "original_line": 322,
+    "signature": "signed __int64 GetTime()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220236,
+    "symbol": "__Z8SetTitlePKc",
+    "source": "disp.cpp",
+    "original_line": 327,
+    "signature": "void __cdecl SetTitle(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220268,
+    "symbol": "__Z9SetTitleWPKs",
+    "source": "disp.cpp",
+    "original_line": 331,
+    "signature": "void __cdecl SetTitleW(const __int16 *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220300,
+    "symbol": "__Z8GetTitlev",
+    "source": "disp.cpp",
+    "original_line": 335,
+    "signature": "char *GetTitle()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220345,
+    "symbol": "__Z9GetTitleWv",
+    "source": "disp.cpp",
+    "original_line": 341,
+    "signature": "WCHAR *GetTitleW()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220390,
+    "symbol": "__Z7SetSizellmm",
+    "source": "disp.cpp",
+    "original_line": 347,
+    "signature": "void __cdecl SetSize(int x, int y, unsigned int w, unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220532,
+    "symbol": "__Z7SetSizemm",
+    "source": "disp.cpp",
+    "original_line": 357,
+    "signature": "void __cdecl SetSize(unsigned int w, unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220586,
+    "symbol": "__Z8GetWidthv",
+    "source": "disp.cpp",
+    "original_line": 361,
+    "signature": "unsigned int GetWidth()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220596,
+    "symbol": "__Z9GetHeightv",
+    "source": "disp.cpp",
+    "original_line": 365,
+    "signature": "unsigned int GetHeight()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220606,
+    "symbol": "__Z7GetSizev",
+    "source": "disp.cpp",
+    "original_line": 369,
+    "signature": "unsigned int GetSize()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220630,
+    "symbol": "__Z11GetScrWidthv",
+    "source": "disp.cpp",
+    "original_line": 373,
+    "signature": "int GetScrWidth()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220653,
+    "symbol": "__Z12GetScrHeightv",
+    "source": "disp.cpp",
+    "original_line": 377,
+    "signature": "int GetScrHeight()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220676,
+    "symbol": "__Z10GetScrSizev",
+    "source": "disp.cpp",
+    "original_line": 381,
+    "signature": "int GetScrSize()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220706,
+    "symbol": "__Z11GetScrCapsXv",
+    "source": "disp.cpp",
+    "original_line": 385,
+    "signature": "long double GetScrCapsX()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220763,
+    "symbol": "__Z11GetScrCapsYv",
+    "source": "disp.cpp",
+    "original_line": 389,
+    "signature": "long double GetScrCapsY()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220820,
+    "symbol": "__Z14GetBorderTitlev",
+    "source": "disp.cpp",
+    "original_line": 393,
+    "signature": "int GetBorderTitle()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220843,
+    "symbol": "__Z14GetBorderWidthv",
+    "source": "disp.cpp",
+    "original_line": 397,
+    "signature": "int GetBorderWidth()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220897,
+    "symbol": "__Z15GetBorderHeightv",
+    "source": "disp.cpp",
+    "original_line": 401,
+    "signature": "int GetBorderHeight()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220951,
+    "symbol": "__Z13GetBorderSizev",
+    "source": "disp.cpp",
+    "original_line": 405,
+    "signature": "int GetBorderSize()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4220981,
+    "symbol": "__Z6SetPosll",
+    "source": "disp.cpp",
+    "original_line": 409,
+    "signature": "void __cdecl SetPos(int x, int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221028,
+    "symbol": "__Z7GetPosXv",
+    "source": "disp.cpp",
+    "original_line": 413,
+    "signature": "LONG GetPosX()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221090,
+    "symbol": "__Z7GetPosYv",
+    "source": "disp.cpp",
+    "original_line": 419,
+    "signature": "LONG GetPosY()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221152,
+    "symbol": "__Z6GetPosv",
+    "source": "disp.cpp",
+    "original_line": 425,
+    "signature": "int GetPos()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221182,
+    "symbol": "__Z6GetWinv",
+    "source": "disp.cpp",
+    "original_line": 429,
+    "signature": "pbitmap GetWin()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221192,
+    "symbol": "__Z6GetScrv",
+    "source": "disp.cpp",
+    "original_line": 433,
+    "signature": "pbitmap GetScr()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221202,
+    "symbol": "__Z7GetHwndP6bitmap",
+    "source": "disp.cpp",
+    "original_line": 437,
+    "signature": "HGDIOBJ __cdecl GetHwnd(pbitmap b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221212,
+    "symbol": "__Z7GetHwndv",
+    "source": "disp.cpp",
+    "original_line": 441,
+    "signature": "HWND GetHwnd()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221222,
+    "symbol": "__Z7GetDrawP6bitmap",
+    "source": "disp.cpp",
+    "original_line": 445,
+    "signature": "HDC __cdecl GetDraw(pbitmap b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221233,
+    "symbol": "__Z7GetDrawv",
+    "source": "disp.cpp",
+    "original_line": 449,
+    "signature": "HDC GetDraw()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221243,
+    "symbol": "__Z10GetBGColorv",
+    "source": "disp.cpp",
+    "original_line": 454,
+    "signature": "COLORREF GetBGColor()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221253,
+    "symbol": "__Z10SetBGColorm",
+    "source": "disp.cpp",
+    "original_line": 458,
+    "signature": "void __cdecl SetBGColor(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221267,
+    "symbol": "__Z10GetFGColorv",
+    "source": "disp.cpp",
+    "original_line": 462,
+    "signature": "unsigned int GetFGColor()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221277,
+    "symbol": "__Z10SetFGColorm",
+    "source": "disp.cpp",
+    "original_line": 466,
+    "signature": "void __cdecl SetFGColor(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221291,
+    "symbol": "__Z11SetPenWidthm",
+    "source": "disp.cpp",
+    "original_line": 470,
+    "signature": "void __cdecl SetPenWidth(unsigned int pew)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221305,
+    "symbol": "__Z11SetPenColorP6bitmapm",
+    "source": "disp.cpp",
+    "original_line": 474,
+    "signature": "void __cdecl SetPenColor(pbitmap b, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221436,
+    "symbol": "__Z13SetBrushColorP6bitmapm",
+    "source": "disp.cpp",
+    "original_line": 484,
+    "signature": "void __cdecl SetBrushColor(pbitmap b, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221548,
+    "symbol": "__Z11SetPenColorm",
+    "source": "disp.cpp",
+    "original_line": 494,
+    "signature": "void __cdecl SetPenColor(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221577,
+    "symbol": "__Z13SetBrushColorm",
+    "source": "disp.cpp",
+    "original_line": 498,
+    "signature": "void __cdecl SetBrushColor(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221606,
+    "symbol": "__Z6GetRedm",
+    "source": "disp.cpp",
+    "original_line": 502,
+    "signature": "unsigned __int8 __cdecl GetRed(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221614,
+    "symbol": "__Z8GetGreenm",
+    "source": "disp.cpp",
+    "original_line": 506,
+    "signature": "unsigned __int8 __cdecl GetGreen(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221625,
+    "symbol": "__Z7GetBluem",
+    "source": "disp.cpp",
+    "original_line": 510,
+    "signature": "unsigned __int8 __cdecl GetBlue(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221636,
+    "symbol": "__Z8GetAlpham",
+    "source": "disp.cpp",
+    "original_line": 514,
+    "signature": "unsigned __int8 __cdecl GetAlpha(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221647,
+    "symbol": "__Z7GetRGBAhhhh",
+    "source": "disp.cpp",
+    "original_line": 518,
+    "signature": "unsigned int __cdecl GetRGBA(unsigned __int8 r, unsigned __int8 g, unsigned __int8 b, unsigned __int8 a)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221717,
+    "symbol": "__Z6GetRGBhhh",
+    "source": "disp.cpp",
+    "original_line": 522,
+    "signature": "unsigned int __cdecl GetRGB(unsigned __int8 r, unsigned __int8 g, unsigned __int8 b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4221779,
+    "symbol": "__Z7SetFontP6bitmap",
+    "source": "disp.cpp",
+    "original_line": 527,
+    "signature": "void __cdecl SetFont(pbitmap b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222026,
+    "symbol": "__Z7SetFontv",
+    "source": "disp.cpp",
+    "original_line": 546,
+    "signature": "void SetFont()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222048,
+    "symbol": "__Z12SetFontWidthm",
+    "source": "disp.cpp",
+    "original_line": 550,
+    "signature": "void __cdecl SetFontWidth(unsigned int w)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222070,
+    "symbol": "__Z13SetFontHeightm",
+    "source": "disp.cpp",
+    "original_line": 555,
+    "signature": "void __cdecl SetFontHeight(unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222092,
+    "symbol": "__Z11SetFontSizemm",
+    "source": "disp.cpp",
+    "original_line": 560,
+    "signature": "void __cdecl SetFontSize(unsigned int w, unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222122,
+    "symbol": "__Z13SetFontWeightm",
+    "source": "disp.cpp",
+    "original_line": 566,
+    "signature": "void __cdecl SetFontWeight(unsigned int wg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222144,
+    "symbol": "__Z13SetFontLtalicm",
+    "source": "disp.cpp",
+    "original_line": 571,
+    "signature": "void __cdecl SetFontLtalic(unsigned int lt)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222166,
+    "symbol": "__Z16SetFontUnderLinem",
+    "source": "disp.cpp",
+    "original_line": 576,
+    "signature": "void __cdecl SetFontUnderLine(unsigned int ud)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222188,
+    "symbol": "__Z16SetFontStrikeOutm",
+    "source": "disp.cpp",
+    "original_line": 581,
+    "signature": "void __cdecl SetFontStrikeOut(unsigned int sk)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222210,
+    "symbol": "__Z14SetFontCharSetm",
+    "source": "disp.cpp",
+    "original_line": 586,
+    "signature": "void __cdecl SetFontCharSet(unsigned int cs_0)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222232,
+    "symbol": "__Z11SetFontNamePKc",
+    "source": "disp.cpp",
+    "original_line": 591,
+    "signature": "void __cdecl SetFontName(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222265,
+    "symbol": "__Z13GetStringSizePKc",
+    "source": "disp.cpp",
+    "original_line": 596,
+    "signature": "void __cdecl GetStringSize(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222322,
+    "symbol": "__Z14GetStringWidthPKc",
+    "source": "disp.cpp",
+    "original_line": 600,
+    "signature": "unsigned int __cdecl GetStringWidth(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222387,
+    "symbol": "__Z15GetStringHeightPKc",
+    "source": "disp.cpp",
+    "original_line": 605,
+    "signature": "unsigned int __cdecl GetStringHeight(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222452,
+    "symbol": "__Z10InitTextXYPP6bitmapPPKsPmS5_",
+    "source": "disp.cpp",
+    "original_line": 611,
+    "signature": "void __cdecl InitTextXY(pbitmap *b, const __int16 **s, unsigned int *cfg, unsigned int *cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222642,
+    "symbol": "__Z10InitTextXYPP6bitmapPPKcPmS5_",
+    "source": "disp.cpp",
+    "original_line": 624,
+    "signature": "void __cdecl InitTextXY(pbitmap *b, const char **s, unsigned int *cfg, unsigned int *cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222831,
+    "symbol": "__Z10DrawTextXYP6bitmapPKsllmmmmm",
+    "source": "disp.cpp",
+    "original_line": 637,
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const __int16 *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int format)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4222986,
+    "symbol": "__Z10DrawTextXYP6bitmapPKsllmmmm",
+    "source": "disp.cpp",
+    "original_line": 649,
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const __int16 *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223142,
+    "symbol": "__Z10DrawTextXYP6bitmapPKcllmmmm",
+    "source": "disp.cpp",
+    "original_line": 661,
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const char *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223298,
+    "symbol": "__Z10DrawTextXYP6bitmapPKcllmm",
+    "source": "disp.cpp",
+    "original_line": 673,
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223425,
+    "symbol": "__Z10DrawTextXYP6bitmapPKcllm",
+    "source": "disp.cpp",
+    "original_line": 680,
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const char *s, int x, int y, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223481,
+    "symbol": "__Z10DrawTextXYPKcllmm",
+    "source": "disp.cpp",
+    "original_line": 684,
+    "signature": "void __cdecl DrawTextXY(const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223537,
+    "symbol": "__Z10DrawTextXYPKcllm",
+    "source": "disp.cpp",
+    "original_line": 688,
+    "signature": "void __cdecl DrawTextXY(const char *s, int x, int y, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223586,
+    "symbol": "__Z10DrawTextXYPKclm",
+    "source": "disp.cpp",
+    "original_line": 692,
+    "signature": "void __cdecl DrawTextXY(const char *s, int x, unsigned int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223628,
+    "symbol": "__Z9DrawTextAPKcmm",
+    "source": "disp.cpp",
+    "original_line": 696,
+    "signature": "void __cdecl DrawTextA(const char *s, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223681,
+    "symbol": "__Z9DrawTextAPKcm",
+    "source": "disp.cpp",
+    "original_line": 700,
+    "signature": "void __cdecl DrawTextA(const char *s, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223716,
+    "symbol": "__Z9DrawTextAPKc",
+    "source": "disp.cpp",
+    "original_line": 704,
+    "signature": "void __cdecl DrawTextA(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223744,
+    "symbol": "__Z12DrawTextlnXYPKcllmm",
+    "source": "disp.cpp",
+    "original_line": 708,
+    "signature": "void __cdecl DrawTextlnXY(const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223823,
+    "symbol": "__Z12DrawTextlnXYPKcllm",
+    "source": "disp.cpp",
+    "original_line": 714,
+    "signature": "void __cdecl DrawTextlnXY(const char *s, int x, int y, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223872,
+    "symbol": "__Z12DrawTextlnXYPKclm",
+    "source": "disp.cpp",
+    "original_line": 718,
+    "signature": "void __cdecl DrawTextlnXY(const char *s, int x, unsigned int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223914,
+    "symbol": "__Z10DrawTextlnPKcmm",
+    "source": "disp.cpp",
+    "original_line": 722,
+    "signature": "void __cdecl DrawTextln(const char *s, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4223967,
+    "symbol": "__Z10DrawTextlnPKcm",
+    "source": "disp.cpp",
+    "original_line": 726,
+    "signature": "void __cdecl DrawTextln(const char *s, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224002,
+    "symbol": "__Z10DrawTextlnPKc",
+    "source": "disp.cpp",
+    "original_line": 730,
+    "signature": "void __cdecl DrawTextln(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224030,
+    "symbol": "__Z10DrawTextlnv",
+    "source": "disp.cpp",
+    "original_line": 734,
+    "signature": "void DrawTextln()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224051,
+    "symbol": "__Z11DrawTextXYwP6bitmapPKcllmm",
+    "source": "disp.cpp",
+    "original_line": 738,
+    "signature": "void __cdecl DrawTextXYw(pbitmap b, const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224201,
+    "symbol": "__Z11DrawTextXYwP6bitmapPKcllm",
+    "source": "disp.cpp",
+    "original_line": 750,
+    "signature": "void __cdecl DrawTextXYw(pbitmap b, const char *s, int x, int y, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224257,
+    "symbol": "__Z11DrawTextXYwPKcllmm",
+    "source": "disp.cpp",
+    "original_line": 754,
+    "signature": "void __cdecl DrawTextXYw(const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224313,
+    "symbol": "__Z11DrawTextXYwPKcllm",
+    "source": "disp.cpp",
+    "original_line": 758,
+    "signature": "void __cdecl DrawTextXYw(const char *s, int x, int y, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224362,
+    "symbol": "__Z11DrawTextXYwPKclm",
+    "source": "disp.cpp",
+    "original_line": 762,
+    "signature": "void __cdecl DrawTextXYw(const char *s, int x, unsigned int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224404,
+    "symbol": "__Z9DrawTextwPKcmm",
+    "source": "disp.cpp",
+    "original_line": 766,
+    "signature": "void __cdecl DrawTextw(const char *s, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224457,
+    "symbol": "__Z9DrawTextwPKcm",
+    "source": "disp.cpp",
+    "original_line": 770,
+    "signature": "void __cdecl DrawTextw(const char *s, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224492,
+    "symbol": "__Z9DrawTextwPKc",
+    "source": "disp.cpp",
+    "original_line": 774,
+    "signature": "void __cdecl DrawTextw(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224520,
+    "symbol": "__Z13DrawTextlnXYwPKcllmm",
+    "source": "disp.cpp",
+    "original_line": 778,
+    "signature": "void __cdecl DrawTextlnXYw(const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224591,
+    "symbol": "__Z13DrawTextlnXYwPKcllm",
+    "source": "disp.cpp",
+    "original_line": 784,
+    "signature": "void __cdecl DrawTextlnXYw(const char *s, int x, int y, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224640,
+    "symbol": "__Z13DrawTextlnXYwPKclm",
+    "source": "disp.cpp",
+    "original_line": 788,
+    "signature": "void __cdecl DrawTextlnXYw(const char *s, int x, unsigned int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224682,
+    "symbol": "__Z11DrawTextlnwPKcmm",
+    "source": "disp.cpp",
+    "original_line": 792,
+    "signature": "void __cdecl DrawTextlnw(const char *s, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224735,
+    "symbol": "__Z11DrawTextlnwPKcm",
+    "source": "disp.cpp",
+    "original_line": 796,
+    "signature": "void __cdecl DrawTextlnw(const char *s, unsigned int cfg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224770,
+    "symbol": "__Z11DrawTextlnwPKc",
+    "source": "disp.cpp",
+    "original_line": 800,
+    "signature": "void __cdecl DrawTextlnw(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224798,
+    "symbol": "__Z8GetPixelP6bitmapmm",
+    "source": "disp.cpp",
+    "original_line": 807,
+    "signature": "unsigned int __cdecl GetPixel(pbitmap b, unsigned int x, unsigned int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224851,
+    "symbol": "__Z8GetPixelmm",
+    "source": "disp.cpp",
+    "original_line": 812,
+    "signature": "unsigned int __cdecl GetPixel(unsigned int x, unsigned int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224885,
+    "symbol": "__Z8SetPixelP6bitmapmmm",
+    "source": "disp.cpp",
+    "original_line": 816,
+    "signature": "void __cdecl SetPixel(pbitmap b, unsigned int x, unsigned int y, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4224964,
+    "symbol": "__Z8SetPixelmmm",
+    "source": "disp.cpp",
+    "original_line": 822,
+    "signature": "void __cdecl SetPixel(unsigned int x, unsigned int y, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225006,
+    "symbol": "__Z8SetPixelmm",
+    "source": "disp.cpp",
+    "original_line": 826,
+    "signature": "void __cdecl SetPixel(unsigned int x, unsigned int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225041,
+    "symbol": "__Z4LineP6bitmapllllm",
+    "source": "disp.cpp",
+    "original_line": 830,
+    "signature": "void __cdecl Line(pbitmap b, int x, int y, int w, int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225177,
+    "symbol": "__Z4Linellllm",
+    "source": "disp.cpp",
+    "original_line": 838,
+    "signature": "void __cdecl Line(int x, int y, int w, int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225233,
+    "symbol": "__Z3BarP6bitmapllllmm",
+    "source": "disp.cpp",
+    "original_line": 842,
+    "signature": "void __cdecl Bar(pbitmap b, int x, int y, int w, int h, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225451,
+    "symbol": "__Z3BarP6bitmapllllm",
+    "source": "disp.cpp",
+    "original_line": 864,
+    "signature": "void __cdecl Bar(pbitmap b, int x, int y, int w, int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225514,
+    "symbol": "__Z3Barllllmm",
+    "source": "disp.cpp",
+    "original_line": 868,
+    "signature": "void __cdecl Bar(int x, int y, int w, int h, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225577,
+    "symbol": "__Z3Barllllm",
+    "source": "disp.cpp",
+    "original_line": 872,
+    "signature": "void __cdecl Bar(int x, int y, int w, int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225633,
+    "symbol": "__Z3Barllll",
+    "source": "disp.cpp",
+    "original_line": 876,
+    "signature": "void __cdecl Bar(int x, int y, int w, int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225682,
+    "symbol": "__Z5ClearP6bitmapm",
+    "source": "disp.cpp",
+    "original_line": 880,
+    "signature": "void __cdecl Clear(pbitmap b, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225785,
+    "symbol": "__Z5ClearP6bitmap",
+    "source": "disp.cpp",
+    "original_line": 886,
+    "signature": "void __cdecl Clear(pbitmap b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225813,
+    "symbol": "__Z5Clearm",
+    "source": "disp.cpp",
+    "original_line": 890,
+    "signature": "void __cdecl Clear(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225841,
+    "symbol": "__Z5Clearv",
+    "source": "disp.cpp",
+    "original_line": 894,
+    "signature": "void Clear()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4225862,
+    "symbol": "__Z9CreateBMPP6bitmapmmm",
+    "source": "disp.cpp",
+    "original_line": 899,
+    "signature": "pbitmap __cdecl CreateBMP(pbitmap b, unsigned int w, unsigned int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4226120,
+    "symbol": "__Z9CreateBMPP6bitmap",
+    "source": "disp.cpp",
+    "original_line": 915,
+    "signature": "pbitmap __cdecl CreateBMP(pbitmap b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4226163,
+    "symbol": "__Z9CreateBMPmmm",
+    "source": "disp.cpp",
+    "original_line": 919,
+    "signature": "pbitmap __cdecl CreateBMP(unsigned int w, unsigned int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4226204,
+    "symbol": "__Z9CreateBMPmm",
+    "source": "disp.cpp",
+    "original_line": 923,
+    "signature": "pbitmap __cdecl CreateBMP(unsigned int w, unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4226238,
+    "symbol": "__Z9CreateBMPv",
+    "source": "disp.cpp",
+    "original_line": 927,
+    "signature": "pbitmap CreateBMP()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4226266,
+    "symbol": "__Z10ReleaseBMPP6bitmap",
+    "source": "disp.cpp",
+    "original_line": 931,
+    "signature": "void __cdecl ReleaseBMP(pbitmap b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4226405,
+    "symbol": "__Z10ReleaseBMPv",
+    "source": "disp.cpp",
+    "original_line": 953,
+    "signature": "void ReleaseBMP()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4226440,
+    "symbol": "__Z7LoadBMPPKcm",
+    "source": "disp.cpp",
+    "original_line": 958,
+    "signature": "pbitmap __cdecl LoadBMP(const char *s, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4226812,
+    "symbol": "__Z7LoadBMPPKc",
+    "source": "disp.cpp",
+    "original_line": 975,
+    "signature": "pbitmap __cdecl LoadBMP(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4226839,
+    "symbol": "__Z7SaveBMPP6bitmapPKc",
+    "source": "disp.cpp",
+    "original_line": 979,
+    "signature": "void __cdecl SaveBMP(pbitmap b, const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4227037,
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 988,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4227692,
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1013,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4227783,
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1017,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4227873,
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1021,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4227950,
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmm",
+    "source": "disp.cpp",
+    "original_line": 1025,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228044,
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmm",
+    "source": "disp.cpp",
+    "original_line": 1029,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228107,
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmm",
+    "source": "disp.cpp",
+    "original_line": 1033,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xd, unsigned int yd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228171,
+    "symbol": "__Z7DrawBMPP6bitmapS0_mm",
+    "source": "disp.cpp",
+    "original_line": 1037,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xd, unsigned int yd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228220,
+    "symbol": "__Z7DrawBMPP6bitmapS0_m",
+    "source": "disp.cpp",
+    "original_line": 1041,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228270,
+    "symbol": "__Z7DrawBMPP6bitmapS0_",
+    "source": "disp.cpp",
+    "original_line": 1045,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228305,
+    "symbol": "__Z7DrawBMPP6bitmapmmmmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1049,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228396,
+    "symbol": "__Z7DrawBMPP6bitmapmmmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1053,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228480,
+    "symbol": "__Z7DrawBMPP6bitmapmmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1057,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228563,
+    "symbol": "__Z7DrawBMPP6bitmapmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1061,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228633,
+    "symbol": "__Z7DrawBMPP6bitmapmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1065,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228720,
+    "symbol": "__Z7DrawBMPP6bitmapmmmm",
+    "source": "disp.cpp",
+    "original_line": 1069,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228776,
+    "symbol": "__Z7DrawBMPP6bitmapmmm",
+    "source": "disp.cpp",
+    "original_line": 1073,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xd, unsigned int yd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228833,
+    "symbol": "__Z7DrawBMPP6bitmapmm",
+    "source": "disp.cpp",
+    "original_line": 1077,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xd, unsigned int yd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228875,
+    "symbol": "__Z7DrawBMPP6bitmapm",
+    "source": "disp.cpp",
+    "original_line": 1081,
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228918,
+    "symbol": "__Z7DrawBMPP6bitmap",
+    "source": "disp.cpp",
+    "original_line": 1085,
+    "signature": "void __cdecl DrawBMP(pbitmap bs)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4228946,
+    "symbol": "__Z7DrawBMPmmmmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1089,
+    "signature": "void __cdecl DrawBMP(unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229030,
+    "symbol": "__Z7DrawBMPmmmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1093,
+    "signature": "void __cdecl DrawBMP(unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229107,
+    "symbol": "__Z7DrawBMPmmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1097,
+    "signature": "void __cdecl DrawBMP(unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229177,
+    "symbol": "__Z7DrawBMPmmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1101,
+    "signature": "void __cdecl DrawBMP(unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229240,
+    "symbol": "__Z7DrawBMPmmmmm",
+    "source": "disp.cpp",
+    "original_line": 1105,
+    "signature": "void __cdecl DrawBMP(unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229296,
+    "symbol": "__Z7DrawBMPmmmm",
+    "source": "disp.cpp",
+    "original_line": 1109,
+    "signature": "void __cdecl DrawBMP(unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229345,
+    "symbol": "__Z7DrawBMPmmm",
+    "source": "disp.cpp",
+    "original_line": 1113,
+    "signature": "void __cdecl DrawBMP(unsigned int xd, unsigned int yd, unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229387,
+    "symbol": "__Z7DrawBMPmm",
+    "source": "disp.cpp",
+    "original_line": 1117,
+    "signature": "void __cdecl DrawBMP(unsigned int xd, unsigned int yd)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229422,
+    "symbol": "__Z7DrawBMPm",
+    "source": "disp.cpp",
+    "original_line": 1121,
+    "signature": "void __cdecl DrawBMP(unsigned int c)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229450,
+    "symbol": "__Z7DrawBMPv",
+    "source": "disp.cpp",
+    "original_line": 1125,
+    "signature": "void DrawBMP()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229471,
+    "symbol": "__Z2HIy",
+    "source": "disp.cpp",
+    "original_line": 1130,
+    "signature": "unsigned int __cdecl HI(uint64_t val)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229501,
+    "symbol": "__Z2LOy",
+    "source": "disp.cpp",
+    "original_line": 1134,
+    "signature": "unsigned int __cdecl LO(uint64_t val)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229524,
+    "symbol": "__Z7SendMsgv",
+    "source": "disp.cpp",
+    "original_line": 1138,
+    "signature": "void SendMsg()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229563,
+    "symbol": "__Z9CustomMsgv",
+    "source": "disp.cpp",
+    "original_line": 1143,
+    "signature": "BOOL CustomMsg()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229736,
+    "symbol": "__Z9IsNextMsgv",
+    "source": "disp.cpp",
+    "original_line": 1155,
+    "signature": "BOOL IsNextMsg()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229986,
+    "symbol": "__Z10GetNextMsgv",
+    "source": "disp.cpp",
+    "original_line": 1170,
+    "signature": "UINT GetNextMsg()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4229996,
+    "symbol": "__Z11WaitNextMsgv",
+    "source": "disp.cpp",
+    "original_line": 1174,
+    "signature": "UINT WaitNextMsg()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230075,
+    "symbol": "__Z5IsMsgPKmm",
+    "source": "disp.cpp",
+    "original_line": 1182,
+    "signature": "bool __cdecl IsMsg(const unsigned int *uM, unsigned int length)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230143,
+    "symbol": "__Z6GetMsgPKmm",
+    "source": "disp.cpp",
+    "original_line": 1187,
+    "signature": "uint64_t __cdecl GetMsg(const unsigned int *uM, unsigned int length)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230239,
+    "symbol": "__Z7WaitMsgPKmm",
+    "source": "disp.cpp",
+    "original_line": 1191,
+    "signature": "uint64_t __cdecl WaitMsg(const unsigned int *uM, unsigned int length)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230297,
+    "symbol": "__Z5IsMsgm",
+    "source": "disp.cpp",
+    "original_line": 1200,
+    "signature": "bool __cdecl IsMsg(unsigned int uM)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230330,
+    "symbol": "__Z6GetMsgm",
+    "source": "disp.cpp",
+    "original_line": 1205,
+    "signature": "uint64_t __cdecl GetMsg(unsigned int uM)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230363,
+    "symbol": "__Z7WaitMsgm",
+    "source": "disp.cpp",
+    "original_line": 1210,
+    "signature": "uint64_t __cdecl WaitMsg(unsigned int uM)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230396,
+    "symbol": "__Z5IsKeym",
+    "source": "disp.cpp",
+    "original_line": 1215,
+    "signature": "bool __cdecl IsKey(unsigned int k)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230448,
+    "symbol": "__Z5IsKeyv",
+    "source": "disp.cpp",
+    "original_line": 1219,
+    "signature": "bool IsKey()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230468,
+    "symbol": "__Z6GetKeyv",
+    "source": "disp.cpp",
+    "original_line": 1223,
+    "signature": "unsigned int GetKey()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230500,
+    "symbol": "__Z7WaitKeym",
+    "source": "disp.cpp",
+    "original_line": 1227,
+    "signature": "unsigned int __cdecl WaitKey(unsigned int k)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230532,
+    "symbol": "__Z7WaitKeyv",
+    "source": "disp.cpp",
+    "original_line": 1232,
+    "signature": "unsigned int WaitKey()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230552,
+    "symbol": "__Z7IsMousem",
+    "source": "disp.cpp",
+    "original_line": 1236,
+    "signature": "bool __cdecl IsMouse(unsigned int m)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230612,
+    "symbol": "__Z7IsMousev",
+    "source": "disp.cpp",
+    "original_line": 1240,
+    "signature": "bool IsMouse()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230632,
+    "symbol": "__Z8GetMousev",
+    "source": "disp.cpp",
+    "original_line": 1244,
+    "signature": "unsigned int GetMouse()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230672,
+    "symbol": "__Z9WaitMousem",
+    "source": "disp.cpp",
+    "original_line": 1248,
+    "signature": "unsigned int __cdecl WaitMouse(unsigned int m)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230704,
+    "symbol": "__Z9WaitMousev",
+    "source": "disp.cpp",
+    "original_line": 1253,
+    "signature": "unsigned int WaitMouse()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230724,
+    "symbol": "__Z11IsMouseLeftv",
+    "source": "disp.cpp",
+    "original_line": 1257,
+    "signature": "bool IsMouseLeft()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230744,
+    "symbol": "__Z13WaitMouseLeftv",
+    "source": "disp.cpp",
+    "original_line": 1261,
+    "signature": "void WaitMouseLeft()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230765,
+    "symbol": "__Z13IsMouseMiddlev",
+    "source": "disp.cpp",
+    "original_line": 1265,
+    "signature": "bool IsMouseMiddle()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230785,
+    "symbol": "__Z15WaitMouseMiddlev",
+    "source": "disp.cpp",
+    "original_line": 1269,
+    "signature": "void WaitMouseMiddle()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230806,
+    "symbol": "__Z12IsMouseRightv",
+    "source": "disp.cpp",
+    "original_line": 1273,
+    "signature": "bool IsMouseRight()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230826,
+    "symbol": "__Z14WaitMouseRightv",
+    "source": "disp.cpp",
+    "original_line": 1277,
+    "signature": "void WaitMouseRight()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230847,
+    "symbol": "__Z12IsMouseWheelv",
+    "source": "disp.cpp",
+    "original_line": 1281,
+    "signature": "bool IsMouseWheel()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230867,
+    "symbol": "__Z13GetMouseWheelv",
+    "source": "disp.cpp",
+    "original_line": 1285,
+    "signature": "unsigned int GetMouseWheel()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230905,
+    "symbol": "__Z14WaitMouseWheelv",
+    "source": "disp.cpp",
+    "original_line": 1289,
+    "signature": "void WaitMouseWheel()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230926,
+    "symbol": "__Z11IsMouseMovev",
+    "source": "disp.cpp",
+    "original_line": 1293,
+    "signature": "bool IsMouseMove()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230946,
+    "symbol": "__Z12GetMouseMovev",
+    "source": "disp.cpp",
+    "original_line": 1297,
+    "signature": "unsigned int GetMouseMove()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4230978,
+    "symbol": "__Z13WaitMouseMovev",
+    "source": "disp.cpp",
+    "original_line": 1301,
+    "signature": "unsigned int WaitMouseMove()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231010,
+    "symbol": "__Z10IsDropFilev",
+    "source": "disp.cpp",
+    "original_line": 1305,
+    "signature": "bool IsDropFile()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231030,
+    "symbol": "__Z12GetMouseAbsXv",
+    "source": "disp.cpp",
+    "original_line": 1309,
+    "signature": "LONG GetMouseAbsX()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231055,
+    "symbol": "__Z12GetMouseAbsYv",
+    "source": "disp.cpp",
+    "original_line": 1315,
+    "signature": "LONG GetMouseAbsY()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231080,
+    "symbol": "__Z12GetMouseWinXv",
+    "source": "disp.cpp",
+    "original_line": 1321,
+    "signature": "int GetMouseWinX()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231109,
+    "symbol": "__Z12GetMouseWinYv",
+    "source": "disp.cpp",
+    "original_line": 1325,
+    "signature": "int GetMouseWinY()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231138,
+    "symbol": "__Z12GetMousePosXv",
+    "source": "disp.cpp",
+    "original_line": 1329,
+    "signature": "int GetMousePosX()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231183,
+    "symbol": "__Z12GetMousePosYv",
+    "source": "disp.cpp",
+    "original_line": 1333,
+    "signature": "int GetMousePosY()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231233,
+    "symbol": "__Z7MsgBoxWPKsS0_m",
+    "source": "disp.cpp",
+    "original_line": 1338,
+    "signature": "unsigned int __cdecl MsgBoxW(const __int16 *s, const __int16 *title, unsigned int i)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231277,
+    "symbol": "__Z6MsgBoxPKcS0_m",
+    "source": "disp.cpp",
+    "original_line": 1342,
+    "signature": "unsigned int __cdecl MsgBox(const char *s, const char *title, unsigned int i)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231321,
+    "symbol": "__Z7MsgBoxWPKsS0_",
+    "source": "disp.cpp",
+    "original_line": 1346,
+    "signature": "void __cdecl MsgBoxW(const __int16 *s, const __int16 *title)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231356,
+    "symbol": "__Z6MsgBoxPKcS0_",
+    "source": "disp.cpp",
+    "original_line": 1350,
+    "signature": "void __cdecl MsgBox(const char *s, const char *title)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231391,
+    "symbol": "__Z7MsgBoxWPKs",
+    "source": "disp.cpp",
+    "original_line": 1354,
+    "signature": "void __cdecl MsgBoxW(const __int16 *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231419,
+    "symbol": "__Z6MsgBoxPKc",
+    "source": "disp.cpp",
+    "original_line": 1358,
+    "signature": "void __cdecl MsgBox(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231447,
+    "symbol": "__Z5Delaym",
+    "source": "disp.cpp",
+    "original_line": 1362,
+    "signature": "void __cdecl Delay(unsigned int t)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231470,
+    "symbol": "__Z5Delayv",
+    "source": "disp.cpp",
+    "original_line": 1366,
+    "signature": "void Delay()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231491,
+    "symbol": "__Z10SendStringv",
+    "source": "disp.cpp",
+    "original_line": 1371,
+    "signature": "unsigned int SendString()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231566,
+    "symbol": "__Z9LoadAudioPKcS0_",
+    "source": "disp.cpp",
+    "original_line": 1376,
+    "signature": "unsigned int __cdecl LoadAudio(const char *s1, const char *s2)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231640,
+    "symbol": "__Z9LoadAudioPKc",
+    "source": "disp.cpp",
+    "original_line": 1383,
+    "signature": "unsigned int __cdecl LoadAudio(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231667,
+    "symbol": "__Z9PlayAudiomPKcb",
+    "source": "disp.cpp",
+    "original_line": 1387,
+    "signature": "void __cdecl PlayAudio(unsigned int id, const char *s, bool b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231735,
+    "symbol": "__Z9StopAudiom",
+    "source": "disp.cpp",
+    "original_line": 1392,
+    "signature": "void __cdecl StopAudio(unsigned int id)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231803,
+    "symbol": "__Z10PauseAudiom",
+    "source": "disp.cpp",
+    "original_line": 1398,
+    "signature": "void __cdecl PauseAudio(unsigned int id)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231844,
+    "symbol": "__Z11ResumeAudiom",
+    "source": "disp.cpp",
+    "original_line": 1403,
+    "signature": "void __cdecl ResumeAudio(unsigned int id)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231885,
+    "symbol": "__Z12ReleaseAudiom",
+    "source": "disp.cpp",
+    "original_line": 1408,
+    "signature": "void __cdecl ReleaseAudio(unsigned int id)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231926,
+    "symbol": "__Z11GetAudioPosm",
+    "source": "disp.cpp",
+    "original_line": 1413,
+    "signature": "unsigned int __cdecl GetAudioPos(unsigned int id)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4231966,
+    "symbol": "__Z11SetAudioPosmmb",
+    "source": "disp.cpp",
+    "original_line": 1418,
+    "signature": "void __cdecl SetAudioPos(unsigned int id, unsigned int pos, bool b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4232047,
+    "symbol": "__Z11GetAudioLenm",
+    "source": "disp.cpp",
+    "original_line": 1424,
+    "signature": "unsigned int __cdecl GetAudioLen(unsigned int id)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4232087,
+    "symbol": "__Z6IsFilePKc",
+    "source": "disp.cpp",
+    "original_line": 1430,
+    "signature": "bool __cdecl IsFile(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4232159,
+    "symbol": "__Z13UTF8ToUnicodePhPj",
+    "source": "disp.cpp",
+    "original_line": 1442,
+    "signature": "uint8_t __cdecl UTF8ToUnicode(uint8_t *utf8, uint32_t *unicode)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4232532,
+    "symbol": "__Z14UnicodeToUTF16jPt",
+    "source": "disp.cpp",
+    "original_line": 1493,
+    "signature": "uint8_t __cdecl UnicodeToUTF16(uint32_t unicode, uint16_t *utf16)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4232637,
+    "symbol": "__Z41__static_initialization_and_destruction_0ii",
+    "source": "disp.cpp",
+    "original_line": null,
+    "signature": "void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int __priority)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4232697,
+    "symbol": "__GLOBAL__sub_I_version",
+    "source": "disp.cpp",
+    "original_line": null,
+    "signature": "void _GLOBAL__sub_I_version()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4232728,
+    "symbol": "__ZN3LanC1Ev",
+    "source": "lan.cpp",
+    "original_line": 3,
+    "signature": "Lan::Lan()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4233312,
+    "symbol": "__ZN3Lan9getsyslanEv",
+    "source": "lan.cpp",
+    "original_line": 11,
+    "signature": "const char *Lan::getsyslan()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4233396,
+    "symbol": "__ZN3Lan7initlanEPKc",
+    "source": "lan.cpp",
+    "original_line": 25,
+    "signature": "void Lan::initlan(const char *lan)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4234670,
+    "symbol": "__ZN3Lan6getlanEl",
+    "source": "lan.cpp",
+    "original_line": 111,
+    "signature": "__int16 *Lan::getlan(int id)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4234704,
+    "symbol": "__ZN3RegC1Ev",
+    "source": "reg.cpp",
+    "original_line": 3,
+    "signature": "Reg::Reg()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4234726,
+    "symbol": "__ZN3RegD1Ev",
+    "source": "reg.cpp",
+    "original_line": 8,
+    "signature": "Reg::~Reg()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4234748,
+    "symbol": "__ZN3Reg7openregEv",
+    "source": "reg.cpp",
+    "original_line": 13,
+    "signature": "void Reg::openreg()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4234920,
+    "symbol": "__ZN3Reg8closeregEv",
+    "source": "reg.cpp",
+    "original_line": 19,
+    "signature": "void Reg::closereg()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4234966,
+    "symbol": "__ZN3Reg6setregEP6HKEY__PKcl",
+    "source": "reg.cpp",
+    "original_line": 25,
+    "signature": "void Reg::setreg(HKEY key, const char *name, int value)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4235032,
+    "symbol": "__ZN3Reg6getregEP6HKEY__PKcPl",
+    "source": "reg.cpp",
+    "original_line": 30,
+    "signature": "void Reg::getreg(HKEY key, const char *name, int *value)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4235130,
+    "symbol": "__ZN3Reg7setreg_EP6HKEY__PKcPc",
+    "source": "reg.cpp",
+    "original_line": 40,
+    "signature": "void Reg::setreg_(HKEY key, const char *name, char *value)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4235196,
+    "symbol": "__ZN3Reg7getreg_EP6HKEY__PKcPc",
+    "source": "reg.cpp",
+    "original_line": 45,
+    "signature": "void Reg::getreg_(HKEY key, const char *name, char *value)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4235336,
+    "symbol": "__ZN5SoundC1Ev",
+    "source": "sound.cpp",
+    "original_line": 4,
+    "signature": "Sound::Sound()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4235552,
+    "symbol": "__ZN5Sound9initsoundEv",
+    "source": "sound.cpp",
+    "original_line": 8,
+    "signature": "void Sound::initsound()",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4235604,
+    "symbol": "__ZN5Sound9loadsoundEv",
+    "source": "sound.cpp",
+    "original_line": 16,
+    "signature": "void Sound::loadsound()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4235728,
+    "symbol": "__ZN5Sound9loadmusicEv",
+    "source": "sound.cpp",
+    "original_line": 29,
+    "signature": "void Sound::loadmusic()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4236096,
+    "symbol": "__ZN5Sound9playsoundEl",
+    "source": "sound.cpp",
+    "original_line": 68,
+    "signature": "void Sound::playsound(int id)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4236180,
+    "symbol": "__ZN5Sound11switchsoundEv",
+    "source": "sound.cpp",
+    "original_line": 76,
+    "signature": "void Sound::switchsound()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4236268,
+    "symbol": "__ZN5Sound9playmusicEv",
+    "source": "sound.cpp",
+    "original_line": 85,
+    "signature": "void Sound::playmusic()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4236492,
+    "symbol": "__ZN5Sound10checkmusicEv",
+    "source": "sound.cpp",
+    "original_line": 115,
+    "signature": "void Sound::checkmusic()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4236676,
+    "symbol": "__ZN5Sound11switchmusicEv",
+    "source": "sound.cpp",
+    "original_line": 133,
+    "signature": "void Sound::switchmusic()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4236816,
+    "symbol": "__ZN5SteamC1Ev",
+    "source": "steam.cpp",
+    "original_line": 3,
+    "signature": "Steam::Steam()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4237974,
+    "symbol": "__ZN5SteamD1Ev",
+    "source": "steam.cpp",
+    "original_line": 17,
+    "signature": "Steam::~Steam()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4237996,
+    "symbol": "__ZN5Steam9initsteamEv",
+    "source": "steam.cpp",
+    "original_line": 22,
+    "signature": "void Steam::initsteam()",
+    "member_calls_rewritten": 4,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4238292,
+    "symbol": "__ZN5Steam7loadlanEv",
+    "source": "steam.cpp",
+    "original_line": 42,
+    "signature": "void Steam::loadlan()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4238422,
+    "symbol": "__ZN5Steam9exitsteamEv",
+    "source": "steam.cpp",
+    "original_line": 59,
+    "signature": "void Steam::exitsteam()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4238472,
+    "symbol": "__ZN5Steam9loadsteamEv",
+    "source": "steam.cpp",
+    "original_line": 68,
+    "signature": "void Steam::loadsteam()",
+    "member_calls_rewritten": 5,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4238640,
+    "symbol": "__ZN5Steam8resetachEv",
+    "source": "steam.cpp",
+    "original_line": 86,
+    "signature": "void Steam::resetach()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4238692,
+    "symbol": "__ZN5Steam7loadachEv",
+    "source": "steam.cpp",
+    "original_line": 94,
+    "signature": "void Steam::loadach()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4238818,
+    "symbol": "__ZN5Steam6addachEl",
+    "source": "steam.cpp",
+    "original_line": 107,
+    "signature": "void Steam::addach(int achid)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4238972,
+    "symbol": "__ZN5Steam8checkachElllllllll",
+    "source": "steam.cpp",
+    "original_line": 120,
+    "signature": "void Steam::checkach(int scrid, int d, int c, int b, int a, int a_d, int a_c, int a_b, int a_a)",
+    "member_calls_rewritten": 4,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4239170,
+    "symbol": "__ZN5Steam7loadscrEv",
+    "source": "steam.cpp",
+    "original_line": 143,
+    "signature": "void Steam::loadscr()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4239486,
+    "symbol": "__ZN5Steam6setscrEl",
+    "source": "steam.cpp",
+    "original_line": 168,
+    "signature": "void Steam::setscr(int scrid)",
+    "member_calls_rewritten": 4,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4240120,
+    "symbol": "__ZN5Steam6addscrElll",
+    "source": "steam.cpp",
+    "original_line": 196,
+    "signature": "void Steam::addscr(int scrid, int val, int mode)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4240228,
+    "symbol": "__ZN5Steam6maxscrEll",
+    "source": "steam.cpp",
+    "original_line": 208,
+    "signature": "void Steam::maxscr(int val, int scrline__)",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4240476,
+    "symbol": "__ZN5Steam7compscrElll",
+    "source": "steam.cpp",
+    "original_line": 226,
+    "signature": "void Steam::compscr(int val, int mode, int index)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4240630,
+    "symbol": "__ZN5Steam8resetscrEv",
+    "source": "steam.cpp",
+    "original_line": 253,
+    "signature": "void Steam::resetscr()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4240696,
+    "symbol": "__ZN5Steam8loadleadEv",
+    "source": "steam.cpp",
+    "original_line": 264,
+    "signature": "void Steam::loadlead()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4240992,
+    "symbol": "__ZN5Steam7getleadEv",
+    "source": "steam.cpp",
+    "original_line": 285,
+    "signature": "void Steam::getlead()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4241954,
+    "symbol": "__ZN5Steam7setleadEv",
+    "source": "steam.cpp",
+    "original_line": 321,
+    "signature": "void Steam::setlead()",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4242588,
+    "symbol": "__ZN5Steam7setleadEl",
+    "source": "steam.cpp",
+    "original_line": 358,
+    "signature": "void Steam::setlead(int mode)",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4243126,
+    "symbol": "__ZN5Steam8waitleadEv",
+    "source": "steam.cpp",
+    "original_line": 387,
+    "signature": "bool Steam::waitlead()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4243440,
+    "symbol": "__ZN5Steam9waitlead_Ev",
+    "source": "steam.cpp",
+    "original_line": 406,
+    "signature": "bool Steam::waitlead_()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4243808,
+    "symbol": "__ZN5Steam7savescrEPc",
+    "source": "steam.cpp",
+    "original_line": 428,
+    "signature": "void Steam::savescr(char *scrpath)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4243906,
+    "symbol": "__ZN5Steam7ischeatEll",
+    "source": "steam.cpp",
+    "original_line": 436,
+    "signature": "bool Steam::ischeat(int line, int tetris)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4243972,
+    "symbol": "__ZN5Steam7ischeatEv",
+    "source": "steam.cpp",
+    "original_line": 449,
+    "signature": "bool Steam::ischeat()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4244022,
+    "symbol": "__ZN5Steam10checkcheatEv",
+    "source": "steam.cpp",
+    "original_line": 454,
+    "signature": "void Steam::checkcheat()",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4244068,
+    "symbol": "__ZL18loadallpaintstaticPv@4",
+    "source": "window.cpp",
+    "original_line": 3,
+    "signature": "DWORD __stdcall loadallpaintstatic(LPVOID lpParam)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4244099,
+    "symbol": "__ZL7getleadPv@4",
+    "source": "window.cpp",
+    "original_line": 10,
+    "signature": "DWORD __stdcall getlead(LPVOID p)",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4244196,
+    "symbol": "__ZN6WindowC1Ev",
+    "source": "window.cpp",
+    "original_line": 22,
+    "signature": "Window::Window()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4246124,
+    "symbol": "__ZN6WindowD1Ev",
+    "source": "window.cpp",
+    "original_line": 28,
+    "signature": "Window::~Window()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4246196,
+    "symbol": "__ZN6Window16loadsettingcloudEv",
+    "source": "window.cpp",
+    "original_line": 34,
+    "signature": "void Window::loadsettingcloud()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4246606,
+    "symbol": "__ZN6Window16savesettingcloudEv",
+    "source": "window.cpp",
+    "original_line": 53,
+    "signature": "void Window::savesettingcloud()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4246906,
+    "symbol": "__ZN6Window11loadsettingEv",
+    "source": "window.cpp",
+    "original_line": 70,
+    "signature": "void Window::loadsetting()",
+    "member_calls_rewritten": 10,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4247396,
+    "symbol": "__ZN6Window11savesettingEv",
+    "source": "window.cpp",
+    "original_line": 84,
+    "signature": "void Window::savesetting()",
+    "member_calls_rewritten": 10,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4247888,
+    "symbol": "__ZN6Window14loadboardcloudEv",
+    "source": "window.cpp",
+    "original_line": 98,
+    "signature": "void Window::loadboardcloud()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4248968,
+    "symbol": "__ZN6Window14saveboardcloudEv",
+    "source": "window.cpp",
+    "original_line": 146,
+    "signature": "void Window::saveboardcloud()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4249932,
+    "symbol": "__ZN6Window9loadboardEv",
+    "source": "window.cpp",
+    "original_line": 191,
+    "signature": "void Window::loadboard()",
+    "member_calls_rewritten": 31,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4251488,
+    "symbol": "__ZN6Window9saveboardEv",
+    "source": "window.cpp",
+    "original_line": 226,
+    "signature": "void Window::saveboard()",
+    "member_calls_rewritten": 30,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4252980,
+    "symbol": "__ZN6Window12loadallpaintEv",
+    "source": "window.cpp",
+    "original_line": 260,
+    "signature": "void Window::loadallpaint()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4253070,
+    "symbol": "__ZN6Window7loadallEv",
+    "source": "window.cpp",
+    "original_line": 274,
+    "signature": "void Window::loadall()",
+    "member_calls_rewritten": 14,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4253642,
+    "symbol": "__ZN6Window8initmultEv",
+    "source": "window.cpp",
+    "original_line": 319,
+    "signature": "void Window::initmult()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4255684,
+    "symbol": "__ZN6Window8loadiconEv",
+    "source": "window.cpp",
+    "original_line": 341,
+    "signature": "void Window::loadicon()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4256002,
+    "symbol": "__ZN6Window10initwindowEv",
+    "source": "window.cpp",
+    "original_line": 359,
+    "signature": "void Window::initwindow()",
+    "member_calls_rewritten": 7,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4257272,
+    "symbol": "__ZN6Window13releasewindowEv",
+    "source": "window.cpp",
+    "original_line": 384,
+    "signature": "void Window::releasewindow()",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4257458,
+    "symbol": "__ZN6Window10initwindowEb",
+    "source": "window.cpp",
+    "original_line": 399,
+    "signature": "void Window::initwindow(bool b)",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4258708,
+    "symbol": "__ZN6Window9initcolorEv",
+    "source": "window.cpp",
+    "original_line": 444,
+    "signature": "void Window::initcolor()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4258918,
+    "symbol": "__ZN6Window7initbmpEv",
+    "source": "window.cpp",
+    "original_line": 459,
+    "signature": "void Window::initbmp()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4269942,
+    "symbol": "__ZN6Window9paintmenuEv",
+    "source": "window.cpp",
+    "original_line": 652,
+    "signature": "void Window::paintmenu()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4270664,
+    "symbol": "__ZN6Window9paintfaceEv",
+    "source": "window.cpp",
+    "original_line": 664,
+    "signature": "void Window::paintface()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4270878,
+    "symbol": "__ZN6Window11paintnumberElllllll",
+    "source": "window.cpp",
+    "original_line": 682,
+    "signature": "void Window::paintnumber(int n, int l, int x, int y, int w, int h, int b)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4271346,
+    "symbol": "__ZN6Window11paintnumberElllll",
+    "source": "window.cpp",
+    "original_line": 724,
+    "signature": "void Window::paintnumber(int n, int l, int x, int y, int b)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4271446,
+    "symbol": "__ZN6Window11paintnumberEllll",
+    "source": "window.cpp",
+    "original_line": 729,
+    "signature": "void Window::paintnumber(int n, int l, int x, int y)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4271508,
+    "symbol": "__ZN6Window10paintlevelEv",
+    "source": "window.cpp",
+    "original_line": 734,
+    "signature": "void Window::paintlevel()",
+    "member_calls_rewritten": 7,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4272208,
+    "symbol": "__ZN6Window10paintblockER5Blockllllll",
+    "source": "window.cpp",
+    "original_line": 776,
+    "signature": "void Window::paintblock(Block *const b, int i, int j, int x, int y, int w, int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4273460,
+    "symbol": "__ZN6Window10paintboardER5Blockll",
+    "source": "window.cpp",
+    "original_line": 837,
+    "signature": "void Window::paintboard(Block *const b, int x, int y)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4273640,
+    "symbol": "__ZN6Window10paintboardER5Blockllll",
+    "source": "window.cpp",
+    "original_line": 848,
+    "signature": "void Window::paintboard(Block *const b, int x, int y, int cx_0, int cy)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4273840,
+    "symbol": "__ZN6Window10paintboardEv",
+    "source": "window.cpp",
+    "original_line": 855,
+    "signature": "void Window::paintboard()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4274076,
+    "symbol": "__ZN6Window9paintlineEP6bitmaplll",
+    "source": "window.cpp",
+    "original_line": 865,
+    "signature": "void Window::paintline(pbitmap p, int n, int x, int y)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4274182,
+    "symbol": "__ZN6Window9paintlineEP6bitmapS1_llll",
+    "source": "window.cpp",
+    "original_line": 874,
+    "signature": "void Window::paintline(pbitmap pa, pbitmap pb, int a, int b, int x, int y)",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4274292,
+    "symbol": "__ZN6Window9paintlineEP6bitmapS1_S1_lllll",
+    "source": "window.cpp",
+    "original_line": 880,
+    "signature": "void Window::paintline(pbitmap pa, pbitmap pb, pbitmap pc, int a, int b, int c, int x, int y)",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4274420,
+    "symbol": "__ZN6Window9paintlineEP6bitmapS1_S1_S1_llllll",
+    "source": "window.cpp",
+    "original_line": 886,
+    "signature": "void Window::paintline(pbitmap pa, pbitmap pb, pbitmap pc, pbitmap pd, int a, int b, int c, int d, int x, int y)",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4274568,
+    "symbol": "__ZN6Window9paintlineEP6bitmapS1_S1_S1_S1_lllllll",
+    "source": "window.cpp",
+    "original_line": 892,
+    "signature": "void Window::paintline(pbitmap pa, pbitmap pb, pbitmap pc, pbitmap pd, pbitmap pe, int a, int b, int c, int d, int e, int x, int y)",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4274734,
+    "symbol": "__ZN6Window9painthelpEv",
+    "source": "window.cpp",
+    "original_line": 898,
+    "signature": "void Window::painthelp()",
+    "member_calls_rewritten": 157,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4315554,
+    "symbol": "__ZN6Window8painttutEv",
+    "source": "window.cpp",
+    "original_line": 1521,
+    "signature": "void Window::painttut()",
+    "member_calls_rewritten": 15,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4322216,
+    "symbol": "__ZN6Window10painttitleEl",
+    "source": "window.cpp",
+    "original_line": 1621,
+    "signature": "void Window::painttitle(int load)",
+    "member_calls_rewritten": 9,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4323524,
+    "symbol": "__ZN6Window10painteventEb",
+    "source": "window.cpp",
+    "original_line": 1655,
+    "signature": "void Window::paintevent(bool freshb)",
+    "member_calls_rewritten": 6,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4324220,
+    "symbol": "__ZN6Window10painteventEv",
+    "source": "window.cpp",
+    "original_line": 1688,
+    "signature": "void Window::paintevent()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4324252,
+    "symbol": "__ZN6Window12paintrefreshEv",
+    "source": "window.cpp",
+    "original_line": 1693,
+    "signature": "void Window::paintrefresh()",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4324362,
+    "symbol": "__ZN6Window4isinEllllll",
+    "source": "window.cpp",
+    "original_line": 1703,
+    "signature": "bool Window::isin(int ex, int ey, int x, int y, int w, int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4324430,
+    "symbol": "__ZN6Window7sethelpEl",
+    "source": "window.cpp",
+    "original_line": 1708,
+    "signature": "void Window::sethelp(int helpi_)",
+    "member_calls_rewritten": 4,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4324832,
+    "symbol": "__ZN6Window7savescrEv",
+    "source": "window.cpp",
+    "original_line": 1746,
+    "signature": "void Window::savescr()",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4325226,
+    "symbol": "__ZN6Window10switchskinEv",
+    "source": "window.cpp",
+    "original_line": 1764,
+    "signature": "void Window::switchskin()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4325294,
+    "symbol": "__ZN6Window10switchskinEl",
+    "source": "window.cpp",
+    "original_line": 1769,
+    "signature": "void Window::switchskin(int colori_)",
+    "member_calls_rewritten": 3,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4325372,
+    "symbol": "__ZN6Window8switchmdEv",
+    "source": "window.cpp",
+    "original_line": 1777,
+    "signature": "void Window::switchmd()",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4325432,
+    "symbol": "__ZN6Window8switchmdEl",
+    "source": "window.cpp",
+    "original_line": 1782,
+    "signature": "void Window::switchmd(int md_)",
+    "member_calls_rewritten": 1,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4325516,
+    "symbol": "__ZN6Window8tuteventEllb",
+    "source": "window.cpp",
+    "original_line": 1792,
+    "signature": "void Window::tutevent(int ex, int ey, bool tutkb)",
+    "member_calls_rewritten": 7,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4326260,
+    "symbol": "__ZN6Window16mouseeventboard_Ellll",
+    "source": "window.cpp",
+    "original_line": 1830,
+    "signature": "void Window::mouseeventboard_(int x, int y, int eb_, int md_)",
+    "member_calls_rewritten": 6,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4326758,
+    "symbol": "__ZN6Window15mouseeventboardEllll",
+    "source": "window.cpp",
+    "original_line": 1861,
+    "signature": "void Window::mouseeventboard(int ex_, int ey_, int eb_, int md_)",
+    "member_calls_rewritten": 2,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4327086,
+    "symbol": "__ZN6Window10mouseeventElll",
+    "source": "window.cpp",
+    "original_line": 1877,
+    "signature": "void Window::mouseevent(int ex_, int ey_, int eb_)",
+    "member_calls_rewritten": 72,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4332360,
+    "symbol": "__ZN6Window8keyeventEl",
+    "source": "window.cpp",
+    "original_line": 2182,
+    "signature": "void Window::keyevent(int key)",
+    "member_calls_rewritten": 70,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4335558,
+    "symbol": "__ZN6Window8doactionEv",
+    "source": "window.cpp",
+    "original_line": 2486,
+    "signature": "void Window::doaction()",
+    "member_calls_rewritten": 8,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4336552,
+    "symbol": "__ZN6Window12setfontname_EPKc",
+    "source": "window.cpp",
+    "original_line": 2546,
+    "signature": "void Window::setfontname_(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4336594,
+    "symbol": "__ZN6Window14setfontheight_Em",
+    "source": "window.cpp",
+    "original_line": 2552,
+    "signature": "void Window::setfontheight_(unsigned int h)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4336696,
+    "symbol": "__ZN6Window14setfontweight_Em",
+    "source": "window.cpp",
+    "original_line": 2558,
+    "signature": "void Window::setfontweight_(unsigned int wg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4336738,
+    "symbol": "__ZN6Window11drawtextxy_EP6bitmapPKsllmmmmm",
+    "source": "window.cpp",
+    "original_line": 2564,
+    "signature": "void Window::drawtextxy_(pbitmap b, const __int16 *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int format)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4336982,
+    "symbol": "__ZN6Window11drawtextxy_EP6bitmapPKsllmmmm",
+    "source": "window.cpp",
+    "original_line": 2569,
+    "signature": "void Window::drawtextxy_(pbitmap b, const __int16 *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4337218,
+    "symbol": "__ZN6Window11drawtextxy_EP6bitmapPKcllmmmm",
+    "source": "window.cpp",
+    "original_line": 2574,
+    "signature": "void Window::drawtextxy_(pbitmap b, const char *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4337454,
+    "symbol": "__ZN6Window11drawtextxy_EP6bitmapPKcllmm",
+    "source": "window.cpp",
+    "original_line": 2579,
+    "signature": "void Window::drawtextxy_(pbitmap b, const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4337574,
+    "symbol": "__ZN6Window15getstringwidth_EPKc",
+    "source": "window.cpp",
+    "original_line": 2584,
+    "signature": "unsigned int Window::getstringwidth_(const char *s)",
+    "member_calls_rewritten": 0,
+    "base_casts_repaired": 0,
+    "warnings": []
+  },
+  {
+    "address": 4337656,
+    "symbol": "_WinMain@16",
+    "source": "main.cpp",
+    "original_line": 4,
+    "signature": "int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)",
+    "member_calls_rewritten": 8,
+    "base_casts_repaired": 0,
+    "warnings": []
+  }
+]

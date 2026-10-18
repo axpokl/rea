@@ -1,0 +1,3986 @@
+[
+  {
+    "address": "0x00401000",
+    "symbol": "TopLevelExceptionFilter",
+    "signature": "LONG __stdcall TopLevelExceptionFilter(struct _EXCEPTION_POINTERS *ExceptionInfo)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x004011B0",
+    "symbol": "sub_4011B0",
+    "signature": "void __noreturn sub_4011B0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004012A0",
+    "symbol": "__mingw32_init_mainargs",
+    "signature": "int _mingw32_init_mainargs()",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x004012E0",
+    "symbol": "_mainCRTStartup",
+    "signature": "void __noreturn mainCRTStartup()",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00401300",
+    "symbol": "_WinMainCRTStartup",
+    "signature": "void __noreturn WinMainCRTStartup()",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00401320",
+    "symbol": "_atexit",
+    "signature": "int __cdecl atexit(void (__cdecl *a1)())",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00401330",
+    "symbol": "__onexit",
+    "signature": "_onexit_t __cdecl _onexit(_onexit_t a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00401340",
+    "symbol": "___gcc_register_frame",
+    "signature": "int __gcc_register_frame()",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00401430",
+    "symbol": "___gcc_deregister_frame",
+    "signature": "void __cdecl __gcc_deregister_frame()",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00401460",
+    "symbol": "__ZN5BlockC1Ev",
+    "signature": "void __cdecl Block::Block(Block *const this)",
+    "module": "block.cpp"
+  },
+  {
+    "address": "0x0040159C",
+    "symbol": "__ZN5Block6initblEv",
+    "signature": "void __cdecl Block::initbl(Block *const this)",
+    "module": "block.cpp"
+  },
+  {
+    "address": "0x00401714",
+    "symbol": "__ZN5Block8calcnumbEv",
+    "signature": "void __cdecl Block::calcnumb(Block *const this)",
+    "module": "block.cpp"
+  },
+  {
+    "address": "0x00401800",
+    "symbol": "__ZN5Block4isokElllRlS0_",
+    "signature": "bool __userpurge Block::isok@<al>(_DWORD *a1@<ecx>, Block *const this, int k, int x, int y, int *const tx, int *const ty)",
+    "module": "block.cpp"
+  },
+  {
+    "address": "0x004019A0",
+    "symbol": "__ZN5BoardC1Ev",
+    "signature": "void __cdecl Board::Board(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00401CB6",
+    "symbol": "__ZN5Board6initbdEv",
+    "signature": "void __cdecl Board::initbd(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402048",
+    "symbol": "__ZN5Board6initbdEllll",
+    "signature": "void __userpurge Board::initbd(Board **a1@<ecx>, Board *const this, int w_, int h_, int maskj_, int n_)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402086",
+    "symbol": "__ZN5Board6initbdEll",
+    "signature": "void __userpurge Board::initbd(int a1@<ecx>, Board *const this, int mode_, int md_)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402174",
+    "symbol": "__ZN5Board8randmineEll",
+    "signature": "void __userpurge Board::randmine(Board *a1@<ecx>, Board *const this, int x, int y)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402468",
+    "symbol": "__ZN5Board7tutmineEv",
+    "signature": "void __cdecl Board::tutmine(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004026F6",
+    "symbol": "__ZN5Board7resetbdEll",
+    "signature": "void __userpurge Board::resetbd(Board *a1@<ecx>, Board *const this, int x, int y)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402788",
+    "symbol": "__ZN5Board10solveblankEv",
+    "signature": "void __cdecl Board::solveblank(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402920",
+    "symbol": "__ZN5Board11solveblank_Ev",
+    "signature": "void __cdecl Board::solveblank_(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402950",
+    "symbol": "__ZN5Board6solve0Ev",
+    "signature": "void __cdecl Board::solve0(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402A8A",
+    "symbol": "__ZN5Board7solve0_Ev",
+    "signature": "void __cdecl Board::solve0_(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402ABA",
+    "symbol": "__ZN5Board6solve1Ev",
+    "signature": "void __cdecl Board::solve1(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402C12",
+    "symbol": "__ZN5Board7solve1_Ev",
+    "signature": "void __cdecl Board::solve1_(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402C56",
+    "symbol": "__ZN5Board10createruleEv",
+    "signature": "void __cdecl Board::createrule(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00402EAC",
+    "symbol": "__ZN5Board11compareruleEll",
+    "signature": "void __userpurge Board::comparerule(_DWORD *a1@<ecx>, Board *const this, int rule1c, int rule2c)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004031E6",
+    "symbol": "__ZN5Board11compareruleEv",
+    "signature": "void __cdecl Board::comparerule(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00403306",
+    "symbol": "__ZN5Board9applyruleEb",
+    "signature": "void __userpurge Board::applyrule(Board *a1@<ecx>, Board *const this, bool applyb)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00403530",
+    "symbol": "__ZN5Board6solve2Eb",
+    "signature": "void __userpurge Board::solve2(Board *a1@<ecx>, Board *const this, bool applyb)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004035CA",
+    "symbol": "__ZN5Board6solve2Ev",
+    "signature": "void __cdecl Board::solve2(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004035EA",
+    "symbol": "__ZN5Board7solve2_Eb",
+    "signature": "void __userpurge Board::solve2_(Board *a1@<ecx>, Board *const this, bool applyb)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00403676",
+    "symbol": "__ZN5Board7solve2_Ev",
+    "signature": "void __cdecl Board::solve2_(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00403696",
+    "symbol": "__ZN5Board7solve3_Ev",
+    "signature": "void __cdecl Board::solve3_(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x0040372A",
+    "symbol": "__ZN5Board10checkerrorEll",
+    "signature": "BOOL __userpurge Board::checkerror@<eax>(Board *a1@<ecx>, Board *const this, int i, int j)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00403976",
+    "symbol": "__ZN5Board10checkerrorEv",
+    "signature": "bool __cdecl Board::checkerror(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004039F6",
+    "symbol": "__ZN5Board9checklineEb",
+    "signature": "void __userpurge Board::checkline(Board *a1@<ecx>, Board *const this, bool delayb_)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00403CE8",
+    "symbol": "__ZN5Board7addlineEb",
+    "signature": "void __userpurge Board::addline(Board *a1@<ecx>, Board *const this, bool misslineb)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00403F44",
+    "symbol": "__ZN5Board7addlineEv",
+    "signature": "void __cdecl Board::addline(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00403F64",
+    "symbol": "__ZN5Board7addmaskEv",
+    "signature": "bool __cdecl Board::addmask(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004040E2",
+    "symbol": "__ZN5Board8checkdieEv",
+    "signature": "void __cdecl Board::checkdie(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00404286",
+    "symbol": "__ZN5Board7dellineEl",
+    "signature": "// local variable allocation has failed, the output may be wrong!",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00404BF2",
+    "symbol": "__ZN5Board7setqstnEllb",
+    "signature": "void __userpurge Board::setqstn(int a1@<ecx>, Board *const this, int x, int y, bool sb_)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00404C5C",
+    "symbol": "__ZN5Board7setqstnEll",
+    "signature": "void __userpurge Board::setqstn(int a1@<ecx>, Board *const this, int x, int y)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00404C8C",
+    "symbol": "__ZN5Board7setflagEll",
+    "signature": "void __userpurge Board::setflag(Board *a1@<ecx>, Board *const this, int x, int y)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00404E94",
+    "symbol": "__ZN5Board8setblockEll",
+    "signature": "void __userpurge Board::setblock(Board *a1@<ecx>, Board *const this, int x, int y)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004051BE",
+    "symbol": "__ZN5Board9clicknumbEllb",
+    "signature": "void __userpurge Board::clicknumb(Board *a1@<ecx>, Board *const this, int x, int y, bool sb_)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00405264",
+    "symbol": "__ZN5Board9clickleftEllb",
+    "signature": "void __userpurge Board::clickleft(Board *const this, int x, int y, bool sb_)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004052A2",
+    "symbol": "__ZN5Board10clickrightEllb",
+    "signature": "void __userpurge Board::clickright(Board *const this, int x, int y, bool sb_)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004052E0",
+    "symbol": "__ZN5Board9clickleftEllbl",
+    "signature": "void __userpurge Board::clickleft(Board *a1@<ecx>, Board *const this, int x, int y, int sb_, int md_)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00405448",
+    "symbol": "__ZN5Board10clickrightEllbl",
+    "signature": "void __userpurge Board::clickright(Board *a1@<ecx>, Board *const this, int x, int y, int sb_, int md_)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00405592",
+    "symbol": "__ZN5Board5pauseEv",
+    "signature": "void __cdecl Board::pause(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x004055D8",
+    "symbol": "__Z11CombinePathPcPKcS1_",
+    "signature": "void __cdecl CombinePath(char *dest, const char *path1, const char *path2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00405621",
+    "symbol": "__Z18CabExtractCallbackPvjjj@16",
+    "signature": "UINT __stdcall CabExtractCallback(PVOID context, UINT notification, uintptr_t param1, uintptr_t param2)",
+    "module": "cab.cpp"
+  },
+  {
+    "address": "0x00405667",
+    "symbol": "__Z15RemoveExtensionPc",
+    "signature": "void __cdecl RemoveExtension(char *filePath)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00405692",
+    "symbol": "__Z14ProcessCabFilePKc",
+    "signature": "BOOL __cdecl ProcessCabFile(const char *cabFilePath)",
+    "module": "cab.cpp"
+  },
+  {
+    "address": "0x00405840",
+    "symbol": "__Z23DeleteFolderRecursivelyPKc",
+    "signature": "void __cdecl DeleteFolderRecursively(const char *folderPath)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00405973",
+    "symbol": "__Z22CheckAndProcessCabFilev",
+    "signature": "void CheckAndProcessCabFile()",
+    "module": "cab.cpp"
+  },
+  {
+    "address": "0x00405A50",
+    "symbol": "__Z13WinCreateMainv",
+    "signature": "void WinCreateMain()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00405B2A",
+    "symbol": "__Z7WndProcP6HWND__jjl@16",
+    "signature": "LRESULT __stdcall WndProc(HWND hW, UINT uM, WPARAM wP, LPARAM lP)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00405DD2",
+    "symbol": "__Z15MonitorenumprocP10HMONITOR__P5HDC__P7tagRECTl@16",
+    "signature": "BOOL __stdcall Monitorenumproc(HMONITOR hmon, HDC hdc, LPRECT lprect, LPARAM pdata)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00405E78",
+    "symbol": "__Z11WinRegisterv",
+    "signature": "ATOM WinRegister()",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00405EEA",
+    "symbol": "__Z9WinCreatev",
+    "signature": "void WinCreate()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00405FEA",
+    "symbol": "__Z7WinInitv",
+    "signature": "void WinInit()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004060DC",
+    "symbol": "__Z8FreshFPSv",
+    "signature": "void FreshFPS()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406167",
+    "symbol": "__Z6AddFPSv",
+    "signature": "void AddFPS()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406182",
+    "symbol": "__Z9CreateWinllmmmmmPKc",
+    "signature": "void __cdecl CreateWin(int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int style, const char *winclass)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406287",
+    "symbol": "__Z9CreateWinmmmmmPKc",
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int style, const char *winclass)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004062ED",
+    "symbol": "__Z9CreateWinmmmmm",
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int style)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406326",
+    "symbol": "__Z9CreateWinmmmm",
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406357",
+    "symbol": "__Z9CreateWinmmm",
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406381",
+    "symbol": "__Z9CreateWinmm",
+    "signature": "void __cdecl CreateWin(unsigned int w, unsigned int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004063A4",
+    "symbol": "__Z9CreateWinm",
+    "signature": "void __cdecl CreateWin(unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004063E5",
+    "symbol": "__Z9CreateWinv",
+    "signature": "void CreateWin()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040641D",
+    "symbol": "__Z8FreshWinv",
+    "signature": "void FreshWin()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406442",
+    "symbol": "__Z8CloseWinv",
+    "signature": "void CloseWin()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406473",
+    "symbol": "__Z5IsWinv",
+    "signature": "BOOL IsWin()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040647F",
+    "symbol": "__Z8GetTimeRv",
+    "signature": "long double GetTimeR()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040651B",
+    "symbol": "__Z7GetTimev",
+    "signature": "signed __int64 GetTime()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040654C",
+    "symbol": "__Z8SetTitlePKc",
+    "signature": "void __cdecl SetTitle(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040656C",
+    "symbol": "__Z9SetTitleWPKs",
+    "signature": "void __cdecl SetTitleW(const __int16 *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040658C",
+    "symbol": "__Z8GetTitlev",
+    "signature": "char *GetTitle()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004065B9",
+    "symbol": "__Z9GetTitleWv",
+    "signature": "WCHAR *GetTitleW()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004065E6",
+    "symbol": "__Z7SetSizellmm",
+    "signature": "void __cdecl SetSize(int x, int y, unsigned int w, unsigned int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406674",
+    "symbol": "__Z7SetSizemm",
+    "signature": "void __cdecl SetSize(unsigned int w, unsigned int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004066AA",
+    "symbol": "__Z8GetWidthv",
+    "signature": "unsigned int GetWidth()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004066B4",
+    "symbol": "__Z9GetHeightv",
+    "signature": "unsigned int GetHeight()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004066BE",
+    "symbol": "__Z7GetSizev",
+    "signature": "unsigned int GetSize()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004066D6",
+    "symbol": "__Z11GetScrWidthv",
+    "signature": "int GetScrWidth()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004066ED",
+    "symbol": "__Z12GetScrHeightv",
+    "signature": "int GetScrHeight()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406704",
+    "symbol": "__Z10GetScrSizev",
+    "signature": "int GetScrSize()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406722",
+    "symbol": "__Z11GetScrCapsXv",
+    "signature": "long double GetScrCapsX()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040675B",
+    "symbol": "__Z11GetScrCapsYv",
+    "signature": "long double GetScrCapsY()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406794",
+    "symbol": "__Z14GetBorderTitlev",
+    "signature": "int GetBorderTitle()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004067AB",
+    "symbol": "__Z14GetBorderWidthv",
+    "signature": "int GetBorderWidth()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004067E1",
+    "symbol": "__Z15GetBorderHeightv",
+    "signature": "int GetBorderHeight()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406817",
+    "symbol": "__Z13GetBorderSizev",
+    "signature": "int GetBorderSize()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406835",
+    "symbol": "__Z6SetPosll",
+    "signature": "void __cdecl SetPos(int x, int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406864",
+    "symbol": "__Z7GetPosXv",
+    "signature": "LONG GetPosX()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004068A2",
+    "symbol": "__Z7GetPosYv",
+    "signature": "LONG GetPosY()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004068E0",
+    "symbol": "__Z6GetPosv",
+    "signature": "int GetPos()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004068FE",
+    "symbol": "__Z6GetWinv",
+    "signature": "pbitmap GetWin()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406908",
+    "symbol": "__Z6GetScrv",
+    "signature": "pbitmap GetScr()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406912",
+    "symbol": "__Z7GetHwndP6bitmap",
+    "signature": "HGDIOBJ __cdecl GetHwnd(pbitmap b)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040691C",
+    "symbol": "__Z7GetHwndv",
+    "signature": "HWND GetHwnd()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406926",
+    "symbol": "__Z7GetDrawP6bitmap",
+    "signature": "HDC __cdecl GetDraw(pbitmap b)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406931",
+    "symbol": "__Z7GetDrawv",
+    "signature": "HDC GetDraw()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040693B",
+    "symbol": "__Z10GetBGColorv",
+    "signature": "COLORREF GetBGColor()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406945",
+    "symbol": "__Z10SetBGColorm",
+    "signature": "void __cdecl SetBGColor(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406953",
+    "symbol": "__Z10GetFGColorv",
+    "signature": "unsigned int GetFGColor()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040695D",
+    "symbol": "__Z10SetFGColorm",
+    "signature": "void __cdecl SetFGColor(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040696B",
+    "symbol": "__Z11SetPenWidthm",
+    "signature": "void __cdecl SetPenWidth(unsigned int pew)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406979",
+    "symbol": "__Z11SetPenColorP6bitmapm",
+    "signature": "void __cdecl SetPenColor(pbitmap b, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004069FC",
+    "symbol": "__Z13SetBrushColorP6bitmapm",
+    "signature": "void __cdecl SetBrushColor(pbitmap b, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406A6C",
+    "symbol": "__Z11SetPenColorm",
+    "signature": "void __cdecl SetPenColor(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406A89",
+    "symbol": "__Z13SetBrushColorm",
+    "signature": "void __cdecl SetBrushColor(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406AA6",
+    "symbol": "__Z6GetRedm",
+    "signature": "unsigned __int8 __cdecl GetRed(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406AAE",
+    "symbol": "__Z8GetGreenm",
+    "signature": "unsigned __int8 __cdecl GetGreen(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406AB9",
+    "symbol": "__Z7GetBluem",
+    "signature": "unsigned __int8 __cdecl GetBlue(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406AC4",
+    "symbol": "__Z8GetAlpham",
+    "signature": "unsigned __int8 __cdecl GetAlpha(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406ACF",
+    "symbol": "__Z7GetRGBAhhhh",
+    "signature": "unsigned int __cdecl GetRGBA(unsigned __int8 r, unsigned __int8 g, unsigned __int8 b, unsigned __int8 a)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406B15",
+    "symbol": "__Z6GetRGBhhh",
+    "signature": "unsigned int __cdecl GetRGB(unsigned __int8 r, unsigned __int8 g, unsigned __int8 b)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406B53",
+    "symbol": "__Z7SetFontP6bitmap",
+    "signature": "void __cdecl SetFont(pbitmap b)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406C4A",
+    "symbol": "__Z7SetFontv",
+    "signature": "void SetFont()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406C60",
+    "symbol": "__Z12SetFontWidthm",
+    "signature": "void __cdecl SetFontWidth(unsigned int w)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406C76",
+    "symbol": "__Z13SetFontHeightm",
+    "signature": "void __cdecl SetFontHeight(unsigned int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406C8C",
+    "symbol": "__Z11SetFontSizemm",
+    "signature": "void __cdecl SetFontSize(unsigned int w, unsigned int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406CAA",
+    "symbol": "__Z13SetFontWeightm",
+    "signature": "void __cdecl SetFontWeight(unsigned int wg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406CC0",
+    "symbol": "__Z13SetFontLtalicm",
+    "signature": "void __cdecl SetFontLtalic(unsigned int lt)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406CD6",
+    "symbol": "__Z16SetFontUnderLinem",
+    "signature": "void __cdecl SetFontUnderLine(unsigned int ud)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406CEC",
+    "symbol": "__Z16SetFontStrikeOutm",
+    "signature": "void __cdecl SetFontStrikeOut(unsigned int sk)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406D02",
+    "symbol": "__Z14SetFontCharSetm",
+    "signature": "void __cdecl SetFontCharSet(unsigned int cs_0)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406D18",
+    "symbol": "__Z11SetFontNamePKc",
+    "signature": "void __cdecl SetFontName(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406D39",
+    "symbol": "__Z13GetStringSizePKc",
+    "signature": "void __cdecl GetStringSize(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406D72",
+    "symbol": "__Z14GetStringWidthPKc",
+    "signature": "unsigned int __cdecl GetStringWidth(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406DB3",
+    "symbol": "__Z15GetStringHeightPKc",
+    "signature": "unsigned int __cdecl GetStringHeight(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406DF4",
+    "symbol": "__Z10InitTextXYPP6bitmapPPKsPmS5_",
+    "signature": "void __cdecl InitTextXY(pbitmap *b, const __int16 **s, unsigned int *cfg, unsigned int *cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406EB2",
+    "symbol": "__Z10InitTextXYPP6bitmapPPKcPmS5_",
+    "signature": "void __cdecl InitTextXY(pbitmap *b, const char **s, unsigned int *cfg, unsigned int *cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00406F6F",
+    "symbol": "__Z10DrawTextXYP6bitmapPKsllmmmmm",
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const __int16 *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int format)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040700A",
+    "symbol": "__Z10DrawTextXYP6bitmapPKsllmmmm",
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const __int16 *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004070A6",
+    "symbol": "__Z10DrawTextXYP6bitmapPKcllmmmm",
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const char *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407142",
+    "symbol": "__Z10DrawTextXYP6bitmapPKcllmm",
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004071C1",
+    "symbol": "__Z10DrawTextXYP6bitmapPKcllm",
+    "signature": "void __cdecl DrawTextXY(pbitmap b, const char *s, int x, int y, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004071F9",
+    "symbol": "__Z10DrawTextXYPKcllmm",
+    "signature": "void __cdecl DrawTextXY(const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407231",
+    "symbol": "__Z10DrawTextXYPKcllm",
+    "signature": "void __cdecl DrawTextXY(const char *s, int x, int y, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407262",
+    "symbol": "__Z10DrawTextXYPKclm",
+    "signature": "void __cdecl DrawTextXY(const char *s, int x, unsigned int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040728C",
+    "symbol": "__Z9DrawTextAPKcmm",
+    "signature": "void __cdecl DrawTextA(const char *s, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004072C1",
+    "symbol": "__Z9DrawTextAPKcm",
+    "signature": "void __cdecl DrawTextA(const char *s, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004072E4",
+    "symbol": "__Z9DrawTextAPKc",
+    "signature": "void __cdecl DrawTextA(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407300",
+    "symbol": "__Z12DrawTextlnXYPKcllmm",
+    "signature": "void __cdecl DrawTextlnXY(const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040734F",
+    "symbol": "__Z12DrawTextlnXYPKcllm",
+    "signature": "void __cdecl DrawTextlnXY(const char *s, int x, int y, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407380",
+    "symbol": "__Z12DrawTextlnXYPKclm",
+    "signature": "void __cdecl DrawTextlnXY(const char *s, int x, unsigned int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004073AA",
+    "symbol": "__Z10DrawTextlnPKcmm",
+    "signature": "void __cdecl DrawTextln(const char *s, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004073DF",
+    "symbol": "__Z10DrawTextlnPKcm",
+    "signature": "void __cdecl DrawTextln(const char *s, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407402",
+    "symbol": "__Z10DrawTextlnPKc",
+    "signature": "void __cdecl DrawTextln(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040741E",
+    "symbol": "__Z10DrawTextlnv",
+    "signature": "void DrawTextln()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407433",
+    "symbol": "__Z11DrawTextXYwP6bitmapPKcllmm",
+    "signature": "void __cdecl DrawTextXYw(pbitmap b, const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004074C9",
+    "symbol": "__Z11DrawTextXYwP6bitmapPKcllm",
+    "signature": "void __cdecl DrawTextXYw(pbitmap b, const char *s, int x, int y, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407501",
+    "symbol": "__Z11DrawTextXYwPKcllmm",
+    "signature": "void __cdecl DrawTextXYw(const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407539",
+    "symbol": "__Z11DrawTextXYwPKcllm",
+    "signature": "void __cdecl DrawTextXYw(const char *s, int x, int y, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040756A",
+    "symbol": "__Z11DrawTextXYwPKclm",
+    "signature": "void __cdecl DrawTextXYw(const char *s, int x, unsigned int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407594",
+    "symbol": "__Z9DrawTextwPKcmm",
+    "signature": "void __cdecl DrawTextw(const char *s, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004075C9",
+    "symbol": "__Z9DrawTextwPKcm",
+    "signature": "void __cdecl DrawTextw(const char *s, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004075EC",
+    "symbol": "__Z9DrawTextwPKc",
+    "signature": "void __cdecl DrawTextw(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407608",
+    "symbol": "__Z13DrawTextlnXYwPKcllmm",
+    "signature": "void __cdecl DrawTextlnXYw(const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040764F",
+    "symbol": "__Z13DrawTextlnXYwPKcllm",
+    "signature": "void __cdecl DrawTextlnXYw(const char *s, int x, int y, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407680",
+    "symbol": "__Z13DrawTextlnXYwPKclm",
+    "signature": "void __cdecl DrawTextlnXYw(const char *s, int x, unsigned int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004076AA",
+    "symbol": "__Z11DrawTextlnwPKcmm",
+    "signature": "void __cdecl DrawTextlnw(const char *s, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004076DF",
+    "symbol": "__Z11DrawTextlnwPKcm",
+    "signature": "void __cdecl DrawTextlnw(const char *s, unsigned int cfg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407702",
+    "symbol": "__Z11DrawTextlnwPKc",
+    "signature": "void __cdecl DrawTextlnw(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040771E",
+    "symbol": "__Z8GetPixelP6bitmapmm",
+    "signature": "unsigned int __cdecl GetPixel(pbitmap b, unsigned int x, unsigned int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407753",
+    "symbol": "__Z8GetPixelmm",
+    "signature": "unsigned int __cdecl GetPixel(unsigned int x, unsigned int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407775",
+    "symbol": "__Z8SetPixelP6bitmapmmm",
+    "signature": "void __cdecl SetPixel(pbitmap b, unsigned int x, unsigned int y, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004077C4",
+    "symbol": "__Z8SetPixelmmm",
+    "signature": "void __cdecl SetPixel(unsigned int x, unsigned int y, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004077EE",
+    "symbol": "__Z8SetPixelmm",
+    "signature": "void __cdecl SetPixel(unsigned int x, unsigned int y)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407811",
+    "symbol": "__Z4LineP6bitmapllllm",
+    "signature": "void __cdecl Line(pbitmap b, int x, int y, int w, int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407899",
+    "symbol": "__Z4Linellllm",
+    "signature": "void __cdecl Line(int x, int y, int w, int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004078D1",
+    "symbol": "__Z3BarP6bitmapllllmm",
+    "signature": "void __cdecl Bar(pbitmap b, int x, int y, int w, int h, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004079AB",
+    "symbol": "__Z3BarP6bitmapllllm",
+    "signature": "void __cdecl Bar(pbitmap b, int x, int y, int w, int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004079EA",
+    "symbol": "__Z3Barllllmm",
+    "signature": "void __cdecl Bar(int x, int y, int w, int h, unsigned int cfg, unsigned int cbg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407A29",
+    "symbol": "__Z3Barllllm",
+    "signature": "void __cdecl Bar(int x, int y, int w, int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407A61",
+    "symbol": "__Z3Barllll",
+    "signature": "void __cdecl Bar(int x, int y, int w, int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407A92",
+    "symbol": "__Z5ClearP6bitmapm",
+    "signature": "void __cdecl Clear(pbitmap b, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407AF9",
+    "symbol": "__Z5ClearP6bitmap",
+    "signature": "void __cdecl Clear(pbitmap b)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407B15",
+    "symbol": "__Z5Clearm",
+    "signature": "void __cdecl Clear(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407B31",
+    "symbol": "__Z5Clearv",
+    "signature": "void Clear()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407B46",
+    "symbol": "__Z9CreateBMPP6bitmapmmm",
+    "signature": "pbitmap __cdecl CreateBMP(pbitmap b, unsigned int w, unsigned int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407C48",
+    "symbol": "__Z9CreateBMPP6bitmap",
+    "signature": "pbitmap __cdecl CreateBMP(pbitmap b)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407C73",
+    "symbol": "__Z9CreateBMPmmm",
+    "signature": "pbitmap __cdecl CreateBMP(unsigned int w, unsigned int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407C9C",
+    "symbol": "__Z9CreateBMPmm",
+    "signature": "pbitmap __cdecl CreateBMP(unsigned int w, unsigned int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407CBE",
+    "symbol": "__Z9CreateBMPv",
+    "signature": "pbitmap CreateBMP()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407CDA",
+    "symbol": "__Z10ReleaseBMPP6bitmap",
+    "signature": "void __cdecl ReleaseBMP(pbitmap b)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407D65",
+    "symbol": "__Z10ReleaseBMPv",
+    "signature": "void ReleaseBMP()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00407D88",
+    "symbol": "__Z7LoadBMPPKcm",
+    "signature": "pbitmap __cdecl LoadBMP(const char *s, unsigned int c)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00407EFC",
+    "symbol": "__Z7LoadBMPPKc",
+    "signature": "pbitmap __cdecl LoadBMP(const char *s)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00407F17",
+    "symbol": "__Z7SaveBMPP6bitmapPKc",
+    "signature": "void __cdecl SaveBMP(pbitmap b, const char *s)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00407FDD",
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmmmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040826C",
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004082C7",
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408321",
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040836E",
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004083CC",
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040840B",
+    "symbol": "__Z7DrawBMPP6bitmapS0_mmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xd, unsigned int yd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040844B",
+    "symbol": "__Z7DrawBMPP6bitmapS0_mm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int xd, unsigned int yd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040847C",
+    "symbol": "__Z7DrawBMPP6bitmapS0_m",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004084AE",
+    "symbol": "__Z7DrawBMPP6bitmapS0_",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, pbitmap bd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004084D1",
+    "symbol": "__Z7DrawBMPP6bitmapmmmmmmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040852C",
+    "symbol": "__Z7DrawBMPP6bitmapmmmmmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408580",
+    "symbol": "__Z7DrawBMPP6bitmapmmmmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004085D3",
+    "symbol": "__Z7DrawBMPP6bitmapmmmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408619",
+    "symbol": "__Z7DrawBMPP6bitmapmmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408670",
+    "symbol": "__Z7DrawBMPP6bitmapmmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004086A8",
+    "symbol": "__Z7DrawBMPP6bitmapmmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xd, unsigned int yd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004086E1",
+    "symbol": "__Z7DrawBMPP6bitmapmm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int xd, unsigned int yd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040870B",
+    "symbol": "__Z7DrawBMPP6bitmapm",
+    "signature": "void __cdecl DrawBMP(pbitmap bs, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408736",
+    "symbol": "__Z7DrawBMPP6bitmap",
+    "signature": "void __cdecl DrawBMP(pbitmap bs)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408752",
+    "symbol": "__Z7DrawBMPmmmmmmmmm",
+    "signature": "void __cdecl DrawBMP(unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004087A6",
+    "symbol": "__Z7DrawBMPmmmmmmmm",
+    "signature": "void __cdecl DrawBMP(unsigned int xs, unsigned int ys, unsigned int ws, unsigned int hs, unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004087F3",
+    "symbol": "__Z7DrawBMPmmmmmmm",
+    "signature": "void __cdecl DrawBMP(unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408839",
+    "symbol": "__Z7DrawBMPmmmmmm",
+    "signature": "void __cdecl DrawBMP(unsigned int xs, unsigned int ys, unsigned int xd, unsigned int yd, unsigned int w, unsigned int h)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408878",
+    "symbol": "__Z7DrawBMPmmmmm",
+    "signature": "void __cdecl DrawBMP(unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004088B0",
+    "symbol": "__Z7DrawBMPmmmm",
+    "signature": "void __cdecl DrawBMP(unsigned int xd, unsigned int yd, unsigned int wd, unsigned int hd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004088E1",
+    "symbol": "__Z7DrawBMPmmm",
+    "signature": "void __cdecl DrawBMP(unsigned int xd, unsigned int yd, unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040890B",
+    "symbol": "__Z7DrawBMPmm",
+    "signature": "void __cdecl DrawBMP(unsigned int xd, unsigned int yd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040892E",
+    "symbol": "__Z7DrawBMPm",
+    "signature": "void __cdecl DrawBMP(unsigned int c)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040894A",
+    "symbol": "__Z7DrawBMPv",
+    "signature": "void DrawBMP()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040895F",
+    "symbol": "__Z2HIy",
+    "signature": "unsigned int __cdecl HI(uint64_t val)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040897D",
+    "symbol": "__Z2LOy",
+    "signature": "unsigned int __cdecl LO(uint64_t val)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408994",
+    "symbol": "__Z7SendMsgv",
+    "signature": "void SendMsg()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004089BB",
+    "symbol": "__Z9CustomMsgv",
+    "signature": "BOOL CustomMsg()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408A68",
+    "symbol": "__Z9IsNextMsgv",
+    "signature": "signed int IsNextMsg()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408B62",
+    "symbol": "__Z10GetNextMsgv",
+    "signature": "UINT GetNextMsg()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408B6C",
+    "symbol": "__Z11WaitNextMsgv",
+    "signature": "UINT WaitNextMsg()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408BBB",
+    "symbol": "__Z5IsMsgPKmm",
+    "signature": "bool __cdecl IsMsg(const unsigned int *uM, unsigned int length)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408BFF",
+    "symbol": "__Z6GetMsgPKmm",
+    "signature": "uint64_t __cdecl GetMsg(const unsigned int *uM, unsigned int length)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408C5F",
+    "symbol": "__Z7WaitMsgPKmm",
+    "signature": "uint64_t __cdecl WaitMsg(const unsigned int *uM, unsigned int length)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408C99",
+    "symbol": "__Z5IsMsgm",
+    "signature": "bool __cdecl IsMsg(unsigned int uM)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408CBA",
+    "symbol": "__Z6GetMsgm",
+    "signature": "uint64_t __cdecl GetMsg(unsigned int uM)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408CDB",
+    "symbol": "__Z7WaitMsgm",
+    "signature": "uint64_t __cdecl WaitMsg(unsigned int uM)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408CFC",
+    "symbol": "__Z5IsKeym",
+    "signature": "bool __cdecl IsKey(unsigned int k)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408D30",
+    "symbol": "__Z5IsKeyv",
+    "signature": "bool IsKey()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408D44",
+    "symbol": "__Z6GetKeyv",
+    "signature": "unsigned int GetKey()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408D64",
+    "symbol": "__Z7WaitKeym",
+    "signature": "unsigned int __cdecl WaitKey(unsigned int k)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408D84",
+    "symbol": "__Z7WaitKeyv",
+    "signature": "unsigned int WaitKey()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408D98",
+    "symbol": "__Z7IsMousem",
+    "signature": "bool __cdecl IsMouse(unsigned int m)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408DD4",
+    "symbol": "__Z7IsMousev",
+    "signature": "bool IsMouse()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408DE8",
+    "symbol": "__Z8GetMousev",
+    "signature": "unsigned int GetMouse()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408E10",
+    "symbol": "__Z9WaitMousem",
+    "signature": "unsigned int __cdecl WaitMouse(unsigned int m)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408E30",
+    "symbol": "__Z9WaitMousev",
+    "signature": "unsigned int WaitMouse()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408E44",
+    "symbol": "__Z11IsMouseLeftv",
+    "signature": "bool IsMouseLeft()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408E58",
+    "symbol": "__Z13WaitMouseLeftv",
+    "signature": "void WaitMouseLeft()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408E6D",
+    "symbol": "__Z13IsMouseMiddlev",
+    "signature": "bool IsMouseMiddle()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408E81",
+    "symbol": "__Z15WaitMouseMiddlev",
+    "signature": "void WaitMouseMiddle()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408E96",
+    "symbol": "__Z12IsMouseRightv",
+    "signature": "bool IsMouseRight()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408EAA",
+    "symbol": "__Z14WaitMouseRightv",
+    "signature": "void WaitMouseRight()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408EBF",
+    "symbol": "__Z12IsMouseWheelv",
+    "signature": "bool IsMouseWheel()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408ED3",
+    "symbol": "__Z13GetMouseWheelv",
+    "signature": "unsigned int GetMouseWheel()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408EF9",
+    "symbol": "__Z14WaitMouseWheelv",
+    "signature": "void WaitMouseWheel()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408F0E",
+    "symbol": "__Z11IsMouseMovev",
+    "signature": "bool IsMouseMove()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408F22",
+    "symbol": "__Z12GetMouseMovev",
+    "signature": "unsigned int GetMouseMove()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408F42",
+    "symbol": "__Z13WaitMouseMovev",
+    "signature": "unsigned int WaitMouseMove()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408F62",
+    "symbol": "__Z10IsDropFilev",
+    "signature": "bool IsDropFile()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408F76",
+    "symbol": "__Z12GetMouseAbsXv",
+    "signature": "LONG GetMouseAbsX()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408F8F",
+    "symbol": "__Z12GetMouseAbsYv",
+    "signature": "LONG GetMouseAbsY()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408FA8",
+    "symbol": "__Z12GetMouseWinXv",
+    "signature": "int GetMouseWinX()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408FC5",
+    "symbol": "__Z12GetMouseWinYv",
+    "signature": "int GetMouseWinY()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00408FE2",
+    "symbol": "__Z12GetMousePosXv",
+    "signature": "int GetMousePosX()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040900F",
+    "symbol": "__Z12GetMousePosYv",
+    "signature": "int GetMousePosY()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00409041",
+    "symbol": "__Z7MsgBoxWPKsS0_m",
+    "signature": "unsigned int __cdecl MsgBoxW(const __int16 *s, const __int16 *title, unsigned int i)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040906D",
+    "symbol": "__Z6MsgBoxPKcS0_m",
+    "signature": "unsigned int __cdecl MsgBox(const char *s, const char *title, unsigned int i)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00409099",
+    "symbol": "__Z7MsgBoxWPKsS0_",
+    "signature": "void __cdecl MsgBoxW(const __int16 *s, const __int16 *title)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004090BC",
+    "symbol": "__Z6MsgBoxPKcS0_",
+    "signature": "void __cdecl MsgBox(const char *s, const char *title)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004090DF",
+    "symbol": "__Z7MsgBoxWPKs",
+    "signature": "void __cdecl MsgBoxW(const __int16 *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004090FB",
+    "symbol": "__Z6MsgBoxPKc",
+    "signature": "void __cdecl MsgBox(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00409117",
+    "symbol": "__Z5Delaym",
+    "signature": "void __cdecl Delay(unsigned int t)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040912E",
+    "symbol": "__Z5Delayv",
+    "signature": "void Delay()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00409143",
+    "symbol": "__Z10SendStringv",
+    "signature": "unsigned int SendString()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040918E",
+    "symbol": "__Z9LoadAudioPKcS0_",
+    "signature": "unsigned int __cdecl LoadAudio(const char *s1, const char *s2)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x004091D8",
+    "symbol": "__Z9LoadAudioPKc",
+    "signature": "unsigned int __cdecl LoadAudio(const char *s)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x004091F3",
+    "symbol": "__Z9PlayAudiomPKcb",
+    "signature": "void __cdecl PlayAudio(unsigned int id, const char *s, bool b)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00409237",
+    "symbol": "__Z9StopAudiom",
+    "signature": "void __cdecl StopAudio(unsigned int id)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040927B",
+    "symbol": "__Z10PauseAudiom",
+    "signature": "void __cdecl PauseAudio(unsigned int id)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004092A4",
+    "symbol": "__Z11ResumeAudiom",
+    "signature": "void __cdecl ResumeAudio(unsigned int id)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004092CD",
+    "symbol": "__Z12ReleaseAudiom",
+    "signature": "void __cdecl ReleaseAudio(unsigned int id)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004092F6",
+    "symbol": "__Z11GetAudioPosm",
+    "signature": "unsigned int __cdecl GetAudioPos(unsigned int id)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040931E",
+    "symbol": "__Z11SetAudioPosmmb",
+    "signature": "void __cdecl SetAudioPos(unsigned int id, unsigned int pos, bool b)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040936F",
+    "symbol": "__Z11GetAudioLenm",
+    "signature": "unsigned int __cdecl GetAudioLen(unsigned int id)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00409397",
+    "symbol": "__Z6IsFilePKc",
+    "signature": "bool __cdecl IsFile(const char *s)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004093DF",
+    "symbol": "__Z13UTF8ToUnicodePhPj",
+    "signature": "uint8_t __cdecl UTF8ToUnicode(uint8_t *utf8, uint32_t *unicode)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00409554",
+    "symbol": "__Z14UnicodeToUTF16jPt",
+    "signature": "uint8_t __cdecl UnicodeToUTF16(uint32_t unicode, uint16_t *utf16)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004095BD",
+    "symbol": "__Z41__static_initialization_and_destruction_0ii",
+    "signature": "void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int __priority)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004095F9",
+    "symbol": "__GLOBAL__sub_I_version",
+    "signature": "void _GLOBAL__sub_I_version()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00409618",
+    "symbol": "__ZN3LanC1Ev",
+    "signature": "void __cdecl Lan::Lan(Lan *const this)",
+    "module": "lan.cpp"
+  },
+  {
+    "address": "0x00409860",
+    "symbol": "__ZN3Lan9getsyslanEv",
+    "signature": "const char *__cdecl Lan::getsyslan(Lan *const this)",
+    "module": "lan.cpp"
+  },
+  {
+    "address": "0x004098B4",
+    "symbol": "__ZN3Lan7initlanEPKc",
+    "signature": "void __userpurge Lan::initlan(Lan *a1@<ecx>, Lan *const this, const char *lan)",
+    "module": "lan.cpp"
+  },
+  {
+    "address": "0x00409DAE",
+    "symbol": "__ZN3Lan6getlanEl",
+    "signature": "__int16 *__userpurge Lan::getlan@<eax>(int a1@<ecx>, Lan *const this, int id)",
+    "module": "lan.cpp"
+  },
+  {
+    "address": "0x00409DD0",
+    "symbol": "__ZN3RegC1Ev",
+    "signature": "void __cdecl Reg::Reg(Reg *const this)",
+    "module": "reg.cpp"
+  },
+  {
+    "address": "0x00409DE6",
+    "symbol": "__ZN3RegD1Ev",
+    "signature": "void __cdecl Reg::~Reg(Reg *const this)",
+    "module": "reg.cpp"
+  },
+  {
+    "address": "0x00409DFC",
+    "symbol": "__ZN3Reg7openregEv",
+    "signature": "void __cdecl Reg::openreg(Reg *const this)",
+    "module": "reg.cpp"
+  },
+  {
+    "address": "0x00409EA8",
+    "symbol": "__ZN3Reg8closeregEv",
+    "signature": "void __cdecl Reg::closereg(Reg *const this)",
+    "module": "reg.cpp"
+  },
+  {
+    "address": "0x00409ED6",
+    "symbol": "__ZN3Reg6setregEP6HKEY__PKcl",
+    "signature": "void __userpurge Reg::setreg(Reg *const this, HKEY key, const char *name, int value)",
+    "module": "reg.cpp"
+  },
+  {
+    "address": "0x00409F18",
+    "symbol": "__ZN3Reg6getregEP6HKEY__PKcPl",
+    "signature": "void __userpurge Reg::getreg(int a1@<ecx>, Reg *const this, HKEY key, const char *name, int *value)",
+    "module": "reg.cpp"
+  },
+  {
+    "address": "0x00409F7A",
+    "symbol": "__ZN3Reg7setreg_EP6HKEY__PKcPc",
+    "signature": "void __userpurge Reg::setreg_(Reg *const this, HKEY key, const char *name, char *value)",
+    "module": "reg.cpp"
+  },
+  {
+    "address": "0x00409FBC",
+    "symbol": "__ZN3Reg7getreg_EP6HKEY__PKcPc",
+    "signature": "void __userpurge Reg::getreg_(int a1@<eax>, int a2@<ecx>, Reg *const this, HKEY key, const char *name, char *value)",
+    "module": "reg.cpp"
+  },
+  {
+    "address": "0x0040A048",
+    "symbol": "__ZN5SoundC1Ev",
+    "signature": "void __cdecl Sound::Sound(Sound *const this)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0040A120",
+    "symbol": "__ZN5Sound9initsoundEv",
+    "signature": "void __cdecl Sound::initsound(Sound *const this)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0040A154",
+    "symbol": "__ZN5Sound9loadsoundEv",
+    "signature": "void __cdecl Sound::loadsound(Sound *const this)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0040A1D0",
+    "symbol": "__ZN5Sound9loadmusicEv",
+    "signature": "void __cdecl Sound::loadmusic(Sound *const this)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0040A340",
+    "symbol": "__ZN5Sound9playsoundEl",
+    "signature": "void __userpurge Sound::playsound(Sound *a1@<ecx>, Sound *const this, int id)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0040A394",
+    "symbol": "__ZN5Sound11switchsoundEv",
+    "signature": "void __cdecl Sound::switchsound(Sound *const this)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0040A3EC",
+    "symbol": "__ZN5Sound9playmusicEv",
+    "signature": "void __cdecl Sound::playmusic(Sound *const this)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0040A4CC",
+    "symbol": "__ZN5Sound10checkmusicEv",
+    "signature": "void __cdecl Sound::checkmusic(Sound *const this)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0040A584",
+    "symbol": "__ZN5Sound11switchmusicEv",
+    "signature": "void __cdecl Sound::switchmusic(Sound *const this)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0040A610",
+    "symbol": "__ZN5SteamC1Ev",
+    "signature": "void __cdecl Steam::Steam(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040AA96",
+    "symbol": "__ZN5SteamD1Ev",
+    "signature": "void __cdecl Steam::~Steam(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040AAAC",
+    "symbol": "__ZN5Steam9initsteamEv",
+    "signature": "void __cdecl Steam::initsteam(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040ABD4",
+    "symbol": "__ZN5Steam7loadlanEv",
+    "signature": "void __cdecl Steam::loadlan(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040AC56",
+    "symbol": "__ZN5Steam9exitsteamEv",
+    "signature": "void __cdecl Steam::exitsteam(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040AC88",
+    "symbol": "__ZN5Steam9loadsteamEv",
+    "signature": "void __cdecl Steam::loadsteam(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040AD30",
+    "symbol": "__ZN5Steam8resetachEv",
+    "signature": "void __cdecl Steam::resetach(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040AD64",
+    "symbol": "__ZN5Steam7loadachEv",
+    "signature": "void __cdecl Steam::loadach(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040ADE2",
+    "symbol": "__ZN5Steam6addachEl",
+    "signature": "void __userpurge Steam::addach(int a1@<ecx>, Steam *const this, int achid)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040AE7C",
+    "symbol": "__ZN5Steam8checkachElllllllll",
+    "signature": "void __userpurge Steam::checkach(int a1@<ecx>, Steam *const this, int scrid, int d, int c, int b, int a, int a_d, int a_c, int a_b, int a_a)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040AF42",
+    "symbol": "__ZN5Steam7loadscrEv",
+    "signature": "void __cdecl Steam::loadscr(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040B07E",
+    "symbol": "__ZN5Steam6setscrEl",
+    "signature": "void __userpurge Steam::setscr(Steam *a1@<ecx>, Steam *const this, int scrid)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040B2F8",
+    "symbol": "__ZN5Steam6addscrElll",
+    "signature": "void __userpurge Steam::addscr(Steam *a1@<ecx>, Steam *const this, int scrid, int val, int mode)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040B364",
+    "symbol": "__ZN5Steam6maxscrEll",
+    "signature": "void __userpurge Steam::maxscr(Steam *a1@<ecx>, Steam *const this, int val, int scrline__)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040B45C",
+    "symbol": "__ZN5Steam7compscrElll",
+    "signature": "void __userpurge Steam::compscr(Steam *a1@<ecx>, Steam *const this, int val, int mode, int index)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040B4F6",
+    "symbol": "__ZN5Steam8resetscrEv",
+    "signature": "void __cdecl Steam::resetscr(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040B538",
+    "symbol": "__ZN5Steam8loadleadEv",
+    "signature": "void __cdecl Steam::loadlead(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040B660",
+    "symbol": "__ZN5Steam7getleadEv",
+    "signature": "void __cdecl Steam::getlead(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040BA22",
+    "symbol": "__ZN5Steam7setleadEv",
+    "signature": "void __cdecl Steam::setlead(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040BC9C",
+    "symbol": "__ZN5Steam7setleadEl",
+    "signature": "void __userpurge Steam::setlead(Steam *a1@<ecx>, Steam *const this, int mode)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040BEB6",
+    "symbol": "__ZN5Steam8waitleadEv",
+    "signature": "bool __cdecl Steam::waitlead(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040BFF0",
+    "symbol": "__ZN5Steam9waitlead_Ev",
+    "signature": "bool __cdecl Steam::waitlead_(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040C160",
+    "symbol": "__ZN5Steam7savescrEPc",
+    "signature": "void __userpurge Steam::savescr(int a1@<ecx>, Steam *const this, char *scrpath)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040C1C2",
+    "symbol": "__ZN5Steam7ischeatEll",
+    "signature": "signed int __userpurge Steam::ischeat@<eax>(Steam *const this, int line, int tetris)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040C204",
+    "symbol": "__ZN5Steam7ischeatEv",
+    "signature": "bool __cdecl Steam::ischeat(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040C236",
+    "symbol": "__ZN5Steam10checkcheatEv",
+    "signature": "void __cdecl Steam::checkcheat(Steam *const this)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x0040C264",
+    "symbol": "__ZL18loadallpaintstaticPv@4",
+    "signature": "DWORD __stdcall loadallpaintstatic(LPVOID lpParam)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x0040C283",
+    "symbol": "__ZL7getleadPv@4",
+    "signature": "DWORD __stdcall getlead(LPVOID p)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0040C2E4",
+    "symbol": "__ZN6WindowC1Ev",
+    "signature": "void __cdecl Window::Window(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040CA6C",
+    "symbol": "__ZN6WindowD1Ev",
+    "signature": "void __cdecl Window::~Window(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040CAB4",
+    "symbol": "__ZN6Window16loadsettingcloudEv",
+    "signature": "void __cdecl Window::loadsettingcloud(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040CC4E",
+    "symbol": "__ZN6Window16savesettingcloudEv",
+    "signature": "void __cdecl Window::savesettingcloud(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040CD7A",
+    "symbol": "__ZN6Window11loadsettingEv",
+    "signature": "void __cdecl Window::loadsetting(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040CF64",
+    "symbol": "__ZN6Window11savesettingEv",
+    "signature": "void __cdecl Window::savesetting(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040D150",
+    "symbol": "__ZN6Window14loadboardcloudEv",
+    "signature": "void __cdecl Window::loadboardcloud(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040D588",
+    "symbol": "__ZN6Window14saveboardcloudEv",
+    "signature": "void __cdecl Window::saveboardcloud(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040D94C",
+    "symbol": "__ZN6Window9loadboardEv",
+    "signature": "void __cdecl Window::loadboard(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040DF60",
+    "symbol": "__ZN6Window9saveboardEv",
+    "signature": "void __cdecl Window::saveboard(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040E534",
+    "symbol": "__ZN6Window12loadallpaintEv",
+    "signature": "void __cdecl Window::loadallpaint(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040E58E",
+    "symbol": "__ZN6Window7loadallEv",
+    "signature": "void __cdecl Window::loadall(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040E7CA",
+    "symbol": "__ZN6Window8initmultEv",
+    "signature": "void __cdecl Window::initmult(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040EFC4",
+    "symbol": "__ZN6Window8loadiconEv",
+    "signature": "void __cdecl Window::loadicon(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040F102",
+    "symbol": "__ZN6Window10initwindowEv",
+    "signature": "void __cdecl Window::initwindow(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040F5F8",
+    "symbol": "__ZN6Window13releasewindowEv",
+    "signature": "void __cdecl Window::releasewindow(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040F6B2",
+    "symbol": "__ZN6Window10initwindowEb",
+    "signature": "void __userpurge Window::initwindow(Window *a1@<ecx>, Window *const this, bool b)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040FB94",
+    "symbol": "__ZN6Window9initcolorEv",
+    "signature": "void __cdecl Window::initcolor(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0040FC66",
+    "symbol": "__ZN6Window7initbmpEv",
+    "signature": "void __cdecl Window::initbmp(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00412776",
+    "symbol": "__ZN6Window9paintmenuEv",
+    "signature": "void __cdecl Window::paintmenu(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00412A48",
+    "symbol": "__ZN6Window9paintfaceEv",
+    "signature": "void __cdecl Window::paintface(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00412B1E",
+    "symbol": "__ZN6Window11paintnumberElllllll",
+    "signature": "void __userpurge Window::paintnumber(Window *a1@<ecx>, Window *const this, int n, int l, int x, int y, int w, int h, int b)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00412CF2",
+    "symbol": "__ZN6Window11paintnumberElllll",
+    "signature": "void __userpurge Window::paintnumber(Window *a1@<ecx>, Window *const this, int n, int l, int x, int y, int b)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00412D56",
+    "symbol": "__ZN6Window11paintnumberEllll",
+    "signature": "void __userpurge Window::paintnumber(Window *a1@<ecx>, Window *const this, int n, int l, int x, int y)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00412D94",
+    "symbol": "__ZN6Window10paintlevelEv",
+    "signature": "void __cdecl Window::paintlevel(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00413050",
+    "symbol": "__ZN6Window10paintblockER5Blockllllll",
+    "signature": "void __userpurge Window::paintblock(Window *a1@<ecx>, Window *const this, Block *const b, int i, int j, int x, int y, int w, int h)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00413534",
+    "symbol": "__ZN6Window10paintboardER5Blockll",
+    "signature": "void __userpurge Window::paintboard(Window *a1@<ecx>, Window *const this, Block *const b, int x, int y)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004135E8",
+    "symbol": "__ZN6Window10paintboardER5Blockllll",
+    "signature": "void __userpurge Window::paintboard(Window *a1@<ecx>, Window *const this, Block *const b, int x, int y, int cx_0, int cy)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004136B0",
+    "symbol": "__ZN6Window10paintboardEv",
+    "signature": "void __cdecl Window::paintboard(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041379C",
+    "symbol": "__ZN6Window9paintlineEP6bitmaplll",
+    "signature": "void __userpurge Window::paintline(Window *a1@<ecx>, Window *const this, pbitmap p, int n, int x, int y)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00413806",
+    "symbol": "__ZN6Window9paintlineEP6bitmapS1_llll",
+    "signature": "void __userpurge Window::paintline(Window *a1@<ecx>, Window *const this, pbitmap pa, pbitmap pb, int a, int b, int x, int y)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00413874",
+    "symbol": "__ZN6Window9paintlineEP6bitmapS1_S1_lllll",
+    "signature": "void __userpurge Window::paintline(Window *a1@<ecx>, Window *const this, pbitmap pa, pbitmap pb, pbitmap pc, int a, int b, int c, int x, int y)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004138F4",
+    "symbol": "__ZN6Window9paintlineEP6bitmapS1_S1_S1_llllll",
+    "signature": "void __userpurge Window::paintline(Window *a1@<ecx>, Window *const this, pbitmap pa, pbitmap pb, pbitmap pc, pbitmap pd, int a, int b, int c, int d, int x, int y)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00413988",
+    "symbol": "__ZN6Window9paintlineEP6bitmapS1_S1_S1_S1_lllllll",
+    "signature": "void __userpurge Window::paintline(Window *a1@<ecx>, Window *const this, pbitmap pa, pbitmap pb, pbitmap pc, pbitmap pd, pbitmap pe, int a, int b, int c, int d, int e, int x, int y)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00413A2E",
+    "symbol": "__ZN6Window9painthelpEv",
+    "signature": "void __cdecl Window::painthelp(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041D9A2",
+    "symbol": "__ZN6Window8painttutEv",
+    "signature": "void __cdecl Window::painttut(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041F3A8",
+    "symbol": "__ZN6Window10painttitleEl",
+    "signature": "void __userpurge Window::painttitle(int a1@<ecx>, Window *const this, int load)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041F8C4",
+    "symbol": "__ZN6Window10painteventEb",
+    "signature": "void __userpurge Window::paintevent(int a1@<ecx>, Window *const this, bool freshb)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041FB7C",
+    "symbol": "__ZN6Window10painteventEv",
+    "signature": "void __cdecl Window::paintevent(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041FB9C",
+    "symbol": "__ZN6Window12paintrefreshEv",
+    "signature": "void __cdecl Window::paintrefresh(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041FC0A",
+    "symbol": "__ZN6Window4isinEllllll",
+    "signature": "BOOL __userpurge Window::isin@<eax>(Window *const this, int ex, int ey, int x, int y, int w, int h)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041FC4E",
+    "symbol": "__ZN6Window7sethelpEl",
+    "signature": "void __userpurge Window::sethelp(int a1@<ecx>, Window *const this, int helpi_)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041FDE0",
+    "symbol": "__ZN6Window7savescrEv",
+    "signature": "void __cdecl Window::savescr(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041FF6A",
+    "symbol": "__ZN6Window10switchskinEv",
+    "signature": "void __cdecl Window::switchskin(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041FFAE",
+    "symbol": "__ZN6Window10switchskinEl",
+    "signature": "void __userpurge Window::switchskin(Window *a1@<ecx>, Window *const this, int colori_)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0041FFFC",
+    "symbol": "__ZN6Window8switchmdEv",
+    "signature": "void __cdecl Window::switchmd(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00420038",
+    "symbol": "__ZN6Window8switchmdEl",
+    "signature": "void __userpurge Window::switchmd(int a1@<ecx>, Window *const this, int md_)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x0042008C",
+    "symbol": "__ZN6Window8tuteventEllb",
+    "signature": "void __userpurge Window::tutevent(Window *a1@<ecx>, Window *const this, int ex, int ey, bool tutkb)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00420374",
+    "symbol": "__ZN6Window16mouseeventboard_Ellll",
+    "signature": "void __userpurge Window::mouseeventboard_(int a1@<ecx>, Window *const this, int x, int y, int eb_, int md_)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00420566",
+    "symbol": "__ZN6Window15mouseeventboardEllll",
+    "signature": "void __userpurge Window::mouseeventboard(int a1@<ecx>, Window *const this, int ex_, int ey_, int eb_, int md_)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004206AE",
+    "symbol": "__ZN6Window10mouseeventElll",
+    "signature": "void __userpurge Window::mouseevent(int a1@<ecx>, Window *const this, int ex_, int ey_, int eb_)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00421B48",
+    "symbol": "__ZN6Window8keyeventEl",
+    "signature": "void __userpurge Window::keyevent(int a1@<ecx>, Window *const this, int key)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004227C6",
+    "symbol": "__ZN6Window8doactionEv",
+    "signature": "void __cdecl Window::doaction(Window *const this)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00422BA8",
+    "symbol": "__ZN6Window12setfontname_EPKc",
+    "signature": "void __userpurge Window::setfontname_(Window *a1@<ecx>, Window *const this, const char *s)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00422BD2",
+    "symbol": "__ZN6Window14setfontheight_Em",
+    "signature": "void __userpurge Window::setfontheight_(Window *a1@<ecx>, Window *const this, unsigned int h)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00422C38",
+    "symbol": "__ZN6Window14setfontweight_Em",
+    "signature": "void __userpurge Window::setfontweight_(Window *a1@<ecx>, Window *const this, unsigned int wg)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00422C62",
+    "symbol": "__ZN6Window11drawtextxy_EP6bitmapPKsllmmmmm",
+    "signature": "void __userpurge Window::drawtextxy_(int a1@<ecx>, Window *const this, pbitmap b, const __int16 *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg, unsigned int format)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00422D56",
+    "symbol": "__ZN6Window11drawtextxy_EP6bitmapPKsllmmmm",
+    "signature": "void __userpurge Window::drawtextxy_(int a1@<ecx>, Window *const this, pbitmap b, const __int16 *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00422E42",
+    "symbol": "__ZN6Window11drawtextxy_EP6bitmapPKcllmmmm",
+    "signature": "void __userpurge Window::drawtextxy_(int a1@<ecx>, Window *const this, pbitmap b, const char *s, int x, int y, unsigned int w, unsigned int h, unsigned int cfg, unsigned int cbg)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00422F2E",
+    "symbol": "__ZN6Window11drawtextxy_EP6bitmapPKcllmm",
+    "signature": "void __userpurge Window::drawtextxy_(int a1@<ecx>, Window *const this, pbitmap b, const char *s, int x, int y, unsigned int cfg, unsigned int cbg)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00422FA6",
+    "symbol": "__ZN6Window15getstringwidth_EPKc",
+    "signature": "signed __int64 __userpurge Window::getstringwidth_@<edx:eax>(int a1@<ecx>, Window *const this, const char *s)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00422FF8",
+    "symbol": "_WinMain@16",
+    "signature": "int __stdcall WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00423184",
+    "symbol": "_timeEndPeriod@4",
+    "signature": "MMRESULT __stdcall timeEndPeriod(UINT uPeriod)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042318C",
+    "symbol": "_timeBeginPeriod@4",
+    "signature": "MMRESULT __stdcall timeBeginPeriod(UINT uPeriod)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423194",
+    "symbol": "_mciSendStringA@16",
+    "signature": "MCIERROR __stdcall mciSendStringA(LPCSTR lpstrCommand, LPSTR lpstrReturnString, UINT uReturnLength, HWND hwndCallback)",
+    "module": "sound.cpp"
+  },
+  {
+    "address": "0x0042319C",
+    "symbol": "_GdiplusStartup@12",
+    "signature": "int __stdcall GdiplusStartup(int a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231A4",
+    "symbol": "_GdiplusShutdown@4",
+    "signature": "int __stdcall GdiplusShutdown(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231AC",
+    "symbol": "_GdipSaveImageToFile@16",
+    "signature": "int __stdcall GdipSaveImageToFile(int a1, int a2, int a3, int a4)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x004231B4",
+    "symbol": "_GdipLoadImageFromFile@8",
+    "signature": "int __stdcall GdipLoadImageFromFile(int a1, int a2)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x004231BC",
+    "symbol": "_GdipGetImageWidth@8",
+    "signature": "int __stdcall GdipGetImageWidth(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231C4",
+    "symbol": "_GdipGetImageHeight@8",
+    "signature": "int __stdcall GdipGetImageHeight(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231CC",
+    "symbol": "_GdipFree@4",
+    "signature": "int __stdcall GdipFree(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231D4",
+    "symbol": "_GdipDrawImageRect@24",
+    "signature": "int __stdcall GdipDrawImageRect(int a1, int a2, int a3, int a4, int a5, int a6)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231DC",
+    "symbol": "_GdipDisposeImage@4",
+    "signature": "int __stdcall GdipDisposeImage(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231E4",
+    "symbol": "_GdipDeletePrivateFontCollection@4",
+    "signature": "int __stdcall GdipDeletePrivateFontCollection(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231EC",
+    "symbol": "_GdipDeleteGraphics@4",
+    "signature": "int __stdcall GdipDeleteGraphics(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231F4",
+    "symbol": "_GdipDeleteCustomLineCap@4",
+    "signature": "int __stdcall GdipDeleteCustomLineCap(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004231FC",
+    "symbol": "_GdipDeleteCachedBitmap@4",
+    "signature": "int __stdcall GdipDeleteCachedBitmap(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423204",
+    "symbol": "_GdipCreateFromHDC@8",
+    "signature": "int __stdcall GdipCreateFromHDC(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042320C",
+    "symbol": "_GdipCreateBitmapFromHBITMAP@12",
+    "signature": "int __stdcall GdipCreateBitmapFromHBITMAP(int a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423214",
+    "symbol": "_GdipCloneImage@8",
+    "signature": "int __stdcall GdipCloneImage(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042321C",
+    "symbol": "_GdipAlloc@4",
+    "signature": "int __stdcall GdipAlloc(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423224",
+    "symbol": "_TextOutA@20",
+    "signature": "BOOL __stdcall TextOutA(HDC a1, int a2, int a3, LPCSTR a4, int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042322C",
+    "symbol": "_StretchBlt@44",
+    "signature": "BOOL __stdcall StretchBlt(HDC a1, int a2, int a3, int a4, int a5, HDC a6, int a7, int a8, int a9, int a10, DWORD a11)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423234",
+    "symbol": "_SetTextColor@8",
+    "signature": "COLORREF __stdcall SetTextColor(HDC a1, COLORREF a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042323C",
+    "symbol": "_SetPixel@16",
+    "signature": "COLORREF __stdcall SetPixel(HDC a1, int a2, int a3, COLORREF a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423244",
+    "symbol": "_SetBkMode@8",
+    "signature": "int __stdcall SetBkMode(HDC a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042324C",
+    "symbol": "_SetBkColor@8",
+    "signature": "COLORREF __stdcall SetBkColor(HDC a1, COLORREF a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423254",
+    "symbol": "_SelectObject@8",
+    "signature": "HGDIOBJ __stdcall SelectObject(HDC a1, HGDIOBJ a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042325C",
+    "symbol": "_MoveToEx@16",
+    "signature": "BOOL __stdcall MoveToEx(HDC a1, int a2, int a3, LPPOINT a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423264",
+    "symbol": "_LineTo@12",
+    "signature": "BOOL __stdcall LineTo(HDC a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042326C",
+    "symbol": "_GetTextMetricsA@8",
+    "signature": "BOOL __stdcall GetTextMetricsA(HDC a1, LPTEXTMETRICA a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423274",
+    "symbol": "_GetTextExtentPoint32A@16",
+    "signature": "BOOL __stdcall GetTextExtentPoint32A(HDC a1, LPCSTR a2, int a3, LPSIZE a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042327C",
+    "symbol": "_GetStockObject@4",
+    "signature": "HGDIOBJ __stdcall GetStockObject(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423284",
+    "symbol": "_GetPixel@12",
+    "signature": "COLORREF __stdcall GetPixel(HDC a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042328C",
+    "symbol": "_GetDeviceCaps@8",
+    "signature": "int __stdcall GetDeviceCaps(HDC a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423294",
+    "symbol": "_DeleteObject@4",
+    "signature": "BOOL __stdcall DeleteObject(HGDIOBJ a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x0042329C",
+    "symbol": "_DeleteDC@4",
+    "signature": "BOOL __stdcall DeleteDC(HDC a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004232A4",
+    "symbol": "_CreateSolidBrush@4",
+    "signature": "HBRUSH __stdcall CreateSolidBrush(COLORREF a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004232AC",
+    "symbol": "_CreatePen@12",
+    "signature": "HPEN __stdcall CreatePen(int a1, int a2, COLORREF a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004232B4",
+    "symbol": "_CreateFontA@56",
+    "signature": "HFONT __stdcall CreateFontA(int a1, int a2, int a3, int a4, int a5, DWORD a6, DWORD a7, DWORD a8, DWORD a9, DWORD a10, DWORD a11, DWORD a12, DWORD a13, LPCSTR a14)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004232BC",
+    "symbol": "_CreateCompatibleDC@4",
+    "signature": "HDC __stdcall CreateCompatibleDC(HDC a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004232C4",
+    "symbol": "_CreateCompatibleBitmap@12",
+    "signature": "HBITMAP __stdcall CreateCompatibleBitmap(HDC a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004232CC",
+    "symbol": "_TransparentBlt@44",
+    "signature": "BOOL __stdcall TransparentBlt(HDC a1, int a2, int a3, int a4, int a5, HDC a6, int a7, int a8, int a9, int a10, UINT a11)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004232D4",
+    "symbol": "_AlphaBlend@44",
+    "signature": "BOOL __stdcall AlphaBlend(HDC a1, int a2, int a3, int a4, int a5, HDC a6, int a7, int a8, int a9, int a10, BLENDFUNCTION a11)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004232E0",
+    "symbol": "__setargv",
+    "signature": "int _setargv()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423680",
+    "symbol": "___cpu_features_init",
+    "signature": "unsigned int __cpu_features_init()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423760",
+    "symbol": "___do_global_dtors",
+    "signature": "void __cdecl __do_global_dtors()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423790",
+    "symbol": "___do_global_ctors",
+    "signature": "int __do_global_ctors()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004237E0",
+    "symbol": "___main",
+    "signature": "int __main()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423800",
+    "symbol": "TlsCallback_1",
+    "signature": "signed int __stdcall TlsCallback_1(int a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423850",
+    "symbol": "___dyn_tls_init@12",
+    "signature": "signed int __stdcall __dyn_tls_init(int a1, int a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004238E0",
+    "symbol": "___tlregdtor",
+    "signature": "int __tlregdtor()",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x004238F0",
+    "symbol": "sub_4238F0",
+    "signature": "void sub_4238F0()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423950",
+    "symbol": "____w64_mingwthr_add_key_dtor",
+    "signature": "signed int __cdecl ___w64_mingwthr_add_key_dtor(int a1, int a2)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x004239E0",
+    "symbol": "____w64_mingwthr_remove_key_dtor",
+    "signature": "int __cdecl ___w64_mingwthr_remove_key_dtor(int a1)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00423A80",
+    "symbol": "___mingw_TLScallback",
+    "signature": "signed int __cdecl __mingw_TLScallback(int a1, unsigned int a2)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00423B20",
+    "symbol": "sub_423B20",
+    "signature": "void __noreturn sub_423B20(char *a1, ...)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423B70",
+    "symbol": "sub_423B70",
+    "signature": "void *__usercall sub_423B70@<eax>(size_t a1@<ecx>, void *a2@<edx>, void *lpAddress@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423C60",
+    "symbol": "__pei386_runtime_relocator",
+    "signature": "int _pei386_runtime_relocator()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423E30",
+    "symbol": "___chkstk_ms",
+    "signature": "void __usercall __spoils<ecx> __chkstk_ms(unsigned int a1@<eax>, int a2@<ecx>, char a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423E60",
+    "symbol": "_fesetenv",
+    "signature": "int __cdecl fesetenv(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423ED0",
+    "symbol": "sub_423ED0",
+    "signature": "signed int __usercall sub_423ED0@<eax>(char *a1@<eax>, unsigned int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423F70",
+    "symbol": "sub_423F70",
+    "signature": "signed int __usercall sub_423F70@<eax>(int a1@<eax>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00423FE0",
+    "symbol": "sub_423FE0",
+    "signature": "int __usercall sub_423FE0@<eax>(char *a1@<eax>, int a2@<edx>, __int16 a3@<cx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004242A0",
+    "symbol": "sub_4242A0",
+    "signature": "int __usercall sub_4242A0@<eax>(char *a1@<eax>, _BYTE *a2@<edx>, unsigned int a3@<ecx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004244C0",
+    "symbol": "sub_4244C0",
+    "signature": "signed int __usercall sub_4244C0@<eax>(int a1@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00424520",
+    "symbol": "sub_424520",
+    "signature": "void __usercall sub_424520(_DWORD *a1@<eax>, int a2@<edx>, int a3@<ecx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00424570",
+    "symbol": "sub_424570",
+    "signature": "int __usercall sub_424570@<eax>(const char *a1@<eax>, unsigned int a2@<edx>, int a3@<ecx>, int a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00424E00",
+    "symbol": "___mingw_glob",
+    "signature": "int __cdecl __mingw_glob(char *a1, int a2, int a3, int a4)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00424EF0",
+    "symbol": "___mingw_globfree",
+    "signature": "void __cdecl __mingw_globfree(void *a1)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00424F50",
+    "symbol": "___mingw_dirname",
+    "signature": "char *__cdecl __mingw_dirname(char *a1)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00425350",
+    "symbol": "sub_425350",
+    "signature": "HANDLE __usercall sub_425350@<eax>(const CHAR *lpFileName@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425420",
+    "symbol": "sub_425420",
+    "signature": "BOOL __usercall sub_425420@<eax>(void *hFindFile@<eax>, int a2@<edx>)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004254D0",
+    "symbol": "___mingw_opendir",
+    "signature": "int __cdecl __mingw_opendir(char *a1)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00425690",
+    "symbol": "___mingw_readdir",
+    "signature": "BOOL __cdecl __mingw_readdir(int a1)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x004256E0",
+    "symbol": "___mingw_closedir",
+    "signature": "int __cdecl __mingw_closedir(void *a1)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00425730",
+    "symbol": "___mingw_rewinddir",
+    "signature": "_DWORD *__cdecl __mingw_rewinddir(int a1)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00425790",
+    "symbol": "___mingw_telldir",
+    "signature": "signed int __cdecl __mingw_telldir(int a1)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x004257C0",
+    "symbol": "___mingw_seekdir",
+    "signature": "_DWORD *__cdecl __mingw_seekdir(int a1, signed int a2)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00425840",
+    "symbol": "_wcstombs",
+    "signature": "size_t __cdecl wcstombs(char *a1, const wchar_t *a2, size_t a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425848",
+    "symbol": "_wcslen",
+    "signature": "size_t __cdecl wcslen(const wchar_t *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425850",
+    "symbol": "_vfprintf",
+    "signature": "int __cdecl vfprintf(FILE *a1, const char *a2, va_list a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425858",
+    "symbol": "_tolower",
+    "signature": "int __cdecl tolower(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425860",
+    "symbol": "_time",
+    "signature": "time_t __cdecl time(time_t *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425868",
+    "symbol": "_strtoul",
+    "signature": "unsigned int __cdecl strtoul(const char *a1, char **a2, int a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425870",
+    "symbol": "_strstr",
+    "signature": "char *__cdecl strstr(const char *a1, const char *a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425878",
+    "symbol": "_strrchr",
+    "signature": "char *__cdecl strrchr(const char *a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425880",
+    "symbol": "_strlen",
+    "signature": "size_t __cdecl strlen(const char *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425888",
+    "symbol": "_strcpy",
+    "signature": "char *__cdecl strcpy(char *a1, const char *a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425890",
+    "symbol": "_strcoll",
+    "signature": "int __cdecl strcoll(const char *a1, const char *a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425898",
+    "symbol": "_strcmp",
+    "signature": "int __cdecl strcmp(const char *a1, const char *a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258A0",
+    "symbol": "_strcat",
+    "signature": "char *__cdecl strcat(char *a1, const char *a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258A8",
+    "symbol": "_srand",
+    "signature": "void __cdecl srand(unsigned int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258B8",
+    "symbol": "_signal",
+    "signature": "void (__cdecl *__cdecl signal(int a1, void (__cdecl *a2)(int)))(int)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258C0",
+    "symbol": "_setlocale",
+    "signature": "char *__cdecl setlocale(int a1, const char *a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258C8",
+    "symbol": "_realloc",
+    "signature": "void *__cdecl realloc(void *a1, size_t a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258D0",
+    "symbol": "_rand",
+    "signature": "int __cdecl rand()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258D8",
+    "symbol": "_memset",
+    "signature": "void *__cdecl memset(void *a1, int a2, size_t a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258E0",
+    "symbol": "_memcpy",
+    "signature": "void *__cdecl memcpy(void *a1, const void *a2, size_t a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258E8",
+    "symbol": "_mbstowcs",
+    "signature": "size_t __cdecl mbstowcs(wchar_t *a1, const char *a2, size_t a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258F0",
+    "symbol": "_malloc",
+    "signature": "void *__cdecl malloc(size_t a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004258F8",
+    "symbol": "_localtime",
+    "signature": "struct tm *__cdecl localtime(const time_t *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425900",
+    "symbol": "_fwrite",
+    "signature": "size_t __cdecl fwrite(const void *a1, size_t a2, size_t a3, FILE *a4)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425908",
+    "symbol": "_free",
+    "signature": "void __cdecl free(void *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425910",
+    "symbol": "_clock",
+    "signature": "clock_t __cdecl clock()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425918",
+    "symbol": "_calloc",
+    "signature": "void *__cdecl calloc(size_t a1, size_t a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425920",
+    "symbol": "_abort",
+    "signature": "void __cdecl __noreturn abort()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425928",
+    "symbol": "__setmode",
+    "signature": "int __cdecl _setmode(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425930",
+    "symbol": "__isctype",
+    "signature": "int __cdecl _isctype(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425938",
+    "symbol": "__fullpath",
+    "signature": "char *__cdecl _fullpath(char *a1, const char *a2, size_t a3)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425940",
+    "symbol": "__errno",
+    "signature": "int _errno(void)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425948",
+    "symbol": "__cexit",
+    "signature": "void __cdecl _cexit()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425950",
+    "symbol": "___p__fmode",
+    "signature": "int __p__fmode(void)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425958",
+    "symbol": "___p__environ",
+    "signature": "int __p__environ(void)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425960",
+    "symbol": "___getmainargs",
+    "signature": "int __cdecl __getmainargs(int a1, int a2, int a3, int a4, int a5)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425968",
+    "symbol": "_RegSetValueExA@24",
+    "signature": "LONG __stdcall RegSetValueExA(HKEY hKey, LPCSTR lpValueName, DWORD Reserved, DWORD dwType, const BYTE *lpData, DWORD cbData)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00425970",
+    "symbol": "_RegQueryValueExA@24",
+    "signature": "LONG __stdcall RegQueryValueExA(HKEY hKey, LPCSTR lpValueName, LPDWORD lpReserved, LPDWORD lpType, LPBYTE lpData, LPDWORD lpcbData)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00425978",
+    "symbol": "_RegCreateKeyExA@36",
+    "signature": "LONG __stdcall RegCreateKeyExA(HKEY hKey, LPCSTR lpSubKey, DWORD Reserved, LPSTR lpClass, DWORD dwOptions, REGSAM samDesired, LPSECURITY_ATTRIBUTES lpSecurityAttributes, PHKEY phkResult, LPDWORD lpdwDisposition)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00425980",
+    "symbol": "_RegCloseKey@4",
+    "signature": "LONG __stdcall RegCloseKey(HKEY hKey)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00425990",
+    "symbol": "_UpdateWindow@4",
+    "signature": "BOOL __stdcall UpdateWindow(HWND hWnd)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425998",
+    "symbol": "_TranslateMessage@4",
+    "signature": "BOOL __stdcall TranslateMessage(const MSG *lpMsg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004259A0",
+    "symbol": "_SystemParametersInfoA@16",
+    "signature": "BOOL __stdcall SystemParametersInfoA(UINT uiAction, UINT uiParam, PVOID pvParam, UINT fWinIni)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004259A8",
+    "symbol": "_ShowWindow@8",
+    "signature": "BOOL __stdcall ShowWindow(HWND hWnd, int nCmdShow)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004259B0",
+    "symbol": "_SetWindowTextW@8",
+    "signature": "BOOL __stdcall SetWindowTextW(HWND hWnd, LPCWSTR lpString)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004259B8",
+    "symbol": "_SetWindowTextA@8",
+    "signature": "BOOL __stdcall SetWindowTextA(HWND hWnd, LPCSTR lpString)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004259C0",
+    "symbol": "_SetWindowLongA@12",
+    "signature": "LONG __stdcall SetWindowLongA(HWND hWnd, int nIndex, LONG dwNewLong)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004259C8",
+    "symbol": "_SetForegroundWindow@4",
+    "signature": "BOOL __stdcall SetForegroundWindow(HWND hWnd)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x004259D0",
+    "symbol": "_SetCursor@4",
+    "signature": "HCURSOR __stdcall SetCursor(HCURSOR hCursor)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004259D8",
+    "symbol": "_SendMessageA@16",
+    "signature": "LRESULT __stdcall SendMessageA(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004259E0",
+    "symbol": "_ReleaseDC@8",
+    "signature": "int __stdcall ReleaseDC(HWND hWnd, HDC hDC)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x004259E8",
+    "symbol": "_RegisterClassW@4",
+    "signature": "ATOM __stdcall RegisterClassW(const WNDCLASSW *lpWndClass)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x004259F0",
+    "symbol": "_MoveWindow@24",
+    "signature": "BOOL __stdcall MoveWindow(HWND hWnd, int X, int Y, int nWidth, int nHeight, BOOL bRepaint)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x004259F8",
+    "symbol": "_MessageBoxW@16",
+    "signature": "int __stdcall MessageBoxW(HWND hWnd, LPCWSTR lpText, LPCWSTR lpCaption, UINT uType)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A00",
+    "symbol": "_MessageBoxA@16",
+    "signature": "int __stdcall MessageBoxA(HWND hWnd, LPCSTR lpText, LPCSTR lpCaption, UINT uType)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A08",
+    "symbol": "_LoadImageA@24",
+    "signature": "HANDLE __stdcall LoadImageA(HINSTANCE a1, LPCSTR a2, UINT a3, int a4, int a5, UINT a6)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00425A10",
+    "symbol": "_LoadCursorA@8",
+    "signature": "HCURSOR __stdcall LoadCursorA(HINSTANCE hInstance, LPCSTR lpCursorName)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00425A18",
+    "symbol": "_IsZoomed@4",
+    "signature": "BOOL __stdcall IsZoomed(HWND hWnd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A20",
+    "symbol": "_IsIconic@4",
+    "signature": "BOOL __stdcall IsIconic(HWND hWnd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A28",
+    "symbol": "_InvalidateRect@12",
+    "signature": "BOOL __stdcall InvalidateRect(HWND hWnd, const RECT *lpRect, BOOL bErase)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A30",
+    "symbol": "_GetWindowTextW@12",
+    "signature": "int __stdcall GetWindowTextW(HWND hWnd, LPWSTR lpString, int nMaxCount)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425A38",
+    "symbol": "_GetWindowTextA@12",
+    "signature": "int __stdcall GetWindowTextA(HWND hWnd, LPSTR lpString, int nMaxCount)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425A40",
+    "symbol": "_GetWindowRect@8",
+    "signature": "BOOL __stdcall GetWindowRect(HWND hWnd, LPRECT lpRect)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425A48",
+    "symbol": "_GetSystemMetrics@4",
+    "signature": "int __stdcall GetSystemMetrics(int nIndex)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A50",
+    "symbol": "_GetMonitorInfoA@8",
+    "signature": "BOOL __stdcall GetMonitorInfoA(HMONITOR hMonitor, LPMONITORINFO lpmi)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A58",
+    "symbol": "_GetMessageA@16",
+    "signature": "BOOL __stdcall GetMessageA(LPMSG lpMsg, HWND hWnd, UINT wMsgFilterMin, UINT wMsgFilterMax)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A60",
+    "symbol": "_GetDesktopWindow@0",
+    "signature": "HWND __stdcall GetDesktopWindow()",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425A68",
+    "symbol": "_GetDC@4",
+    "signature": "HDC __stdcall GetDC(HWND hWnd)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A70",
+    "symbol": "_GetCursorPos@4",
+    "signature": "BOOL __stdcall GetCursorPos(LPPOINT lpPoint)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A78",
+    "symbol": "_GetAsyncKeyState@4",
+    "signature": "SHORT __stdcall GetAsyncKeyState(int vKey)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A80",
+    "symbol": "_FrameRect@12",
+    "signature": "int __stdcall FrameRect(HDC hDC, const RECT *lprc, HBRUSH hbr)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A88",
+    "symbol": "_FindWindowA@8",
+    "signature": "HWND __stdcall FindWindowA(LPCSTR lpClassName, LPCSTR lpWindowName)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425A90",
+    "symbol": "_FillRect@12",
+    "signature": "int __stdcall FillRect(HDC hDC, const RECT *lprc, HBRUSH hbr)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425A98",
+    "symbol": "_EnumDisplayMonitors@16",
+    "signature": "BOOL __stdcall EnumDisplayMonitors(HDC hdc, LPCRECT lprcClip, MONITORENUMPROC lpfnEnum, LPARAM dwData)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425AA0",
+    "symbol": "_DrawTextW@20",
+    "signature": "int __stdcall DrawTextW(HDC hDC, LPCWSTR lpString, int nCount, LPRECT lpRect, UINT uFormat)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425AA8",
+    "symbol": "_DrawTextA@20",
+    "signature": "int __stdcall DrawTextA(HDC hDC, LPCSTR lpString, int nCount, LPRECT lpRect, UINT uFormat)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425AB0",
+    "symbol": "_DispatchMessageA@4",
+    "signature": "LONG __stdcall DispatchMessageA(const MSG *lpMsg)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425AB8",
+    "symbol": "_DestroyWindow@4",
+    "signature": "BOOL __stdcall DestroyWindow(HWND hWnd)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425AC0",
+    "symbol": "_DefWindowProcW@16",
+    "signature": "LRESULT __stdcall DefWindowProcW(HWND hWnd, UINT Msg, WPARAM wParam, LPARAM lParam)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425AC8",
+    "symbol": "_CreateWindowExW@48",
+    "signature": "HWND __stdcall CreateWindowExW(DWORD dwExStyle, LPCWSTR lpClassName, LPCWSTR lpWindowName, DWORD dwStyle, int X, int Y, int nWidth, int nHeight, HWND hWndParent, HMENU hMenu, HINSTANCE hInstance, LPVOID lpParam)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425AD0",
+    "symbol": "_AdjustWindowRect@12",
+    "signature": "BOOL __stdcall AdjustWindowRect(LPRECT lpRect, DWORD dwStyle, BOOL bMenu)",
+    "module": "window.cpp"
+  },
+  {
+    "address": "0x00425AD8",
+    "symbol": "_lstrcpyA@8",
+    "signature": "LPSTR __stdcall lstrcpyA(LPSTR lpString1, LPCSTR lpString2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425AE0",
+    "symbol": "_lstrcmpA@8",
+    "signature": "int __stdcall lstrcmpA(LPCSTR lpString1, LPCSTR lpString2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425AE8",
+    "symbol": "_lstrcatA@8",
+    "signature": "LPSTR __stdcall lstrcatA(LPSTR lpString1, LPCSTR lpString2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425AF0",
+    "symbol": "_VirtualQuery@12",
+    "signature": "DWORD __stdcall VirtualQuery(LPCVOID lpAddress, PMEMORY_BASIC_INFORMATION lpBuffer, DWORD dwLength)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425AF8",
+    "symbol": "_VirtualProtect@16",
+    "signature": "BOOL __stdcall VirtualProtect(LPVOID lpAddress, DWORD dwSize, DWORD flNewProtect, PDWORD lpflOldProtect)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B00",
+    "symbol": "_TlsGetValue@4",
+    "signature": "LPVOID __stdcall TlsGetValue(DWORD dwTlsIndex)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B08",
+    "symbol": "_Sleep@4",
+    "signature": "void __stdcall Sleep(DWORD dwMilliseconds)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B10",
+    "symbol": "_SetUnhandledExceptionFilter@4",
+    "signature": "LPTOP_LEVEL_EXCEPTION_FILTER __stdcall SetUnhandledExceptionFilter(LPTOP_LEVEL_EXCEPTION_FILTER lpTopLevelExceptionFilter)",
+    "module": "runtime_and_unknown.cpp"
+  },
+  {
+    "address": "0x00425B18",
+    "symbol": "_RemoveDirectoryA@4",
+    "signature": "BOOL __stdcall RemoveDirectoryA(LPCSTR lpPathName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B20",
+    "symbol": "_ReleaseMutex@4",
+    "signature": "BOOL __stdcall ReleaseMutex(HANDLE hMutex)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B28",
+    "symbol": "_ReadFile@20",
+    "signature": "BOOL __stdcall ReadFile(HANDLE hFile, LPVOID lpBuffer, DWORD nNumberOfBytesToRead, LPDWORD lpNumberOfBytesRead, LPOVERLAPPED lpOverlapped)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B30",
+    "symbol": "_QueryPerformanceFrequency@4",
+    "signature": "BOOL __stdcall QueryPerformanceFrequency(LARGE_INTEGER *lpFrequency)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B38",
+    "symbol": "_QueryPerformanceCounter@4",
+    "signature": "BOOL __stdcall QueryPerformanceCounter(LARGE_INTEGER *lpPerformanceCount)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B40",
+    "symbol": "_MultiByteToWideChar@24",
+    "signature": "int __stdcall MultiByteToWideChar(UINT CodePage, DWORD dwFlags, LPCSTR lpMultiByteStr, int cchMultiByte, LPWSTR lpWideCharStr, int cchWideChar)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B48",
+    "symbol": "_LoadLibraryA@4",
+    "signature": "HMODULE __stdcall LoadLibraryA(LPCSTR lpLibFileName)",
+    "module": "reg_and_storage.cpp"
+  },
+  {
+    "address": "0x00425B50",
+    "symbol": "_LeaveCriticalSection@4",
+    "signature": "void __stdcall LeaveCriticalSection(LPCRITICAL_SECTION lpCriticalSection)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B58",
+    "symbol": "_InitializeCriticalSection@4",
+    "signature": "void __stdcall InitializeCriticalSection(LPCRITICAL_SECTION lpCriticalSection)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B60",
+    "symbol": "_GetUserDefaultUILanguage@0",
+    "signature": "int __stdcall GetUserDefaultUILanguage()",
+    "module": "lan.cpp"
+  },
+  {
+    "address": "0x00425B68",
+    "symbol": "_GetTickCount@0",
+    "signature": "DWORD __stdcall GetTickCount()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B70",
+    "symbol": "_GetTempPathA@8",
+    "signature": "DWORD __stdcall GetTempPathA(DWORD nBufferLength, LPSTR lpBuffer)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B78",
+    "symbol": "_GetStartupInfoA@4",
+    "signature": "void __stdcall GetStartupInfoA(LPSTARTUPINFOA lpStartupInfo)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B80",
+    "symbol": "_GetProcAddress@8",
+    "signature": "FARPROC __stdcall GetProcAddress(HMODULE hModule, LPCSTR lpProcName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B88",
+    "symbol": "_GetModuleHandleA@4",
+    "signature": "HMODULE __stdcall GetModuleHandleA(LPCSTR lpModuleName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B90",
+    "symbol": "_GetLastError@0",
+    "signature": "DWORD __stdcall GetLastError()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425B98",
+    "symbol": "_GetFileAttributesA@4",
+    "signature": "DWORD __stdcall GetFileAttributesA(LPCSTR lpFileName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BA0",
+    "symbol": "_GetCommandLineA@0",
+    "signature": "LPSTR __stdcall GetCommandLineA()",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BA8",
+    "symbol": "_FreeLibrary@4",
+    "signature": "BOOL __stdcall FreeLibrary(HMODULE hLibModule)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BB0",
+    "symbol": "_FindNextFileA@8",
+    "signature": "BOOL __stdcall FindNextFileA(HANDLE hFindFile, LPWIN32_FIND_DATAA lpFindFileData)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BB8",
+    "symbol": "_FindFirstFileA@8",
+    "signature": "HANDLE __stdcall FindFirstFileA(LPCSTR lpFileName, LPWIN32_FIND_DATAA lpFindFileData)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BC0",
+    "symbol": "_FindClose@4",
+    "signature": "BOOL __stdcall FindClose(HANDLE hFindFile)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BC8",
+    "symbol": "_ExitThread@4",
+    "signature": "void __stdcall __noreturn ExitThread(DWORD dwExitCode)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BD0",
+    "symbol": "_ExitProcess@4",
+    "signature": "void __stdcall __noreturn ExitProcess(UINT uExitCode)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BD8",
+    "symbol": "_EnterCriticalSection@4",
+    "signature": "void __stdcall EnterCriticalSection(LPCRITICAL_SECTION lpCriticalSection)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BE0",
+    "symbol": "_DeleteFileA@4",
+    "signature": "BOOL __stdcall DeleteFileA(LPCSTR lpFileName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BE8",
+    "symbol": "_DeleteCriticalSection@4",
+    "signature": "void __stdcall DeleteCriticalSection(LPCRITICAL_SECTION lpCriticalSection)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BF0",
+    "symbol": "_CreateThread@24",
+    "signature": "HANDLE __stdcall CreateThread(LPSECURITY_ATTRIBUTES lpThreadAttributes, DWORD dwStackSize, LPTHREAD_START_ROUTINE lpStartAddress, LPVOID lpParameter, DWORD dwCreationFlags, LPDWORD lpThreadId)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425BF8",
+    "symbol": "_CreateMutexA@12",
+    "signature": "HANDLE __stdcall CreateMutexA(LPSECURITY_ATTRIBUTES lpMutexAttributes, BOOL bInitialOwner, LPCSTR lpName)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425C00",
+    "symbol": "_CreateFileA@28",
+    "signature": "HANDLE __stdcall CreateFileA(LPCSTR lpFileName, DWORD dwDesiredAccess, DWORD dwShareMode, LPSECURITY_ATTRIBUTES lpSecurityAttributes, DWORD dwCreationDisposition, DWORD dwFlagsAndAttributes, HANDLE hTemplateFile)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425C08",
+    "symbol": "_CreateDirectoryA@8",
+    "signature": "BOOL __stdcall CreateDirectoryA(LPCSTR lpPathName, LPSECURITY_ATTRIBUTES lpSecurityAttributes)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425C10",
+    "symbol": "_CloseHandle@4",
+    "signature": "BOOL __stdcall CloseHandle(HANDLE hObject)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425C18",
+    "symbol": "_stricoll",
+    "signature": "int __cdecl stricoll(int a1, int a2)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425C20",
+    "symbol": "_strdup",
+    "signature": "char *__cdecl strdup(const char *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00425C28",
+    "symbol": "__Z10SteamUtilsv",
+    "signature": "ISteamUtils *SteamUtils()",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425C40",
+    "symbol": "__Z12SteamFriendsv",
+    "signature": "ISteamFriends *SteamFriends()",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425C58",
+    "symbol": "__Z14SteamUserStatsv",
+    "signature": "ISteamUserStats *SteamUserStats()",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425C70",
+    "symbol": "__Z16SteamScreenshotsv",
+    "signature": "ISteamScreenshots *SteamScreenshots()",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425C88",
+    "symbol": "__Z18SteamRemoteStoragev",
+    "signature": "ISteamRemoteStorage *SteamRemoteStorage()",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425CA0",
+    "symbol": "__Z28SteamInternal_Init_SteamAppsPP10ISteamApps",
+    "signature": "void __cdecl SteamInternal_Init_SteamApps(ISteamApps **p)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425CCC",
+    "symbol": "__Z29SteamInternal_Init_SteamUtilsPP11ISteamUtils",
+    "signature": "void __cdecl SteamInternal_Init_SteamUtils(ISteamUtils **p)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425CF4",
+    "symbol": "__Z31SteamInternal_Init_SteamFriendsPP13ISteamFriends",
+    "signature": "void __cdecl SteamInternal_Init_SteamFriends(ISteamFriends **p)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425D20",
+    "symbol": "__Z33SteamInternal_Init_SteamUserStatsPP15ISteamUserStats",
+    "signature": "void __cdecl SteamInternal_Init_SteamUserStats(ISteamUserStats **p)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425D4C",
+    "symbol": "__Z35SteamInternal_Init_SteamScreenshotsPP17ISteamScreenshots",
+    "signature": "void __cdecl SteamInternal_Init_SteamScreenshots(ISteamScreenshots **p)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425D78",
+    "symbol": "__Z37SteamInternal_Init_SteamRemoteStoragePP19ISteamRemoteStorage",
+    "signature": "void __cdecl SteamInternal_Init_SteamRemoteStorage(ISteamRemoteStorage **p)",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425DA4",
+    "symbol": "__Z9SteamAppsv",
+    "signature": "ISteamApps *SteamApps()",
+    "module": "steam.cpp"
+  },
+  {
+    "address": "0x00425DC0",
+    "symbol": "__ZN10__cxxabiv117__class_type_infoD0Ev",
+    "signature": "void __fastcall __cxxabiv1::__class_type_info::~__class_type_info(_DWORD *a1)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x00425DF0",
+    "symbol": "__ZN10__cxxabiv117__class_type_infoD1Ev",
+    "signature": "int __cdecl __cxxabiv1::__class_type_info::~__class_type_info(__cxxabiv1::__class_type_info *this)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x00425E00",
+    "symbol": "__ZN10__cxxabiv120__si_class_type_infoD0Ev",
+    "signature": "void __fastcall __cxxabiv1::__si_class_type_info::~__si_class_type_info(_DWORD *a1)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x00425E30",
+    "symbol": "__ZN10__cxxabiv120__si_class_type_infoD1Ev",
+    "signature": "int __cdecl __cxxabiv1::__si_class_type_info::~__si_class_type_info(__cxxabiv1::__si_class_type_info *this)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x00425E40",
+    "symbol": "__ZN18LeaderboardEntry_tC1Ev",
+    "signature": "void __cdecl LeaderboardEntry_t::LeaderboardEntry_t(LeaderboardEntry_t *const this)",
+    "module": "leaderboardentry_t.cpp"
+  },
+  {
+    "address": "0x00425E58",
+    "symbol": "__ZN5BoardD1Ev",
+    "signature": "void __cdecl Board::~Board(Board *const this)",
+    "module": "board.cpp"
+  },
+  {
+    "address": "0x00425E74",
+    "symbol": "__ZN7Gdiplus11GdiplusBaseC2Ev",
+    "signature": "void __cdecl Gdiplus::GdiplusBase::GdiplusBase(Gdiplus::GdiplusBase *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425E80",
+    "symbol": "__ZN7Gdiplus11GdiplusBasedlEPv",
+    "signature": "void __cdecl Gdiplus::GdiplusBase::operator delete(void *in_pVoid)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425E98",
+    "symbol": "__ZN7Gdiplus11GdiplusBasenwEj",
+    "signature": "void *__cdecl Gdiplus::GdiplusBase::operator new(size_t in_size)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425EB0",
+    "symbol": "__ZN7Gdiplus12CachedBitmapD0Ev",
+    "signature": "void __cdecl Gdiplus::CachedBitmap::~CachedBitmap(Gdiplus::CachedBitmap *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425ED0",
+    "symbol": "__ZN7Gdiplus12CachedBitmapD1Ev",
+    "signature": "void __cdecl Gdiplus::CachedBitmap::~CachedBitmap(Gdiplus::CachedBitmap *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425EF8",
+    "symbol": "__ZN7Gdiplus13CustomLineCapD0Ev",
+    "signature": "void __cdecl Gdiplus::CustomLineCap::~CustomLineCap(Gdiplus::CustomLineCap *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425F18",
+    "symbol": "__ZN7Gdiplus13CustomLineCapD1Ev",
+    "signature": "void __cdecl Gdiplus::CustomLineCap::~CustomLineCap(Gdiplus::CustomLineCap *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425F40",
+    "symbol": "__ZN7Gdiplus14FontCollectionD0Ev",
+    "signature": "void __cdecl Gdiplus::FontCollection::~FontCollection(Gdiplus::FontCollection *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425F60",
+    "symbol": "__ZN7Gdiplus14FontCollectionD1Ev",
+    "signature": "void __cdecl Gdiplus::FontCollection::~FontCollection(Gdiplus::FontCollection *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425F78",
+    "symbol": "__ZN7Gdiplus14FontCollectionD2Ev",
+    "signature": "void __cdecl Gdiplus::FontCollection::~FontCollection(Gdiplus::FontCollection *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425F90",
+    "symbol": ".weak.__ZN7Gdiplus19GdiplusStartupInputC1EPFvNS_15DebugEventLevelEPcEii.__ZN7Gdiplus11GdiplusBasedlEPv",
+    "signature": "void __userpurge weak___ZN7Gdiplus19GdiplusStartupInputC1EPFvNS_15DebugEventLevelEPcEii___ZN7Gdiplus11GdiplusBasedlEPv(_DWORD *a1@<ecx>, Gdiplus::GdiplusStartupInput *const this, Gdiplus::DebugEventProc debugEventCallback, BOOL suppressBackgroundThread, BOOL suppressExternalCodecs)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425FC4",
+    "symbol": "__ZN7Gdiplus21PrivateFontCollectionD0Ev",
+    "signature": "void __cdecl Gdiplus::PrivateFontCollection::~PrivateFontCollection(Gdiplus::PrivateFontCollection *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00425FE4",
+    "symbol": "__ZN7Gdiplus21PrivateFontCollectionD1Ev",
+    "signature": "void __cdecl Gdiplus::PrivateFontCollection::~PrivateFontCollection(Gdiplus::PrivateFontCollection *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00426018",
+    "symbol": "__ZN7Gdiplus23InstalledFontCollectionD0Ev",
+    "signature": "void __cdecl Gdiplus::InstalledFontCollection::~InstalledFontCollection(Gdiplus::InstalledFontCollection *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00426038",
+    "symbol": "__ZN7Gdiplus23InstalledFontCollectionD1Ev",
+    "signature": "void __cdecl Gdiplus::InstalledFontCollection::~InstalledFontCollection(Gdiplus::InstalledFontCollection *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00426058",
+    "symbol": "__ZN7Gdiplus5Image14SetNativeImageEPNS_7GpImageE",
+    "signature": "void __userpurge Gdiplus::Image::SetNativeImage(int a1@<ecx>, Gdiplus::Image *const this, Gdiplus::GpImage *nativeImage)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00426070",
+    "symbol": "__ZN7Gdiplus5Image5CloneEv",
+    "signature": "Gdiplus::Image *__cdecl Gdiplus::Image::Clone(Gdiplus::Image *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x004260DC",
+    "symbol": "__ZN7Gdiplus5ImageC1EPNS_7GpImageENS_6StatusE",
+    "signature": "void __userpurge Gdiplus::Image::Image(Gdiplus::Image *a1@<ecx>, Gdiplus::Image *const this, Gdiplus::GpImage *nativeImage, Gdiplus::Status status)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x0042611C",
+    "symbol": "__ZN7Gdiplus5ImageD0Ev",
+    "signature": "void __cdecl Gdiplus::Image::~Image(Gdiplus::Image *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x0042613C",
+    "symbol": "__ZN7Gdiplus5ImageD1Ev",
+    "signature": "void __cdecl Gdiplus::Image::~Image(Gdiplus::Image *const this)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00426164",
+    "symbol": "__ZN8CSteamIDC1Ev",
+    "signature": "void __cdecl CSteamID::CSteamID(CSteamID *const this)",
+    "module": "csteamid.cpp"
+  },
+  {
+    "address": "0x004261B0",
+    "symbol": "__ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj",
+    "signature": "int __userpurge __cxxabiv1::__class_type_info::__do_catch@<eax>(int a1@<ecx>, __cxxabiv1::__class_type_info *this, const std::type_info *a3, void **a4, unsigned int a5)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x00426200",
+    "symbol": "__ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE",
+    "signature": "int __stdcall __cxxabiv1::__class_type_info::__do_upcast(int a1, int a2, _DWORD *a3)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x00426240",
+    "symbol": "__ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv",
+    "signature": "signed int __userpurge __cxxabiv1::__class_type_info::__do_upcast@<eax>(int *a1@<ecx>, __cxxabiv1::__class_type_info *this, const __cxxabiv1::__class_type_info *a3, void **a4)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x004262B0",
+    "symbol": "__ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE",
+    "signature": "int __stdcall __cxxabiv1::__class_type_info::__do_dyncast(int a1, int a2, int a3, int a4, int a5, int a6, _DWORD *a7)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x00426330",
+    "symbol": "__ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_",
+    "signature": "int __userpurge __cxxabiv1::__class_type_info::__do_find_public_src@<eax>(__cxxabiv1::__class_type_info *this, const __cxxabiv1::__class_type_info *a2, const void *a3, const __cxxabiv1::__class_type_info *a4, const void *a5)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x00426350",
+    "symbol": "__ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE",
+    "signature": "int __fastcall __cxxabiv1::__si_class_type_info::__do_upcast(int a1, int a2, int a3, int a4, _DWORD *a5)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x004263B0",
+    "symbol": "__ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE",
+    "signature": "int __fastcall __cxxabiv1::__si_class_type_info::__do_dyncast(int a1, int a2, int a3, int a4, int a5, int a6, int a7, int a8, _DWORD *a9)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x004264A0",
+    "symbol": "__ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_",
+    "signature": "int __userpurge __cxxabiv1::__si_class_type_info::__do_find_public_src@<eax>(int a1@<ecx>, __cxxabiv1::__si_class_type_info *this, int a3, const void *a4, const __cxxabiv1::__class_type_info *a5, const void *a6)",
+    "module": "__cxxabiv1.cpp"
+  },
+  {
+    "address": "0x00426510",
+    "symbol": "__ZNK7Gdiplus5Image9SetStatusENS_6StatusE",
+    "signature": "Gdiplus::Status __userpurge Gdiplus::Image::SetStatus@<eax>(int a1@<ecx>, const Gdiplus::Image *const this, Gdiplus::Status status)",
+    "module": "gdiplus.cpp"
+  },
+  {
+    "address": "0x00426538",
+    "symbol": "__ZNK8CSteamID15GetEAccountTypeEv",
+    "signature": "EAccountType __cdecl CSteamID::GetEAccountType(const CSteamID *const this)",
+    "module": "csteamid.cpp"
+  },
+  {
+    "address": "0x00426550",
+    "symbol": "__ZNKSt9type_info10__do_catchEPKS_PPvj",
+    "signature": "int __stdcall std::type_info::__do_catch(std::type_info *this, const std::type_info *a2, void **a3, unsigned int a4)",
+    "module": "std.cpp"
+  },
+  {
+    "address": "0x00426570",
+    "symbol": "__ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv",
+    "signature": "int __userpurge std::type_info::__do_upcast@<eax>(std::type_info *this, const __cxxabiv1::__class_type_info *a2, void **a3)",
+    "module": "std.cpp"
+  },
+  {
+    "address": "0x00426580",
+    "symbol": "__ZNKSt9type_info14__is_pointer_pEv",
+    "signature": "int std::type_info::__is_pointer_p()",
+    "module": "std.cpp"
+  },
+  {
+    "address": "0x00426590",
+    "symbol": "__ZNKSt9type_infoeqERKS_",
+    "signature": "bool __fastcall std::type_info::operator==(int a1, int a2, int a3)",
+    "module": "std.cpp"
+  },
+  {
+    "address": "0x004265F0",
+    "symbol": "__ZNSt9type_infoD0Ev",
+    "signature": "void __fastcall std::type_info::~type_info(void *a1)",
+    "module": "std.cpp"
+  },
+  {
+    "address": "0x00426610",
+    "symbol": "__ZNSt9type_infoD1Ev",
+    "signature": "void __cdecl std::type_info::~type_info()",
+    "module": "std.cpp"
+  },
+  {
+    "address": "0x00426620",
+    "symbol": "__ZdlPv",
+    "signature": "void __cdecl operator delete(void *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00426630",
+    "symbol": "__ZdlPvj",
+    "signature": "void __cdecl operator delete(void *a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00426640",
+    "symbol": "_main_0",
+    "signature": "int __cdecl main_0(int a1)",
+    "module": "other.cpp"
+  },
+  {
+    "address": "0x00426710",
+    "symbol": "_register_frame_ctor",
+    "signature": "int register_frame_ctor()",
+    "module": "reg_and_storage.cpp"
+  }
+]

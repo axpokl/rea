@@ -1,0 +1,36 @@
+{
+  "ready": true, 
+  "loaded": true, 
+  "name": "MineSweeperRush", 
+  "decompiled": 331, 
+  "failed": [
+    {
+      "error": "Decompilation failed: ", 
+      "address": "0x407580L"
+    }, 
+    {
+      "error": "Decompilation failed: ", 
+      "address": "0x40aae4L"
+    }, 
+    {
+      "error": "Decompilation failed: ", 
+      "address": "0x40ea5aL"
+    }, 
+    {
+      "error": "Decompilation failed: ", 
+      "address": "0x4115e6L"
+    }, 
+    {
+      "error": "Decompilation failed: ", 
+      "address": "0x413becL"
+    }, 
+    {
+      "error": "Decompilation failed: ", 
+      "address": "0x416918L"
+    }, 
+    {
+      "error": "Decompilation failed: ", 
+      "address": "0x416bd8L"
+    }
+  ]
+}

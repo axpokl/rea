@@ -1,0 +1,48 @@
+{
+  "selected": "MineSweeperRush_32_debug.exe",
+  "sha256": "e4bc3870b453eaa43456f3eea28a2a006e7932e235b773975ea2c222a9885edd",
+  "thiscall_fixes": 184,
+  "all_success": 664,
+  "game_source_functions": 395,
+  "files": {
+    "block.cpp": 4,
+    "board.cpp": 40,
+    "cab.cpp": 6,
+    "disp.cpp": 234,
+    "lan.cpp": 4,
+    "reg.cpp": 8,
+    "sound.cpp": 9,
+    "steam.cpp": 26,
+    "window.cpp": 63,
+    "main.cpp": 1
+  },
+  "runtime_and_sdk_functions": 269,
+  "failed": [
+    {
+      "error": "Decompilation failed: ",
+      "name": "_sprintf",
+      "address": 4348080
+    },
+    {
+      "error": "Decompilation failed: ",
+      "name": "_wsprintfA",
+      "address": 4348296
+    }
+  ],
+  "data_layouts": 8,
+  "globals": 154,
+  "warning_functions": [
+    {
+      "address": 4211334,
+      "symbol": "__ZN5Board7dellineEl",
+      "source": "board.cpp",
+      "original_line": 744,
+      "signature": "void Board::delline(int l)",
+      "member_calls_rewritten": 16,
+      "base_casts_repaired": 1,
+      "warnings": [
+        "局部变量分配/重叠警告"
+      ]
+    }
+  ]
+}

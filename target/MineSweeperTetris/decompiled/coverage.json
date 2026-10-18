@@ -1,0 +1,109 @@
+[
+  {
+    "name": "MineSweeperRush",
+    "sha256": "ac4ce4db5f6e323f9c3167a5325743589e421393db9284ff7f155c9dc7c90c50",
+    "functions_exported": 331,
+    "failed": [
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x407580L"
+      },
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x40aae4L"
+      },
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x40ea5aL"
+      },
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x4115e6L"
+      },
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x413becL"
+      },
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x416918L"
+      },
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x416bd8L"
+      }
+    ],
+    "modules": {
+      "runtime_and_unknown": 3,
+      "other": 304,
+      "sound": 1,
+      "reg_and_storage": 11,
+      "window": 11,
+      "lan": 1
+    }
+  },
+  {
+    "name": "MineSweeperRush_32_debug",
+    "sha256": "e4bc3870b453eaa43456f3eea28a2a006e7932e235b773975ea2c222a9885edd",
+    "functions_exported": 664,
+    "failed": [
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x4258b0L"
+      },
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x425988L"
+      }
+    ],
+    "modules": {
+      "runtime_and_unknown": 17,
+      "other": 396,
+      "window": 79,
+      "reg_and_storage": 22,
+      "block": 4,
+      "board": 40,
+      "cab": 3,
+      "lan": 5,
+      "reg": 8,
+      "sound": 10,
+      "steam": 38,
+      "__cxxabiv1": 12,
+      "leaderboardentry_t": 1,
+      "gdiplus": 21,
+      "csteamid": 2,
+      "std": 6
+    }
+  },
+  {
+    "name": "MineSweeperRush_32_debug2",
+    "sha256": "c633f439e0e0bc35e506abf4e93c4a115a97c89b95dc74b75bba9665bdbde6e0",
+    "functions_exported": 648,
+    "failed": [
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x425940L"
+      },
+      {
+        "error": "Decompilation failed: ",
+        "address": "0x425a18L"
+      }
+    ],
+    "modules": {
+      "runtime_and_unknown": 17,
+      "other": 396,
+      "window": 79,
+      "reg_and_storage": 24,
+      "block": 4,
+      "board": 40,
+      "cab": 3,
+      "lan": 5,
+      "reg": 8,
+      "sound": 10,
+      "steam": 38,
+      "leaderboardentry_t": 1,
+      "gdiplus": 21,
+      "csteamid": 2
+    }
+  }
+]
